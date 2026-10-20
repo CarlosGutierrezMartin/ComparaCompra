@@ -1,0 +1,10 @@
+pnpm-lock.yaml
+.next
+node_modules
+coverage
+playwright-report
+test-results
+docs/SPEC.md
+ingest
+supabase/.temp
+**/*.sql

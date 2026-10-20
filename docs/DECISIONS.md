@@ -81,3 +81,16 @@ Exploración inicial (20/10/2026, unas 30 peticiones en total con User-Agent ide
 | Genérico       | 180   | 99,4 %    | —        |
 
 La exhaustividad de equivalentes es del 84 %: lo que las reglas no resuelven queda sin enlace equivalente hasta que pase por la IA o por revisión. **Sin clave de API en este entorno no se ha podido medir la parte con IA**; `python -m matching.evaluate --llm` lo hace en cuanto haya `ANTHROPIC_API_KEY`.
+
+## H3. Armazón PWA
+
+- **Service worker con `@serwist/turbopack`.** Se construye en una ruta (`/serwist/sw.js`) con esbuild. Precarga los estáticos de la build y, además, las rutas del armazón (`/`, `/lista`, `/platos`, `/menu`, `/tienda`, `/perfil`, `/bienvenida`, `/instalar`) para que la app abra en modo avión. Catálogo y precios (`/api/catalog/*`) con _stale-while-revalidate_; página `/~offline` para lo que no esté guardado.
+- **Las páginas son estáticas y los datos viven en el dispositivo.** Todo lo del usuario (hogar, listas, platos, menú, despensa, modo tienda) está en IndexedDB con Dexie y la interfaz lee de ahí. El servidor solo se usa para catálogo, comparación e IA.
+- **Cola de sincronización propia** (`lib/sync.ts`): cada cambio se guarda como operación, se fusionan los upserts de la misma fila y se envían en orden con la sesión del usuario, de modo que RLS limita la escritura a su hogar. Se reintenta al volver la conexión y al volver la app a primer plano; no se usa Background Sync (no existe en iOS). Si una operación falla, se para y se conserva el orden.
+- **Cuenta opcional.** Sin cuenta la app funciona entera en el móvil; con cuenta (enlace mágico al correo de Supabase, flujo PKCE) los datos se sincronizan. El hogar se crea en el servidor con `create_household` al primer envío con sesión; si el usuario ya tenía hogar en otro dispositivo, se reutiliza.
+- **Instalación.** Manifest con iconos de 192 y 512 px y uno _maskable_; `apple-touch-icon` y `apple-mobile-web-app-capable` (Next 16 solo emite la variante sin prefijo, así que la añadimos). Botón propio con `beforeinstallprompt` en Android y escritorio; en iOS, enlace a `/instalar` con los pasos de Safari, solo si no está ya en modo `standalone`.
+- **Iconos generados** con `apps/web/scripts/make-icons.mjs` (sharp) a partir de un SVG propio.
+- **Textos en `src/i18n/es.ts`**, preparados para añadir otros idiomas.
+- **Accesibilidad:** objetivos táctiles de 44 px, contraste AA en claro y oscuro, foco visible y comprobación automática con axe (WCAG 2.1 AA) en las pruebas de Playwright.
+- **Pruebas de extremo a extremo** contra la build de producción en un Pixel 7 emulado. Incluyen el modo avión: la app recarga, navega y guarda cambios sin conexión, y los cambios siguen en la cola tras recargar. En CI se levanta Postgres con la muestra real emparejada para los hitos siguientes.
+- **Sin Supabase en este entorno** (las imágenes de Docker no se pudieron descargar por límites del registro): el inicio de sesión y la sincronización con el servidor real están implementados pero solo probados con una cola simulada. Hay que probarlos con `supabase start` antes de publicar.

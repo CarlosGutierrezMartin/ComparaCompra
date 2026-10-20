@@ -8,3 +8,4 @@ docs/SPEC.md
 ingest
 supabase/.temp
 **/*.sql
+packages/core/src/data/taxonomy.json

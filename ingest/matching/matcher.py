@@ -141,7 +141,7 @@ def infer_brand(item: Item, lexicon: set[str]) -> str | None:
 
 
 def _shortest_alias(brand: str | None, lexicon: set[str]) -> str | None:
-    """"central lechera asturiana" y "asturiana" son la misma marca: se usa la más corta
+    """ "central lechera asturiana" y "asturiana" son la misma marca: se usa la más corta
     del léxico cuyas palabras estén todas en la marca (mínimo 6 letras, para no confundir)."""
     if brand is None:
         return None

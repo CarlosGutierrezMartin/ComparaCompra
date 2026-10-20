@@ -1,10 +1,12 @@
 from __future__ import annotations
 
 import json
+import os
 from collections.abc import Callable
 from pathlib import Path
 
 import httpx
+import psycopg
 import pytest
 
 from connectors.http import PoliteClient
@@ -51,3 +53,27 @@ def make_client() -> Callable[..., PoliteClient]:
         )
 
     return _make
+
+
+ROOT = Path(__file__).resolve().parents[2]
+ADMIN_URL = os.environ.get("TEST_ADMIN_DATABASE_URL")
+needs_db = pytest.mark.skipif(not ADMIN_URL, reason="sin TEST_ADMIN_DATABASE_URL")
+
+
+@pytest.fixture
+def conn():
+    """Base de datos nueva con migraciones y seeds (necesita TEST_ADMIN_DATABASE_URL)."""
+    if not ADMIN_URL:
+        pytest.skip("sin TEST_ADMIN_DATABASE_URL")
+    assert ADMIN_URL
+    with psycopg.connect(ADMIN_URL, autocommit=True) as admin:
+        admin.execute("drop database if exists comparacompra_pytest")
+        admin.execute("create database comparacompra_pytest")
+    url = psycopg.conninfo.make_conninfo(ADMIN_URL, dbname="comparacompra_pytest")
+    with psycopg.connect(url, autocommit=True) as c:
+        c.execute((ROOT / "scripts/supabase_stub.sql").read_text())
+        for f in sorted((ROOT / "supabase/migrations").glob("*.sql")):
+            c.execute(f.read_text())
+        for f in sorted((ROOT / "supabase/seeds").glob("*.sql")):
+            c.execute(f.read_text())
+        yield c

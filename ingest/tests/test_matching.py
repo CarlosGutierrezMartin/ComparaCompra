@@ -42,7 +42,13 @@ def test_taxonomia_entre_300_y_500_hojas_sin_duplicados():
             "semidesnatada",
             ["sin_lactosa"],
         ),
-        ("Atún claro en aceite de oliva Calvo 3 x 52 g", "Conservas", "atun-en-conserva", "aceite de oliva", []),
+        (
+            "Atún claro en aceite de oliva Calvo 3 x 52 g",
+            "Conservas",
+            "atun-en-conserva",
+            "aceite de oliva",
+            [],
+        ),
         (
             "Tomate frito con aceite de oliva Solís 360 g",
             "Salsas de tomate",
@@ -194,3 +200,11 @@ def test_conjunto_de_referencia_cumple_el_objetivo():
 def test_hojas_de_la_ia_existen():
     for leaf in ("sofrito", "claras-de-huevo", "pastillas-de-caldo"):
         assert leaf in BY_SLUG
+
+
+def test_seed_y_json_de_la_taxonomia_estan_al_dia():
+    from matching.export_taxonomy import ROOT, as_json, sql
+
+    assert (ROOT / "supabase/seeds/10_taxonomia.sql").read_text() == sql()
+    on_disk = json.loads((ROOT / "packages/core/src/data/taxonomy.json").read_text())
+    assert on_disk == as_json()

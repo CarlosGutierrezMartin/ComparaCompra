@@ -6,35 +6,13 @@ Necesitan TEST_ADMIN_DATABASE_URL (superusuario); sin ella se omiten. En local:
 
 from __future__ import annotations
 
-import os
 from decimal import Decimal
-from pathlib import Path
-
-import psycopg
-import pytest
 
 import load
 from connectors.models import CatalogEntry, ChainProduct, PriceRecord, Zone
+from tests.conftest import needs_db
 
-ROOT = Path(__file__).resolve().parents[2]
-ADMIN_URL = os.environ.get("TEST_ADMIN_DATABASE_URL")
-pytestmark = pytest.mark.skipif(not ADMIN_URL, reason="sin TEST_ADMIN_DATABASE_URL")
-
-
-@pytest.fixture
-def conn():
-    assert ADMIN_URL
-    with psycopg.connect(ADMIN_URL, autocommit=True) as admin:
-        admin.execute("drop database if exists comparacompra_pytest")
-        admin.execute("create database comparacompra_pytest")
-    url = psycopg.conninfo.make_conninfo(ADMIN_URL, dbname="comparacompra_pytest")
-    with psycopg.connect(url, autocommit=True) as c:
-        c.execute((ROOT / "scripts/supabase_stub.sql").read_text())
-        for f in sorted((ROOT / "supabase/migrations").glob("*.sql")):
-            c.execute(f.read_text())
-        for f in sorted((ROOT / "supabase/seeds").glob("*.sql")):
-            c.execute(f.read_text())
-        yield c
+pytestmark = needs_db
 
 
 def entry(pid: str, price: str, promo: dict | None = None) -> CatalogEntry:

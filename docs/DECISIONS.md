@@ -56,3 +56,28 @@ Exploración inicial (20/10/2026, unas 30 peticiones en total con User-Agent ide
 - **Cron desactivado.** `.github/workflows/ingest.yml` está programado a las 04:17 UTC, pero solo corre si la variable `INGEST_ENABLED` del repositorio vale `true`. Siempre se puede lanzar a mano.
 - **Límites:** 20 peticiones por minuto por cadena por defecto (`INGEST_RPM_*`), caché en disco de 20 h, reintento solo ante 429 y 5xx (respetando `Retry-After`) y ninguno ante bloqueo.
 - **Tests de contrato** con respuestas reales grabadas por `cli.py record-fixtures` (unas 15 peticiones). Las páginas grandes se recortan a la parte que leen los conectores.
+
+## H2. Normalización y emparejamiento
+
+- **Muestra de catálogo real** (`ingest/tests/fixtures/sample`, 2.462 productos de Mercadona, Dia y Alcampo, 20/10/2026, unas 130 peticiones). Es la base de los tests, del conjunto de referencia y de los datos de desarrollo (`cli.py load-sample`). Los precios cargados así llevan la fuente "(muestra)" y su fecha de captura.
+- **Parser de formatos validado contra la propia cadena.** Cada formato leído del nombre se contrasta con el precio por unidad que publica la cadena (obligatorio por el RD 3423/2000). Coincide (±2 %) en el 96,1 % de 1.371 productos; el resto son incoherencias de la cadena (peso escurrido en conservas, precios por kg desfasados). Los 200 casos del test son reales y su verdad es el precio por unidad publicado, no la salida del parser.
+- **Convenciones de pack distintas por cadena.** En Dia "6 unidades … 540 g" es el total; en Alcampo "3 uds. 120 g" es cada envase (y ni siquiera son constantes). El conector elige la lectura que cuadra con el precio por unidad publicado.
+- **Taxonomía de 363 hojas** en 21 secciones que coinciden con los pasillos del supermercado (sirven para agrupar el modo tienda). Cada hoja lleva variantes que definen la equivalencia, unidad de compra, alérgenos (Reglamento UE 1169/2011, anexo II) y dietas incompatibles. Se genera el seed (`supabase/seeds/10_taxonomia.sql`) y un JSON para la web (`packages/core/src/data/taxonomy.json`) con `python -m matching.export_taxonomy`; un test comprueba que están al día.
+- **Tres niveles como tres canónicos.** Cada producto de cadena se enlaza con un canónico genérico (la hoja), uno equivalente (hoja + variante + marcas como sin lactosa o ecológico + rasgos diferenciadores) y, si es de marca de fabricante, uno idéntico (además marca y formato). El modelo de datos de la especificación ya lo permitía (`equivalence` es una relación N a N). Se añaden a `product_canonical` las columnas `level` y `key` (clave estable del emparejador).
+- **Rasgos diferenciadores** (`matching/differentiators.py`): cabra/oveja, enriquecida, en polvo, light, precocinado, en pastillas, tipos de queso rallado, en conserva frente a fresco en verduras… Si dos productos difieren en uno, no son equivalentes aunque compartan hoja y variante. Fue lo que llevó la precisión de equivalentes del 64,5 % al 98,4 %.
+- **Marcas blancas nunca son idénticas entre cadenas.** Las submarcas de Dia ("Dia Láctea", "El Molino de Dia") se detectan por la palabra "dia". Mercadona no publica la marca: se busca en el nombre con el léxico de marcas que publican Dia y Alcampo, y "Central Lechera Asturiana" y "Asturiana" se tratan como la misma marca.
+- **Embeddings léxicos por hashing** (palabras, pares de palabras y trigramas, 256 dimensiones) en lugar de un modelo semántico: para nombres de producto importa el parecido de palabras, es determinista, no necesita descargar modelos ni una clave de API y se guarda en pgvector (`product_chain_embedding`, índice HNSW, función `similar_products`). La interfaz `Embedder` permite cambiarlo.
+- **IA para lo dudoso, no para todo.** Las reglas resuelven el ~80 % con confianza; el resto va a clasificación con IA por lotes de 40 (salida estructurada con la hoja restringida a un `enum` de slugs reales) y, si tampoco, a la cola `match_review`. Los idénticos con parecido de nombre entre 0,6 y 0,85 se verifican con IA o van a revisión. Modelo `claude-opus-5-5` con esfuerzo bajo y respaldo automático del servidor si los filtros de seguridad rechazan la petición (`fallbacks: "default"`).
+- **Umbrales:** el enlace equivalente pide confianza ≥ 0,9 (reglas) o ≥ 0,8 (IA); el genérico ≥ 0,8 o ≥ 0,7. Equivocarse en el equivalente cambia el producto que se compra.
+- **Las decisiones humanas no se pisan:** un enlace con `source = 'human'` se conserva en cada nueva ejecución.
+- **Botón "no es equivalente":** función `report_not_equivalent` para usuarios con sesión; crea una entrada `usuario` en la cola de revisión.
+- **Conjunto de referencia de 500 pares** (`ingest/tests/data/referencia_500.json`), estratificado y etiquetado a ciegas (sin ver la predicción). Lo etiquetó Claude revisando nombre, marca y formato; conviene que una persona lo revise. Una etiqueta se corrigió al comprobar el dato (par 178: fresco frente a congelado).
+- **Resultado solo con reglas** (`python -m matching.evaluate`):
+
+| Nivel predicho | Pares | Precisión | Objetivo |
+| -------------- | ----- | --------- | -------- |
+| Idéntico       | 16    | 100,0 %   | 95 %     |
+| Equivalente    | 126   | 98,4 %    | 95 %     |
+| Genérico       | 180   | 99,4 %    | —        |
+
+La exhaustividad de equivalentes es del 84 %: lo que las reglas no resuelven queda sin enlace equivalente hasta que pase por la IA o por revisión. **Sin clave de API en este entorno no se ha podido medir la parte con IA**; `python -m matching.evaluate --llm` lo hace en cuanto haya `ANTHROPIC_API_KEY`.

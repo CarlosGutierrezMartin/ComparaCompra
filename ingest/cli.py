@@ -178,6 +178,52 @@ def cmd_record_sample(args: argparse.Namespace, settings: Settings) -> int:
     return 0
 
 
+def cmd_match(args: argparse.Namespace, settings: Settings) -> int:
+    import match_db
+    from matching.llm import ClaudeLLM, available
+
+    llm = None
+    if args.llm:
+        if not available():
+            sys.exit("Falta ANTHROPIC_API_KEY para usar la IA")
+        llm = ClaudeLLM()
+    with _connect(settings) as conn:
+        stats = match_db.run(conn, llm)
+    print(json.dumps(dict(stats), ensure_ascii=False, indent=1))
+    return 0
+
+
+def cmd_load_sample(args: argparse.Namespace, settings: Settings) -> int:
+    """Carga la muestra real grabada (tests/fixtures/sample) como datos de desarrollo."""
+    from connectors.models import CatalogEntry
+
+    sample_dir = Path(__file__).parent / "tests/fixtures/sample"
+    with _connect(settings) as conn:
+        for path in sorted(sample_dir.glob("*.json")):
+            data = json.loads(path.read_text())
+            chain = load.chain_id(conn, data["chain"])
+            zone_id = load.upsert_zone(conn, chain, Zone(external_ref=data["zone"]))
+            entries = [CatalogEntry.model_validate(e) for e in data["entries"]]
+            entries = [
+                e.model_copy(
+                    update={
+                        "price": e.price.model_copy(
+                            update={"source": f"{e.price.source} (muestra)"}
+                        )
+                    }
+                )
+                for e in entries
+            ]
+            load.load_listing(conn, chain, zone_id, entries, deactivate_missing=False)
+            conn.execute(
+                "update public.price set checked_at = %s, valid_from = least(valid_from, %s) "
+                "where price_zone_id = %s and valid_to is null",
+                (data["captured_at"], data["captured_at"], zone_id),
+            )
+            print(f"{data['chain']}: {len(entries)} productos (captura {data['captured_at']})")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Ingesta de precios de ComparaCompra")
     sub = parser.add_subparsers(dest="cmd", required=True)
@@ -192,6 +238,11 @@ def main(argv: list[str] | None = None) -> int:
     r.add_argument("--dry-run", action="store_true", help="No escribe en la base de datos")
     sub.add_parser("record-fixtures", help="Graba respuestas reales para los tests de contrato")
     sub.add_parser("record-sample", help="Graba una muestra de catálogo real de productos básicos")
+    m = sub.add_parser("match", help="Empareja los productos de la base de datos")
+    m.add_argument(
+        "--llm", action="store_true", help="Usa la IA para lo que las reglas no resuelven"
+    )
+    sub.add_parser("load-sample", help="Carga la muestra grabada en la base de datos (desarrollo)")
     args = parser.parse_args(argv)
     settings = load_settings()
     handlers = {
@@ -199,6 +250,8 @@ def main(argv: list[str] | None = None) -> int:
         "run": cmd_run,
         "record-fixtures": cmd_record_fixtures,
         "record-sample": cmd_record_sample,
+        "match": cmd_match,
+        "load-sample": cmd_load_sample,
     }
     return handlers[args.cmd](args, settings)
 

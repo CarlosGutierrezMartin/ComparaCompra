@@ -12,7 +12,7 @@ import re
 from decimal import Decimal
 from urllib.parse import unquote
 
-from matching.formats import parse_format
+from matching.formats import parse_format, parse_format_checked
 
 from .base import Connector
 from .models import CatalogEntry, ChainProduct, PriceRecord, Zone
@@ -155,7 +155,7 @@ def parse_entity(raw: dict, urls: dict[str, str]) -> CatalogEntry | None:
 
     name = raw.get("name", "")
     size = (raw.get("size") or {}).get("value")
-    fmt = parse_format(name) or parse_format(size)
+    fmt = parse_format_checked(name, price, unit_price) or parse_format(size)
     product = ChainProduct(
         external_id=pid,
         name=name.rstrip("."),

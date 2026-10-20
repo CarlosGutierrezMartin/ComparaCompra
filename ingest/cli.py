@@ -171,6 +171,13 @@ def cmd_record_fixtures(args: argparse.Namespace, settings: Settings) -> int:
     return 0
 
 
+def cmd_record_sample(args: argparse.Namespace, settings: Settings) -> int:
+    from tests.fixtures.sample import record_sample
+
+    record_sample(settings)
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Ingesta de precios de ComparaCompra")
     sub = parser.add_subparsers(dest="cmd", required=True)
@@ -184,9 +191,15 @@ def main(argv: list[str] | None = None) -> int:
     r.add_argument("--city", choices=list(CITIES), default="madrid")
     r.add_argument("--dry-run", action="store_true", help="No escribe en la base de datos")
     sub.add_parser("record-fixtures", help="Graba respuestas reales para los tests de contrato")
+    sub.add_parser("record-sample", help="Graba una muestra de catálogo real de productos básicos")
     args = parser.parse_args(argv)
     settings = load_settings()
-    handlers = {"zones": cmd_zones, "run": cmd_run, "record-fixtures": cmd_record_fixtures}
+    handlers = {
+        "zones": cmd_zones,
+        "run": cmd_run,
+        "record-fixtures": cmd_record_fixtures,
+        "record-sample": cmd_record_sample,
+    }
     return handlers[args.cmd](args, settings)
 
 

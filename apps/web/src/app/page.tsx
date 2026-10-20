@@ -1,8 +1,15 @@
+"use client";
+
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
+import { t } from "@/i18n/es";
+import { useHousehold } from "@/lib/household";
+
 export default function Home() {
-  return (
-    <main className="mx-auto flex w-full max-w-xl flex-1 flex-col gap-4 px-4 py-8">
-      <h1 className="text-2xl font-semibold">ComparaCompra</h1>
-      <p>Tu lista de la compra, lo más barata posible.</p>
-    </main>
-  );
+  const household = useHousehold();
+  const router = useRouter();
+  useEffect(() => {
+    if (household !== undefined) router.replace(household ? "/lista" : "/bienvenida");
+  }, [household, router]);
+  return <p className="p-4 text-muted">{t.common.loading}</p>;
 }

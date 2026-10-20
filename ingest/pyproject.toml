@@ -7,6 +7,7 @@ dependencies = [
     "httpx>=0.28.1",
     "psycopg[binary]>=3.2",
     "pydantic>=2.14.1",
+    "selectolax>=0.3",
 ]
 
 [dependency-groups]
@@ -25,6 +26,9 @@ target-version = "py312"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "B", "UP", "N", "SIM", "RUF"]
+# E501: el formateador ya ajusta el código; las líneas largas que quedan son SQL.
+# RUF001: el signo × de "6 × 1 L" es intencionado en el parser de formatos.
+ignore = ["E501", "RUF001"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

@@ -14,7 +14,7 @@ from decimal import Decimal
 
 from selectolax.lexbor import LexborHTMLParser as HTMLParser
 
-from matching.formats import parse_format
+from matching.formats import parse_format_checked
 
 from .base import Connector
 from .models import CatalogEntry, ChainProduct, PriceRecord, Zone
@@ -140,13 +140,13 @@ def parse_listing_page(html: str, category_path: str) -> tuple[list[CatalogEntry
     entries: list[CatalogEntry] = []
     for pid, item in items.items():
         card = cards.get(pid, {})
-        fmt = parse_format(item["name"])
         unit_price = None
         if card.get("unit_text"):
             m = _UNIT_PRICE.search(card["unit_text"])
             if m and m.group(2).upper() in _UNIT_LABELS:
                 value = Decimal(m.group(1).replace(".", "").replace(",", "."))
                 unit_price = value / _UNIT_LABELS[m.group(2).upper()]
+        fmt = parse_format_checked(item["name"], item["price"], unit_price)
         promo = {"type": "text", "text": card["promo"]} if card.get("promo") else None
         product = ChainProduct(
             external_id=pid,

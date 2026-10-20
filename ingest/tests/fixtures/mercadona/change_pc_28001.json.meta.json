@@ -1,0 +1,9 @@
+{
+ "url": "https://tienda.mercadona.es/api/postal-codes/actions/change-pc/",
+ "status": 200,
+ "headers": {
+  "content-type": "application/json",
+  "x-customer-wh": "mad3",
+  "x-customer-pc": "28001"
+ }
+}

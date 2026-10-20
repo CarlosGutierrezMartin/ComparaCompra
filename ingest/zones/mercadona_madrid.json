@@ -1,0 +1,227 @@
+{
+ "chain": "mercadona",
+ "city": "madrid",
+ "resolved_at": "2026-10-20",
+ "postal_codes": {
+  "28001": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28002": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28003": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28004": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28005": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28006": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28007": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28008": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28009": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28010": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28011": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28012": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28013": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28014": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28015": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28016": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28017": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28018": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28019": {
+   "external_ref": "mad1",
+   "name": "Almacén mad1"
+  },
+  "28020": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28021": {
+   "external_ref": "mad1",
+   "name": "Almacén mad1"
+  },
+  "28022": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28023": {
+   "external_ref": "mad2",
+   "name": "Almacén mad2"
+  },
+  "28024": {
+   "external_ref": "mad1",
+   "name": "Almacén mad1"
+  },
+  "28025": {
+   "external_ref": "mad1",
+   "name": "Almacén mad1"
+  },
+  "28026": {
+   "external_ref": "mad1",
+   "name": "Almacén mad1"
+  },
+  "28027": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28028": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28029": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28030": {
+   "external_ref": "mad1",
+   "name": "Almacén mad1"
+  },
+  "28031": {
+   "external_ref": "mad1",
+   "name": "Almacén mad1"
+  },
+  "28032": {
+   "external_ref": "mad1",
+   "name": "Almacén mad1"
+  },
+  "28033": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28034": {
+   "external_ref": "mad2",
+   "name": "Almacén mad2"
+  },
+  "28035": {
+   "external_ref": "mad2",
+   "name": "Almacén mad2"
+  },
+  "28036": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28037": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28038": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28039": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28040": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28041": {
+   "external_ref": "mad1",
+   "name": "Almacén mad1"
+  },
+  "28042": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28043": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28044": {
+   "external_ref": "mad1",
+   "name": "Almacén mad1"
+  },
+  "28045": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28046": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28047": {
+   "external_ref": "mad1",
+   "name": "Almacén mad1"
+  },
+  "28048": {
+   "external_ref": "mad2",
+   "name": "Almacén mad2"
+  },
+  "28049": {
+   "external_ref": "mad2",
+   "name": "Almacén mad2"
+  },
+  "28050": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28051": {
+   "external_ref": "mad1",
+   "name": "Almacén mad1"
+  },
+  "28052": {
+   "external_ref": "mad1",
+   "name": "Almacén mad1"
+  },
+  "28053": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  },
+  "28054": {
+   "external_ref": "mad1",
+   "name": "Almacén mad1"
+  },
+  "28055": {
+   "external_ref": "mad3",
+   "name": "Almacén mad3"
+  }
+ }
+}

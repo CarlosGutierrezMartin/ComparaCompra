@@ -19,7 +19,7 @@ PSQL="psql -h /tmp -p $PORT -U postgres -v ON_ERROR_STOP=1 -q"
 $PSQL -d postgres -c "drop database if exists comparacompra_test" -c "create database comparacompra_test"
 $PSQL -d comparacompra_test -f "$ROOT/supabase/tests/local/supabase_stub.sql"
 for f in "$ROOT"/supabase/migrations/*.sql; do $PSQL -d comparacompra_test -f "$f"; done
-[ -f "$ROOT/supabase/seed.sql" ] && $PSQL -d comparacompra_test -f "$ROOT/supabase/seed.sql"
+for f in "$ROOT"/supabase/seeds/*.sql; do $PSQL -d comparacompra_test -f "$f"; done
 $PSQL -d comparacompra_test -c "create extension if not exists pgtap"
 fail=0
 for t in "$ROOT"/supabase/tests/database/*.sql; do

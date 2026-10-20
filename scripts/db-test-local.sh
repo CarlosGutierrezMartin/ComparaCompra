@@ -17,7 +17,7 @@ if ! run_pg "$PGBIN/pg_ctl -D $DATA status >/dev/null 2>&1"; then
 fi
 PSQL="psql -h /tmp -p $PORT -U postgres -v ON_ERROR_STOP=1 -q"
 $PSQL -d postgres -c "drop database if exists comparacompra_test" -c "create database comparacompra_test"
-$PSQL -d comparacompra_test -f "$ROOT/supabase/tests/local/supabase_stub.sql"
+$PSQL -d comparacompra_test -f "$ROOT/scripts/supabase_stub.sql"
 for f in "$ROOT"/supabase/migrations/*.sql; do $PSQL -d comparacompra_test -f "$f"; done
 for f in "$ROOT"/supabase/seeds/*.sql; do $PSQL -d comparacompra_test -f "$f"; done
 $PSQL -d comparacompra_test -c "create extension if not exists pgtap"

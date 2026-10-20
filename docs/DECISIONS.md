@@ -17,7 +17,7 @@ Registro de decisiones por hito. Cada entrada: qué se decidió, por qué y qué
 - **`cacheComponents` desactivado en Next.js 16.** `@serwist/turbopack` (service worker con Turbopack) solo funciona sin él. La app es sobre todo cliente con datos en IndexedDB, así que no se pierde nada relevante.
 - **Fuente del sistema** en vez de `next/font/google`: evita una descarga en la primera carga (objetivo < 2,5 s en 4G) y no depende de la red en el build.
 - **Formato de cifras propio** (`formatEuro`): `Intl.NumberFormat("es-ES")` no pone separador de miles en números de 4 cifras (1234,56 €) y la especificación pide 1.234,56 €.
-- **Tests de base de datos con pgTAP.** En CI se usa `supabase db start` + `supabase test db`. En local sin Docker, `scripts/db-test-local.sh` usa un Postgres con una imitación mínima de Supabase (`supabase/tests/local/supabase_stub.sql`: roles, `auth.uid()`).
+- **Tests de base de datos con pgTAP.** En CI se usa `supabase db start` + `supabase test db`. En local sin Docker, `scripts/db-test-local.sh` usa un Postgres con una imitación mínima de Supabase (`scripts/supabase_stub.sql`: roles, `auth.uid()`).
 - **Añadidos al modelo de datos de la especificación** (todos necesarios para funciones del MVP, ninguno cambia lo especificado):
   - `chain.website_url`, `price_zone.name`, `category.slug` y `category.aisle` (sección para el modo tienda).
   - `product_chain.active`, `first_seen_at`, `last_seen_at` (detectar productos retirados).

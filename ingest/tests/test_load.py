@@ -29,7 +29,7 @@ def conn():
         admin.execute("create database comparacompra_pytest")
     url = psycopg.conninfo.make_conninfo(ADMIN_URL, dbname="comparacompra_pytest")
     with psycopg.connect(url, autocommit=True) as c:
-        c.execute((ROOT / "supabase/tests/local/supabase_stub.sql").read_text())
+        c.execute((ROOT / "scripts/supabase_stub.sql").read_text())
         for f in sorted((ROOT / "supabase/migrations").glob("*.sql")):
             c.execute(f.read_text())
         for f in sorted((ROOT / "supabase/seeds").glob("*.sql")):

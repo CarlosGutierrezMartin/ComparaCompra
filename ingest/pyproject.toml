@@ -1,0 +1,31 @@
+[project]
+name = "comparacompra-ingest"
+version = "0.1.0"
+description = "Ingesta de precios y emparejamiento de productos de ComparaCompra"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "psycopg[binary]>=3.2",
+    "pydantic>=2.14.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "respx>=0.22",
+    "ruff>=0.14",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "N", "SIM", "RUF"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

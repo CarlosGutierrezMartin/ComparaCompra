@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Ingesta de precios y emparejamiento de productos de ComparaCompra"
 requires-python = ">=3.12"
 dependencies = [
+    "anthropic>=0.70",
     "httpx>=0.28.1",
     "psycopg[binary]>=3.2",
     "pydantic>=2.14.1",

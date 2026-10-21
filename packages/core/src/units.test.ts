@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { convert, parseUnit, toBase, unitPrice } from "./units";
-import { formatEuro, formatNumber } from "./format";
+import { formatEuro, formatNumber, formatQuantity, formatUnitPrice } from "./format";
 
 describe("unidades", () => {
   it("normaliza kg, l, cl y docenas", () => {
@@ -38,5 +38,15 @@ describe("formato", () => {
     expect(formatEuro(0.5)).toBe("0,50 €");
     expect(formatNumber(1234567.891, 1)).toBe("1.234.567,9");
     expect(formatEuro(-12)).toBe("-12,00 €");
+  });
+});
+
+describe("cantidades", () => {
+  it("se muestran en la unidad más legible", () => {
+    expect(formatQuantity(500, "g")).toBe("500 g");
+    expect(formatQuantity(1500, "g")).toBe("1,5 kg");
+    expect(formatQuantity(2000, "ml")).toBe("2 l");
+    expect(formatQuantity(24, "unit")).toBe("24 ud.");
+    expect(formatUnitPrice(3.4512, "g")).toBe("3,45 €/kg");
   });
 });

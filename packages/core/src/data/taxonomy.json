@@ -170,6 +170,10 @@
     "plátanos",
     "banana"
    ],
+   "keywords": [
+    "platano",
+    "banana"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -188,6 +192,9 @@
     "pink lady"
    ],
    "aliases": [],
+   "keywords": [
+    "manzana"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -204,6 +211,9 @@
     "limonera"
    ],
    "aliases": [],
+   "keywords": [
+    "pera"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -218,6 +228,9 @@
     "de zumo"
    ],
    "aliases": [],
+   "keywords": [
+    "naranja"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -229,6 +242,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "mandarina"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -240,6 +256,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "limón"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -251,6 +270,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "lima"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -265,6 +287,9 @@
     "negra"
    ],
    "aliases": [],
+   "keywords": [
+    "uva"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -278,6 +303,10 @@
    "aliases": [
     "fresones"
    ],
+   "keywords": [
+    "fresa",
+    "freson"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -289,6 +318,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "arándanos"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -300,6 +332,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "frambuesas"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -311,6 +346,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "melón"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -322,6 +360,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "sandía"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -333,6 +374,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "kiwi"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -344,6 +388,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "piña"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -355,6 +402,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "mango"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -366,6 +416,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "papaya"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -377,6 +430,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "melocoton"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -388,6 +444,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "nectarina"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -399,6 +458,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "paraguayo"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -410,6 +472,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "ciruela"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -421,6 +486,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "cereza"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -432,6 +500,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "albaricoque"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -443,6 +514,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "granada"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -454,6 +528,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "caqui"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -465,6 +542,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "aguacate"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -476,6 +556,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "chirimoya"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -487,6 +570,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "higo"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -505,6 +591,9 @@
     "canario"
    ],
    "aliases": [],
+   "keywords": [
+    "tomate"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -523,6 +612,9 @@
     "tricolor"
    ],
    "aliases": [],
+   "keywords": [
+    "pimiento"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -534,6 +626,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "pepino"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -545,6 +640,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "calabacín"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -556,6 +654,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "berenjena"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -567,6 +668,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "calabaza"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -582,6 +686,9 @@
     "dulce"
    ],
    "aliases": [],
+   "keywords": [
+    "cebolla"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -593,6 +700,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "cebolleta"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -604,6 +714,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "puerro"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -618,6 +731,11 @@
     "ajos",
     "cabeza de ajo"
    ],
+   "keywords": [
+    "ajo",
+    "ajos",
+    "cabeza de ajo"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -629,6 +747,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "patata"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -640,6 +761,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "boniato"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -651,6 +775,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "zanahoria"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -662,6 +789,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "apio"
+   ],
    "allergens": [
     "apio"
    ],
@@ -675,6 +805,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "rábano"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -686,6 +819,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "remolacha"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -697,6 +833,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "jengibre"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -708,6 +847,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "maíz en mazorca"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -726,6 +868,11 @@
     "hoja de roble"
    ],
    "aliases": [],
+   "keywords": [
+    "lechuga",
+    "cogollo",
+    "iceberg"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -742,6 +889,17 @@
     "mezcla"
    ],
    "aliases": [],
+   "keywords": [
+    "canonigo",
+    "rucula",
+    "brotes tiernos",
+    "mezclum",
+    "ensalada tierna",
+    "ensalada mezcla",
+    "ensalada de la casa",
+    "ensalada ensatun",
+    "trio de brotes"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -755,6 +913,9 @@
     "baby"
    ],
    "aliases": [],
+   "keywords": [
+    "espinacas"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -766,6 +927,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "acelgas"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -782,6 +946,13 @@
     "coles de bruselas"
    ],
    "aliases": [],
+   "keywords": [
+    "col",
+    "repollo",
+    "lombarda",
+    "kale",
+    "coles de bruselas"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -793,6 +964,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "brócoli"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -804,6 +978,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "coliflor"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -815,6 +992,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "judías verdes"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -826,6 +1006,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "alcachofa"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -837,6 +1020,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "espárragos verdes"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -848,6 +1034,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "champinon"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -863,6 +1052,12 @@
     "variadas"
    ],
    "aliases": [],
+   "keywords": [
+    "seta",
+    "boletus",
+    "shiitake",
+    "nameko"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -880,6 +1075,12 @@
     "eneldo"
    ],
    "aliases": [],
+   "keywords": [
+    "perejil fresco",
+    "cilantro",
+    "albahaca fresca",
+    "hierbabuena"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -891,6 +1092,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "guisante"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -902,6 +1106,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "habas"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -918,6 +1125,13 @@
     "picada"
    ],
    "aliases": [],
+   "keywords": [
+    "pechuga de pollo",
+    "filete de pechuga",
+    "pechuga entera",
+    "pechuga fileteada",
+    "pechuga"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -932,6 +1146,10 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "muslo de pollo",
+    "contramuslo"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -946,6 +1164,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "alita"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -960,6 +1181,11 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "pollo entero",
+    "pollo para asar",
+    "pollo limpio"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -974,6 +1200,11 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "pollo troceado",
+    "pollo en cuartos",
+    "cuarto trasero"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -992,6 +1223,9 @@
     "picado"
    ],
    "aliases": [],
+   "keywords": [
+    "pavo"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1006,6 +1240,11 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "filete de ternera",
+    "filete de vacuno",
+    "filete de anojo"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1020,6 +1259,12 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "ternera para guisar",
+    "carne para guisar",
+    "aguja de ternera",
+    "morcillo"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1034,6 +1279,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "entrecot y chuletón"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1048,6 +1296,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "solomillo de ternera"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1066,6 +1317,11 @@
     "chuletas"
    ],
    "aliases": [],
+   "keywords": [
+    "lomo de cerdo",
+    "cinta de lomo",
+    "lomo fresco"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1080,6 +1336,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "costilla"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1094,6 +1353,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "solomillo de cerdo"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1108,6 +1370,11 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "secreto",
+    "presa iberica",
+    "pluma iberica"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1122,6 +1389,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "panceta"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1136,6 +1406,12 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "chuleta de cerdo",
+    "chuleta de aguja",
+    "chuleta aguja",
+    "chuleta de lomo"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1150,6 +1426,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "cordero"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1164,6 +1443,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "conejo"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1184,6 +1466,12 @@
     "pavo"
    ],
    "aliases": [],
+   "keywords": [
+    "carne picada",
+    "picada de",
+    "preparado de carne picada",
+    "picado de"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1204,6 +1492,10 @@
     "pavo"
    ],
    "aliases": [],
+   "keywords": [
+    "hamburguesa",
+    "burger"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1224,6 +1516,9 @@
     "pavo"
    ],
    "aliases": [],
+   "keywords": [
+    "albondiga"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1238,6 +1533,12 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "salchicha fresca",
+    "salchicha de pollo",
+    "salchicha de cerdo",
+    "longaniza"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1252,6 +1553,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "chorizo fresco"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1266,6 +1570,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "morcilla"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1282,6 +1589,13 @@
    "aliases": [
     "nuggets",
     "san jacobos"
+   ],
+   "keywords": [
+    "nugget",
+    "san jacobo",
+    "empanado",
+    "fingers de pollo",
+    "pechuga empanada"
    ],
    "allergens": [
     "gluten"
@@ -1300,6 +1614,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "merluza"
+   ],
    "allergens": [
     "pescado"
    ],
@@ -1320,6 +1637,9 @@
     "salado"
    ],
    "aliases": [],
+   "keywords": [
+    "bacalao"
+   ],
    "allergens": [
     "pescado"
    ],
@@ -1336,6 +1656,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "salmon"
+   ],
    "allergens": [
     "pescado"
    ],
@@ -1352,6 +1675,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "dorada"
+   ],
    "allergens": [
     "pescado"
    ],
@@ -1368,6 +1694,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "lubina"
+   ],
    "allergens": [
     "pescado"
    ],
@@ -1384,6 +1713,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "sardinas"
+   ],
    "allergens": [
     "pescado"
    ],
@@ -1400,6 +1732,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "boquerones"
+   ],
    "allergens": [
     "pescado"
    ],
@@ -1416,6 +1751,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "atún fresco"
+   ],
    "allergens": [
     "pescado"
    ],
@@ -1432,6 +1770,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "bonito fresco"
+   ],
    "allergens": [
     "pescado"
    ],
@@ -1448,6 +1789,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "rape"
+   ],
    "allergens": [
     "pescado"
    ],
@@ -1464,6 +1808,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "lenguado"
+   ],
    "allergens": [
     "pescado"
    ],
@@ -1480,6 +1827,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "gallo"
+   ],
    "allergens": [
     "pescado"
    ],
@@ -1496,6 +1846,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "emperador"
+   ],
    "allergens": [
     "pescado"
    ],
@@ -1512,6 +1865,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "panga"
+   ],
    "allergens": [
     "pescado"
    ],
@@ -1528,6 +1884,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "abadejo"
+   ],
    "allergens": [
     "pescado"
    ],
@@ -1544,6 +1903,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "salmon ahumado"
+   ],
    "allergens": [
     "pescado"
    ],
@@ -1560,6 +1922,11 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "surimi",
+    "palito de mar",
+    "barrita de mar"
+   ],
    "allergens": [
     "pescado",
     "huevo",
@@ -1579,6 +1946,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "gulas"
+   ],
    "allergens": [
     "pescado"
    ],
@@ -1595,6 +1965,11 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "gamba",
+    "langostino",
+    "camaron"
+   ],
    "allergens": [
     "crustaceos"
    ],
@@ -1611,6 +1986,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "mejillones"
+   ],
    "allergens": [
     "moluscos"
    ],
@@ -1627,6 +2005,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "almejas"
+   ],
    "allergens": [
     "moluscos"
    ],
@@ -1643,6 +2024,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "calamar"
+   ],
    "allergens": [
     "moluscos"
    ],
@@ -1659,6 +2043,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "sepia"
+   ],
    "allergens": [
     "moluscos"
    ],
@@ -1675,6 +2062,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "pulpo"
+   ],
    "allergens": [
     "moluscos"
    ],
@@ -1691,6 +2081,13 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "anilla",
+    "raba",
+    "calamar a la romana",
+    "rebozad",
+    "fritura de pescado"
+   ],
    "allergens": [
     "moluscos",
     "gluten"
@@ -1709,6 +2106,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "jamón cocido"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1723,6 +2123,10 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "pechuga de pavo",
+    "fiambre de pavo"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1737,6 +2141,10 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "mortadela",
+    "chopped"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1752,6 +2160,10 @@
    "variants": [],
    "aliases": [
     "bacón",
+    "beicon"
+   ],
+   "keywords": [
+    "bacon",
     "beicon"
    ],
    "allergens": [],
@@ -1770,6 +2182,10 @@
    "aliases": [
     "frankfurt"
    ],
+   "keywords": [
+    "salchicha",
+    "frankfurt"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1784,6 +2200,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "jamón serrano"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1798,6 +2217,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "jamón ibérico"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1812,6 +2234,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "chorizo"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1826,6 +2251,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "salchichón"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1840,6 +2268,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "lomo embuchado"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1854,6 +2285,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "fuet"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1868,6 +2302,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "sobrasada"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1882,6 +2319,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "paleta"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1896,6 +2336,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "paté"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -1915,6 +2358,9 @@
     "mezcla"
    ],
    "aliases": [],
+   "keywords": [
+    "queso curado"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -1936,6 +2382,9 @@
     "mezcla"
    ],
    "aliases": [],
+   "keywords": [
+    "queso semicurado"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -1952,6 +2401,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "queso tierno"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -1970,6 +2422,11 @@
    "aliases": [
     "queso de burgos"
    ],
+   "keywords": [
+    "queso fresco",
+    "queso de burgos",
+    "burgos"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -1986,6 +2443,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "mozzarella"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2002,6 +2462,12 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "queso en lonchas",
+    "lonchas de queso",
+    "queso lonchas",
+    "lonchas"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2018,6 +2484,12 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "queso rallado",
+    "rallado",
+    "queso en hilo",
+    "hilos de queso"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2036,6 +2508,12 @@
    "aliases": [
     "queso crema"
    ],
+   "keywords": [
+    "queso untable",
+    "queso crema",
+    "queso de untar",
+    "philadelphia"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2052,6 +2530,12 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "queso azul",
+    "roquefort",
+    "cabrales",
+    "gorgonzola"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2068,6 +2552,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "queso de cabra"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2084,6 +2571,11 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "parmesano",
+    "grana padano",
+    "parmigiano"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2100,6 +2592,11 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "queso en porciones",
+    "quesito",
+    "porciones de queso"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2116,6 +2613,11 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "requeson",
+    "ricotta",
+    "mascarpone"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2132,6 +2634,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "feta"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2148,6 +2653,10 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "brie",
+    "camembert"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2164,6 +2673,12 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "emmental",
+    "gouda",
+    "edam",
+    "havarti"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2184,6 +2699,9 @@
     "XL"
    ],
    "aliases": [],
+   "keywords": [
+    "huevo"
+   ],
    "allergens": [
     "huevo"
    ],
@@ -2199,6 +2717,11 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "clara de huevo",
+    "claras de huevo",
+    "clara liquida"
+   ],
    "allergens": [
     "huevo"
    ],
@@ -2218,6 +2741,13 @@
     "desnatada"
    ],
    "aliases": [],
+   "keywords": [
+    "leche entera",
+    "leche semidesnatada",
+    "leche desnatada",
+    "leche fresca",
+    "leche"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2238,6 +2768,12 @@
     "crecimiento"
    ],
    "aliases": [],
+   "keywords": [
+    "leche con calcio",
+    "leche enriquecida",
+    "leche omega",
+    "leche de crecimiento"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2260,6 +2796,16 @@
     "coco"
    ],
    "aliases": [],
+   "keywords": [
+    "bebida de avena",
+    "bebida de soja",
+    "bebida de almendra",
+    "bebida de arroz",
+    "bebida vegetal",
+    "bebida de coco",
+    "bebida avena",
+    "bebida soja"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -2276,6 +2822,9 @@
     "proteínas"
    ],
    "aliases": [],
+   "keywords": [
+    "batido"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2292,6 +2841,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "leche condensada"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2308,6 +2860,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "leche evaporada"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2324,6 +2879,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "horchata"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -2335,6 +2893,11 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "nata para cocinar",
+    "nata cocina",
+    "nata liquida para cocinar"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2351,6 +2914,11 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "nata para montar",
+    "nata montar",
+    "nata liquida 35"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2367,6 +2935,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "mantequilla"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2383,6 +2954,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "margarina"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -2394,6 +2968,10 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "yogur natural",
+    "yogur entero natural"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2410,6 +2988,12 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "yogur de sabores",
+    "yogur sabor",
+    "yogur de fresa",
+    "yogur con frutas"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2426,6 +3010,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "griego"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2442,6 +3029,11 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "yogur desnatado",
+    "desnatado natural",
+    "yogur 0%"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2458,6 +3050,10 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "yogur liquido",
+    "yogur para beber"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2474,6 +3070,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "bífidus"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2490,6 +3089,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "kéfir"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2506,6 +3108,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "petit suisse"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2522,6 +3127,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "yogur proteico"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2538,6 +3146,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "postre vegetal"
+   ],
    "allergens": [
     "soja"
    ],
@@ -2551,6 +3162,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "natillas"
+   ],
    "allergens": [
     "lacteos",
     "huevo"
@@ -2568,6 +3182,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "flan"
+   ],
    "allergens": [
     "lacteos",
     "huevo"
@@ -2585,6 +3202,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "arroz con leche"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2601,6 +3221,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "cuajada"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2617,6 +3240,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "gelatina"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -2631,6 +3257,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "mousse"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -2654,6 +3283,13 @@
     "cristal"
    ],
    "aliases": [],
+   "keywords": [
+    "barra de pan",
+    "baguette",
+    "chapata",
+    "pan rustico",
+    "hogaza"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -2674,6 +3310,13 @@
     "multicereales"
    ],
    "aliases": [],
+   "keywords": [
+    "pan de molde",
+    "pan molde",
+    "pan bimbo",
+    "sandwich",
+    "pan de hogaza de molde"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -2689,6 +3332,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "pan de hamburguesa y perritos"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -2704,6 +3350,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "pan tostado"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -2719,6 +3368,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "picos y rosquilletas"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -2737,6 +3389,11 @@
     "wraps",
     "fajitas"
    ],
+   "keywords": [
+    "tortilla de trigo",
+    "wrap",
+    "fajita"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -2752,6 +3409,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "pan rallado"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -2767,6 +3427,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "croissants"
+   ],
    "allergens": [
     "gluten",
     "lacteos",
@@ -2786,6 +3449,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "magdalenas"
+   ],
    "allergens": [
     "gluten",
     "huevo"
@@ -2803,6 +3469,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "bizcocho"
+   ],
    "allergens": [
     "gluten",
     "huevo"
@@ -2820,6 +3489,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "bollería envasada"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -2839,6 +3511,12 @@
     "repostería"
    ],
    "aliases": [],
+   "keywords": [
+    "harina de trigo",
+    "harina de fuerza",
+    "harina",
+    "harina integral de trigo"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -2859,6 +3537,13 @@
     "avena"
    ],
    "aliases": [],
+   "keywords": [
+    "harina de garbanzo",
+    "harina de maiz",
+    "harina de arroz",
+    "harina de avena",
+    "maicena"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -2870,6 +3555,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "levadura"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -2881,6 +3569,12 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "hojaldre",
+    "masa de pizza",
+    "masa fresca",
+    "base de pizza"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -2904,6 +3598,9 @@
     "jazmín"
    ],
    "aliases": [],
+   "keywords": [
+    "arroz"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -2915,6 +3612,12 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "macarron",
+    "penne",
+    "plumas",
+    "rigatoni"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -2930,6 +3633,10 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "espagueti",
+    "spaghetti"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -2945,6 +3652,10 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "fideo",
+    "fideua"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -2960,6 +3671,12 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "tallarin",
+    "tagliatelle",
+    "linguine",
+    "fettuccine"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -2975,6 +3692,16 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "helice",
+    "fusilli",
+    "pajarita",
+    "farfalle",
+    "lacito",
+    "estrellas",
+    "conchas",
+    "tiburon"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -2990,6 +3717,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "lasana"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -3005,6 +3735,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "canelon"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -3020,6 +3753,14 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "tortellini",
+    "ravioli",
+    "pasta rellena",
+    "girasoli",
+    "tortelloni",
+    "cappelletti"
+   ],
    "allergens": [
     "gluten",
     "huevo"
@@ -3036,6 +3777,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "pasta fresca"
+   ],
    "allergens": [
     "gluten",
     "huevo"
@@ -3052,6 +3796,13 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "noodle",
+    "fideos orientales",
+    "ramen",
+    "yakisoba",
+    "udon"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -3067,6 +3818,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "cuscús"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -3082,6 +3836,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "quinoa"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3093,6 +3850,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "garbanzo"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3104,6 +3864,10 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "garbanzo cocido",
+    "garbanzos cocidos"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3115,6 +3879,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "lenteja"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3126,6 +3893,10 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "lenteja cocida",
+    "lentejas cocidas"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3141,6 +3912,12 @@
     "rojas"
    ],
    "aliases": [],
+   "keywords": [
+    "alubia",
+    "judia blanca",
+    "judion",
+    "fabe"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3156,6 +3933,12 @@
     "rojas"
    ],
    "aliases": [],
+   "keywords": [
+    "alubia cocida",
+    "alubias cocidas",
+    "judias cocidas",
+    "alubia blanca cocida"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3167,6 +3950,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "soja texturizada"
+   ],
    "allergens": [
     "soja"
    ],
@@ -3185,6 +3971,9 @@
     "intenso"
    ],
    "aliases": [],
+   "keywords": [
+    "aceite de oliva"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3196,6 +3985,10 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "aceite de girasol",
+    "aceite girasol"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3211,6 +4004,12 @@
     "orujo"
    ],
    "aliases": [],
+   "keywords": [
+    "aceite de coco",
+    "aceite de sesamo",
+    "aceite de orujo",
+    "aceite de semillas"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3227,6 +4026,9 @@
     "jerez"
    ],
    "aliases": [],
+   "keywords": [
+    "vinagre"
+   ],
    "allergens": [
     "sulfitos"
    ],
@@ -3245,6 +4047,9 @@
     "yodada"
    ],
    "aliases": [],
+   "keywords": [
+    "sal"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3261,6 +4066,9 @@
     "en grano"
    ],
    "aliases": [],
+   "keywords": [
+    "pimienta"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3288,6 +4096,9 @@
     "colorante"
    ],
    "aliases": [],
+   "keywords": [
+    "especias"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3299,6 +4110,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "tomate frito"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3310,6 +4124,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "sofrito"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3321,6 +4138,10 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "tomate triturado",
+    "tomate tamizado"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3332,6 +4153,11 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "tomate entero",
+    "tomate pelado",
+    "tomate natural"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3343,6 +4169,10 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "concentrado de tomate",
+    "tomate concentrado"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3354,6 +4184,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "mayonesa"
+   ],
    "allergens": [
     "huevo"
    ],
@@ -3369,6 +4202,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "ketchup"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3380,6 +4216,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "mostaza"
+   ],
    "allergens": [
     "mostaza"
    ],
@@ -3393,6 +4232,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "alioli"
+   ],
    "allergens": [
     "huevo"
    ],
@@ -3411,6 +4253,9 @@
     "cuatro quesos"
    ],
    "aliases": [],
+   "keywords": [
+    "salsas para pasta"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3422,6 +4267,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "salsa de soja"
+   ],
    "allergens": [
     "soja",
     "gluten"
@@ -3444,6 +4292,9 @@
     "césar"
    ],
    "aliases": [],
+   "keywords": [
+    "otras salsas"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3460,6 +4311,10 @@
     "escabeche"
    ],
    "aliases": [],
+   "keywords": [
+    "atun",
+    "atun claro"
+   ],
    "allergens": [
     "pescado"
    ],
@@ -3476,6 +4331,10 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "bonito del norte",
+    "bonito"
+   ],
    "allergens": [
     "pescado"
    ],
@@ -3492,6 +4351,10 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "sardina",
+    "sardinilla"
+   ],
    "allergens": [
     "pescado"
    ],
@@ -3508,6 +4371,10 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "caballa",
+    "melva"
+   ],
    "allergens": [
     "pescado"
    ],
@@ -3524,6 +4391,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "mejillones en lata"
+   ],
    "allergens": [
     "moluscos"
    ],
@@ -3540,6 +4410,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "berberechos"
+   ],
    "allergens": [
     "moluscos"
    ],
@@ -3556,6 +4429,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "anchoas"
+   ],
    "allergens": [
     "pescado"
    ],
@@ -3576,6 +4452,9 @@
     "morrones"
    ],
    "aliases": [],
+   "keywords": [
+    "pimientos en conserva"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3587,6 +4466,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "espárragos en conserva"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3598,6 +4480,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "alcachofas en conserva"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3609,6 +4494,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "maíz dulce"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3620,6 +4508,11 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "guisante en conserva",
+    "guisantes al natural",
+    "guisante al natural"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3631,6 +4524,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "champiñones en conserva"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3642,6 +4538,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "menestra en conserva"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3658,6 +4557,9 @@
     "sin hueso"
    ],
    "aliases": [],
+   "keywords": [
+    "aceitunas"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3673,6 +4575,9 @@
     "banderillas"
    ],
    "aliases": [],
+   "keywords": [
+    "encurtidos"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3684,6 +4589,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "fruta en almíbar"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3701,6 +4609,10 @@
     "carne"
    ],
    "aliases": [],
+   "keywords": [
+    "caldo",
+    "fumet"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3718,6 +4630,13 @@
     "cocido"
    ],
    "aliases": [],
+   "keywords": [
+    "pastillas de caldo",
+    "caldo en pastillas",
+    "pastilla",
+    "avecrem",
+    "cacito"
+   ],
    "allergens": [
     "apio"
    ],
@@ -3743,6 +4662,9 @@
     "fideos"
    ],
    "aliases": [],
+   "keywords": [
+    "sopa"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -3771,6 +4693,21 @@
     "verduras"
    ],
    "aliases": [],
+   "keywords": [
+    "crema de verdura",
+    "crema de calabaza",
+    "crema de calabacin",
+    "crema de zanahoria",
+    "crema de puerro",
+    "crema de champinon",
+    "crema de marisco",
+    "crema de pollo",
+    "crema de garbanzo",
+    "crema de lenteja",
+    "crema de tomate",
+    "crema de esparrago",
+    "pure de"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3782,6 +4719,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "gazpacho y salmorejo"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3804,6 +4744,12 @@
     "alcachofas"
    ],
    "aliases": [],
+   "keywords": [
+    "menestra",
+    "salteado de verdura",
+    "verdura para",
+    "pisto congelado"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3815,6 +4761,12 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "patatas prefritas",
+    "patatas congeladas",
+    "patatas para freir",
+    "patatas gajo"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3826,6 +4778,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "pizzas congeladas"
+   ],
    "allergens": [
     "gluten",
     "lacteos"
@@ -3843,6 +4798,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "croquetas"
+   ],
    "allergens": [
     "gluten",
     "lacteos"
@@ -3860,6 +4818,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "empanadillas"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -3875,6 +4836,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "helados"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -3890,6 +4854,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "hielo"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3901,6 +4868,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "platos preparados congelados"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3912,6 +4882,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "fruta congelada"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3923,6 +4896,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "tortilla de patata"
+   ],
    "allergens": [
     "huevo"
    ],
@@ -3938,6 +4914,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "pizza refrigerada"
+   ],
    "allergens": [
     "gluten",
     "lacteos"
@@ -3955,6 +4934,14 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "ensalada de pasta",
+    "ensalada de atun",
+    "ensalada mediterranea",
+    "ensaladilla",
+    "ensalada de quinoa",
+    "ensalada de arroz"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3966,6 +4953,12 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "listo para comer",
+    "calentar y listo",
+    "arroz a banda",
+    "plato preparado"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -3977,6 +4970,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "hummus"
+   ],
    "allergens": [
     "sesamo"
    ],
@@ -3990,6 +4986,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "sándwiches"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -4005,6 +5004,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "sushi"
+   ],
    "allergens": [
     "pescado",
     "soja"
@@ -4023,6 +5025,9 @@
     "descafeinado"
    ],
    "aliases": [],
+   "keywords": [
+    "café molido"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4034,6 +5039,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "café en grano"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4049,6 +5057,9 @@
     "tassimo"
    ],
    "aliases": [],
+   "keywords": [
+    "café en cápsulas"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4060,6 +5071,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "café soluble"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4071,6 +5085,9 @@
    "unit": "unit",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "té"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4087,6 +5104,9 @@
     "rooibos"
    ],
    "aliases": [],
+   "keywords": [
+    "infusiones"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4098,6 +5118,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "cacao soluble"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4109,6 +5132,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "cereales de desayuno"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -4124,6 +5150,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "copos de avena"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -4139,6 +5168,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "galletas"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -4154,6 +5186,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "tortitas de arroz y maíz"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4165,6 +5200,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "mermelada"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4176,6 +5214,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "miel"
+   ],
    "allergens": [],
    "notFor": [
     "vegana"
@@ -4189,6 +5230,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "crema de cacao"
+   ],
    "allergens": [
     "frutos_de_cascara",
     "lacteos"
@@ -4209,6 +5253,9 @@
     "glas"
    ],
    "aliases": [],
+   "keywords": [
+    "azúcar"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4220,6 +5267,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "edulcorante"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4235,6 +5285,9 @@
     "blanco"
    ],
    "aliases": [],
+   "keywords": [
+    "chocolate"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -4250,6 +5303,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "bombones"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -4265,6 +5321,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "caramelos y chicles"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4276,6 +5335,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "golosinas"
+   ],
    "allergens": [],
    "notFor": [
     "vegetariana",
@@ -4290,6 +5352,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "turrón"
+   ],
    "allergens": [
     "frutos_de_cascara"
    ],
@@ -4303,6 +5368,16 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "patatas fritas",
+    "patatas chips",
+    "patatas lisas",
+    "patatas onduladas",
+    "patatas sabor",
+    "aperitivo de patata",
+    "pringles",
+    "chips"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4314,6 +5389,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "snacks"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4332,6 +5410,9 @@
     "mezcla"
    ],
    "aliases": [],
+   "keywords": [
+    "frutos secos"
+   ],
    "allergens": [
     "frutos_de_cascara"
    ],
@@ -4345,6 +5426,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "cacahuetes"
+   ],
    "allergens": [
     "cacahuete"
    ],
@@ -4358,6 +5442,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "pipas"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4369,6 +5456,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "fruta deshidratada"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4380,6 +5470,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "palomitas"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4391,6 +5484,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "agua mineral"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4402,6 +5498,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "agua con gas"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4418,6 +5517,9 @@
     "sin cafeína"
    ],
    "aliases": [],
+   "keywords": [
+    "refresco de cola"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4433,6 +5535,9 @@
     "lima limón"
    ],
    "aliases": [],
+   "keywords": [
+    "refresco de naranja y limón"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4444,6 +5549,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "tónica y otros refrescos"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4455,6 +5563,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "bebida isotónica y energética"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4466,6 +5577,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "té frío"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4477,6 +5591,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "kombucha"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4496,6 +5613,9 @@
     "uva"
    ],
    "aliases": [],
+   "keywords": [
+    "zumo"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4511,6 +5631,9 @@
     "smoothie"
    ],
    "aliases": [],
+   "keywords": [
+    "zumo refrigerado"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4522,6 +5645,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "cerveza"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -4537,6 +5663,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "cerveza sin alcohol"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -4552,6 +5681,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "vino tinto"
+   ],
    "allergens": [
     "sulfitos"
    ],
@@ -4565,6 +5697,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "vino blanco"
+   ],
    "allergens": [
     "sulfitos"
    ],
@@ -4578,6 +5713,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "vino rosado"
+   ],
    "allergens": [
     "sulfitos"
    ],
@@ -4591,6 +5729,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "cava y espumosos"
+   ],
    "allergens": [
     "sulfitos"
    ],
@@ -4604,6 +5745,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "sidra"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4615,6 +5759,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "tinto de verano y sangría"
+   ],
    "allergens": [
     "sulfitos"
    ],
@@ -4628,6 +5775,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "licores"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4645,6 +5795,9 @@
    "aliases": [
     "detergente"
    ],
+   "keywords": [
+    "detergente"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4656,6 +5809,9 @@
    "unit": "unit",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "suavizante"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4667,6 +5823,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "quitamanchas"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4680,6 +5839,11 @@
    "aliases": [
     "fairy"
    ],
+   "keywords": [
+    "lavavajillas mano",
+    "lavavajillas a mano",
+    "lavavajillas concentrado"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4691,6 +5855,11 @@
    "unit": "unit",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "lavavajillas maquina",
+    "pastillas lavavajillas",
+    "lavavajillas en pastillas"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4702,6 +5871,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "lejía"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4713,6 +5885,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "friegasuelos"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4724,6 +5899,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "limpiador multiusos"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4735,6 +5913,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "limpiacristales"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4746,6 +5927,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "limpiador de baño"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4757,6 +5941,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "desengrasante"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4768,6 +5955,9 @@
    "unit": "unit",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "papel higiénico"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4779,6 +5969,12 @@
    "unit": "unit",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "papel de cocina",
+    "rollo de cocina",
+    "rollo cocina",
+    "papel cocina"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4790,6 +5986,9 @@
    "unit": "unit",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "servilletas"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4801,6 +6000,9 @@
    "unit": "unit",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "panuelo"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4812,6 +6014,9 @@
    "unit": "unit",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "bolsas de basura"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4823,6 +6028,9 @@
    "unit": "unit",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "papel de aluminio y film"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4834,6 +6042,9 @@
    "unit": "unit",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "bolsas de congelación"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4845,6 +6056,9 @@
    "unit": "unit",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "estropajos y bayetas"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4856,6 +6070,9 @@
    "unit": "unit",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "guantes de limpieza"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4867,6 +6084,9 @@
    "unit": "unit",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "ambientador"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4878,6 +6098,9 @@
    "unit": "unit",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "insecticida"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4889,6 +6112,9 @@
    "unit": "unit",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "pilas"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4900,6 +6126,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "gel de ducha"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4911,6 +6140,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "champú"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4922,6 +6154,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "acondicionador"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4933,6 +6168,9 @@
    "unit": "unit",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "desodorante"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4946,6 +6184,10 @@
    "aliases": [
     "dentífrico"
    ],
+   "keywords": [
+    "pasta de dientes",
+    "dentífrico"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4957,6 +6199,9 @@
    "unit": "unit",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "cepillo de dientes"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4968,6 +6213,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "enjuague bucal"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4979,6 +6227,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "jabón de manos"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -4990,6 +6241,9 @@
    "unit": "unit",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "compresas"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -5001,6 +6255,9 @@
    "unit": "unit",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "tampones"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -5012,6 +6269,9 @@
    "unit": "unit",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "salvaslips"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -5023,6 +6283,9 @@
    "unit": "unit",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "bastoncillos"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -5034,6 +6297,9 @@
    "unit": "unit",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "toallita"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -5045,6 +6311,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "crema corporal"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -5056,6 +6325,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "crema facial"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -5067,6 +6339,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "protector solar"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -5078,6 +6353,9 @@
    "unit": "unit",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "maquinillas de afeitar"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -5089,6 +6367,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "espuma y gel de afeitar"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -5100,6 +6381,9 @@
    "unit": "unit",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "discos desmaquillantes"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -5111,6 +6395,9 @@
    "unit": "ml",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "colonia"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -5129,6 +6416,9 @@
     "talla 6"
    ],
    "aliases": [],
+   "keywords": [
+    "pañales"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -5140,6 +6430,9 @@
    "unit": "unit",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "toallitas de bebé"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -5151,6 +6444,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "leche infantil"
+   ],
    "allergens": [
     "lacteos"
    ],
@@ -5166,6 +6462,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "potitos"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -5177,6 +6476,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "papillas de cereales"
+   ],
    "allergens": [
     "gluten"
    ],
@@ -5192,6 +6494,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "comida seca para perro"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -5203,6 +6508,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "comida húmeda para perro"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -5214,6 +6522,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "comida seca para gato"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -5225,6 +6536,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "comida húmeda para gato"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -5236,6 +6550,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "arena para gato"
+   ],
    "allergens": [],
    "notFor": []
   },
@@ -5247,6 +6564,9 @@
    "unit": "g",
    "variants": [],
    "aliases": [],
+   "keywords": [
+    "snacks para mascotas"
+   ],
    "allergens": [],
    "notFor": []
   }

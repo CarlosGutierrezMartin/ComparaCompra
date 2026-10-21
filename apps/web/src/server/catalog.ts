@@ -56,8 +56,9 @@ export async function zonesForPostalCode(postalCode: string): Promise<ZoneInfo[]
   }));
 }
 
+// Los bigint de Postgres llegan como texto: se convierten a número al mapear.
 interface OfferRow {
-  product_id: number;
+  product_id: string;
   chain: string;
   name: string;
   brand: string | null;
@@ -70,7 +71,7 @@ interface OfferRow {
   promo: { type?: string; text?: string; previous_price?: string } | null;
   checked_at: Date;
   source: string;
-  identical_canonical_id: number | null;
+  identical_canonical_id: string | null;
 }
 
 function norm(text: string): string {
@@ -125,7 +126,7 @@ export async function offersForLine(
   return rows
     .filter((r) => !brand || norm(`${r.brand ?? ""} ${r.name}`).includes(brand))
     .map((r) => ({
-      productId: r.product_id,
+      productId: Number(r.product_id),
       chain: r.chain,
       name: r.name,
       brand: r.brand,
@@ -139,7 +140,8 @@ export async function offersForLine(
       source: r.source,
       url: r.url,
       level: line.level,
-      identicalCanonicalId: r.identical_canonical_id,
+      identicalCanonicalId:
+        r.identical_canonical_id === null ? null : Number(r.identical_canonical_id),
     }));
 }
 
@@ -199,4 +201,34 @@ export async function eansForProducts(ids: number[]): Promise<Map<number, string
   const rows = await sql<{ id: number; ean: string }[]>`
     select id, ean from public.product_chain where id = any(${ids}) and ean is not null`;
   return new Map(rows.map((r) => [Number(r.id), r.ean]));
+}
+
+/**
+ * Productos para un ingrediente de un plato: primero los equivalentes (hoja, variante y
+ * marcas) y, en las cadenas que no tengan, cualquiera de la hoja.
+ */
+export async function offersForIngredient(
+  ing: { name: string; leafSlug: string | null; variant: string | null; flags: string[] },
+  postalCode: string,
+  chains: string[],
+): Promise<Offer[]> {
+  if (!ing.leafSlug) return [];
+  const base = {
+    id: "x",
+    label: ing.name,
+    leafSlug: ing.leafSlug,
+    variant: ing.variant,
+    flags: ing.flags as CompareLine["flags"],
+    quantity: null,
+    unit: null,
+  };
+  const eq = await offersForLine({ ...base, level: "equivalent" }, postalCode, chains);
+  const missing = chains.filter((c) => !eq.some((o) => o.chain === c));
+  if (!missing.length) return eq;
+  const gen = await offersForLine(
+    { ...base, variant: null, flags: [], level: "generic" },
+    postalCode,
+    missing,
+  );
+  return [...eq, ...gen];
 }

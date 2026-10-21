@@ -313,7 +313,10 @@ interface Objective {
 
 interface Model {
   lp: string;
-  x: Map<string, { recipe: string; slot: string }>;
+  groups: SlotGroup[];
+  /** Orden de los platos en la entrada, para desempatar el reparto. */
+  order: Map<string, number>;
+  x: Map<string, { recipe: string; group: number }>;
   n: Map<string, { key: string; option: PackOption }>;
   u: Map<string, string>;
 }
@@ -324,6 +327,70 @@ function eligibleRecipes(input: PlanInput, slot: MenuSlot): MenuRecipe[] {
   return input.recipes.filter((r) => recipeFitsMeal(r, slot.meal) && !avoid.has(r.id));
 }
 
+/**
+ * Huecos intercambiables (misma comida, raciones, plato fijado y platos a evitar) forman un
+ * grupo: el modelo decide cuántas veces va cada plato en el grupo, no en qué día. Sin esa
+ * simetría (7 comidas iguales) el optimizador perdía el tiempo probando permutaciones
+ * equivalentes y, con poco tiempo o un móvil lento, devolvía menús mucho peores.
+ */
+interface SlotGroup {
+  key: string;
+  slots: MenuSlot[];
+  servings: number;
+  recipes: MenuRecipe[];
+}
+
+function groupSlots(input: PlanInput): SlotGroup[] {
+  const groups = new Map<string, SlotGroup>();
+  for (const slot of input.slots) {
+    const avoid = [...(slot.avoidRecipeIds ?? [])].sort().join(",");
+    const key = `${slot.meal}|${slot.servings}|${slot.fixedRecipeId ?? ""}|${avoid}`;
+    let g = groups.get(key);
+    if (!g) {
+      g = { key, slots: [], servings: slot.servings, recipes: eligibleRecipes(input, slot) };
+      groups.set(key, g);
+    }
+    g.slots.push(slot);
+  }
+  for (const g of groups.values()) g.slots.sort((a, b) => a.day - b.day);
+  return [...groups.values()];
+}
+
+/**
+ * Reparte las veces de cada plato entre los huecos del grupo, por días: primero el plato
+ * con más veces pendientes que no esté ya ese día ni en el hueco anterior del grupo.
+ */
+function distribute(
+  groups: SlotGroup[],
+  counts: Map<number, Map<string, number>>,
+  order: Map<string, number>,
+): Record<string, string> {
+  const assignments: Record<string, string> = {};
+  const byDay = new Map<number, Set<string>>();
+  groups.forEach((g, gi) => {
+    const left = new Map(counts.get(gi) ?? []);
+    let previous: string | null = null;
+    for (const slot of g.slots) {
+      const taken = byDay.get(slot.day) ?? new Set<string>();
+      const options = [...left.entries()]
+        .filter(([, n]) => n > 0)
+        .sort((a, b) => b[1] - a[1] || (order.get(a[0]) ?? 0) - (order.get(b[0]) ?? 0));
+      const pick =
+        options.find(([r]) => r !== previous && !taken.has(r)) ??
+        options.find(([r]) => r !== previous) ??
+        options[0];
+      if (!pick) continue;
+      const [recipe] = pick;
+      assignments[slot.id] = recipe;
+      left.set(recipe, (left.get(recipe) ?? 0) - 1);
+      taken.add(recipe);
+      byDay.set(slot.day, taken);
+      previous = recipe;
+    }
+  });
+  return assignments;
+}
+
 function hash(s: string): number {
   let h = 2166136261;
   for (let i = 0; i < s.length; i++) h = Math.imul(h ^ s.charCodeAt(i), 16777619);
@@ -332,37 +399,43 @@ function hash(s: string): number {
 
 function buildModel(input: PlanInput, prep: Prepared, obj: Objective): Model {
   const lp = new LpBuilder();
-  const x = new Map<string, { recipe: string; slot: string }>();
+  const x = new Map<string, { recipe: string; group: number }>();
   const n = new Map<string, { key: string; option: PackOption }>();
   const u = new Map<string, string>();
   const recipeIndex = new Map(input.recipes.map((r, i) => [r.id, i]));
   const keyIndex = new Map([...prep.keys.keys()].map((k, i) => [k, i]));
   const maxRepeats = input.maxRepeats ?? 2;
+  const groups = groupSlots(input);
 
   const xByRecipe = new Map<string, string[]>();
   const demandTerms = new Map<string, [string, number][]>();
   const fixedCount = new Map<string, number>();
-
-  input.slots.forEach((slot, si) => {
-    const terms: [string, number][] = [];
+  for (const slot of input.slots) {
     if (slot.fixedRecipeId)
       fixedCount.set(slot.fixedRecipeId, (fixedCount.get(slot.fixedRecipeId) ?? 0) + 1);
-    for (const r of eligibleRecipes(input, slot)) {
-      const v = `x${recipeIndex.get(r.id)}_${si}`;
-      x.set(v, { recipe: r.id, slot: slot.id });
-      lp.binary(v);
+  }
+
+  groups.forEach((g, gi) => {
+    const terms: [string, number][] = [];
+    for (const r of g.recipes) {
+      // x = veces que va el plato r en los huecos del grupo g.
+      const v = `x${recipeIndex.get(r.id)}_${gi}`;
+      const cap = Math.min(g.slots.length, Math.max(maxRepeats, fixedCount.get(r.id) ?? 0));
+      x.set(v, { recipe: r.id, group: gi });
+      lp.general(v);
+      lp.bound(`0 <= ${v} <= ${cap}`);
       terms.push([v, 1]);
       xByRecipe.set(r.id, [...(xByRecipe.get(r.id) ?? []), v]);
-      lp.addObjective(v, UNPRICED_PENALTY * slot.servings * (prep.unpricedCount.get(r.id) ?? 0));
-      if (obj.tieBreak) lp.addObjective(v, 0.01 * hash(`${r.id}@${slot.id}`));
+      lp.addObjective(v, UNPRICED_PENALTY * g.servings * (prep.unpricedCount.get(r.id) ?? 0));
+      if (obj.tieBreak) lp.addObjective(v, 0.01 * hash(`${r.id}@${g.key}`));
       for (const [key, perServing] of prep.demand.get(r.id) ?? []) {
-        const qty = perServing * slot.servings;
+        const qty = perServing * g.servings;
         demandTerms.set(key, [...(demandTerms.get(key) ?? []), [v, -qty]]);
         // El sobrante se resta de lo que se usa: valorar el desperdicio es Σ p n + u − demanda.
         lp.addObjective(v, -obj.waste * (prep.keys.get(key)?.minUnitPrice ?? 0) * qty);
       }
     }
-    lp.addRow(`slot${si}`, terms, "=", 1);
+    lp.addRow(`grp${gi}`, terms, "=", g.slots.length);
   });
 
   for (const [rid, vars] of xByRecipe) {
@@ -385,11 +458,11 @@ function buildModel(input: PlanInput, prep: Prepared, obj: Objective): Model {
   // Cota de demanda por ingrediente (si todos los huecos eligieran el plato que más usa),
   // para acotar los envases: un modelo más ajustado se resuelve mucho antes.
   const maxDemand = new Map<string, number>();
-  for (const slot of input.slots) {
+  for (const g of groups) {
     const best = new Map<string, number>();
-    for (const r of eligibleRecipes(input, slot)) {
+    for (const r of g.recipes) {
       for (const [key, q] of prep.demand.get(r.id) ?? [])
-        best.set(key, Math.max(best.get(key) ?? 0, q * slot.servings));
+        best.set(key, Math.max(best.get(key) ?? 0, q * g.servings * g.slots.length));
     }
     for (const [key, q] of best) maxDemand.set(key, (maxDemand.get(key) ?? 0) + q);
   }
@@ -445,7 +518,7 @@ function buildModel(input: PlanInput, prep: Prepared, obj: Objective): Model {
     }
   }
   if (obj.budget !== null && budgetTerms.length) lp.addRow("budget", budgetTerms, "<=", obj.budget);
-  return { lp: lp.toString(), x, n, u };
+  return { lp: lp.toString(), groups, order: recipeIndex, x, n, u };
 }
 
 interface Solution {
@@ -465,8 +538,12 @@ function solveModel(solver: Solver, model: Model, timeLimitSec: number): Solutio
     (res.Status === "Time limit reached" && Object.keys(res.Columns).length > 0);
   if (!hasSolution) return null;
   const val = (v: string) => res.Columns[v]?.Primal ?? 0;
-  const assignments: Record<string, string> = {};
-  for (const [v, { recipe, slot }] of model.x) if (val(v) > 0.5) assignments[slot] = recipe;
+  const counts = new Map<number, Map<string, number>>();
+  for (const [v, { recipe, group }] of model.x) {
+    const times = Math.round(val(v));
+    if (times > 0) counts.set(group, (counts.get(group) ?? new Map()).set(recipe, times));
+  }
+  const assignments = distribute(model.groups, counts, model.order);
   const packs = [...model.n.entries()]
     .map(([v, { key, option }]) => ({ key, option, packs: Math.round(val(v)) }))
     .filter((p) => p.packs > 0);

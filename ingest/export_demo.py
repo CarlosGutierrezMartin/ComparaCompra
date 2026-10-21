@@ -80,7 +80,9 @@ def export(conn: psycopg.Connection) -> dict[str, Any]:
                 float(price),
                 _num(unit_price),
                 promo,
-                checked_at.astimezone(UTC).isoformat(timespec="milliseconds").replace("+00:00", "Z"),
+                checked_at.astimezone(UTC)
+                .isoformat(timespec="milliseconds")
+                .replace("+00:00", "Z"),
                 source,
             ]
 

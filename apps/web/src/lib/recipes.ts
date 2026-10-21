@@ -13,6 +13,8 @@ import type {
   IngredientDTO,
   RecipeDraft,
 } from "./recipe-types";
+import { DEMO } from "./demo";
+import { demoRecipeCost } from "./demo-api";
 import { enqueue } from "./sync";
 
 export function useRecipes(): RecipeLocal[] | undefined {
@@ -118,10 +120,15 @@ async function post<T>(url: string, body: unknown): Promise<T> {
 export async function extractRecipe(
   req: ExtractRequest,
 ): Promise<ExtractResponse | { draft: RecipeDraft; source: "local"; usedAi: false }> {
-  if (req.kind === "text" && !navigator.onLine) {
+  if (DEMO && req.kind !== "text") {
+    throw new RecipeApiError("No disponible en la demo", "rejected", [
+      "Usa «Escribir» o «Pegar texto».",
+    ]);
+  }
+  if (req.kind === "text" && (DEMO || !navigator.onLine)) {
     const p = parseRecipeText(req.text);
     return {
-      source: "local",
+      source: DEMO ? "reglas" : "local",
       usedAi: false,
       draft: {
         title: p.title ?? "",
@@ -147,6 +154,7 @@ export async function extractRecipe(
 }
 
 export function generateRecipe(req: GenerateRequest): Promise<ExtractResponse> {
+  if (DEMO) return Promise.reject(new RecipeApiError("No disponible en la demo", "rejected"));
   return post<ExtractResponse>("/api/recipes/generate", req);
 }
 
@@ -168,6 +176,7 @@ export function requestRecipeCost(
     targetServings,
     ingredients: draftFromRecipe(recipe).ingredients,
   };
+  if (DEMO) return demoRecipeCost(body);
   return post<CostResponse>("/api/recipes/cost", body);
 }
 

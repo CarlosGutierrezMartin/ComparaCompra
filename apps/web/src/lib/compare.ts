@@ -3,6 +3,8 @@
 import type { CompareResult, Offer } from "@comparacompra/core";
 import type { CompareLine, CompareRequest } from "./api-types";
 import type { HouseholdLocal, ListItemLocal } from "./db";
+import { DEMO } from "./demo";
+import { demoCompare } from "./demo-api";
 
 export interface CompareResponse extends CompareResult {
   offers: Record<string, Offer[]>;
@@ -36,7 +38,6 @@ export async function requestCompare(
   items: ListItemLocal[],
   options: { maxStores: 1 | 2; fixedCostPerStore: number },
 ): Promise<CompareResponse> {
-  if (!navigator.onLine) throw new CompareError("offline");
   const body: CompareRequest = {
     postalCode: household.postalCode,
     chains: household.chainSlugs,
@@ -44,6 +45,9 @@ export async function requestCompare(
     fixedCostPerStore: options.fixedCostPerStore,
     lines: toCompareLines(items),
   };
+  // Demo sin servidor: el catálogo está en el móvil, así que también compara sin conexión.
+  if (DEMO) return demoCompare(body);
+  if (!navigator.onLine) throw new CompareError("offline");
   let res: Response;
   try {
     res = await fetch("/api/basket/compare", {

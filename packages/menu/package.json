@@ -7,7 +7,9 @@
     ".": "./src/index.ts",
     "./recetario": "./src/recetario.ts",
     "./tolist": "./src/tolist.ts",
-    "./types": "./src/types.ts"
+    "./types": "./src/types.ts",
+    "./plan": "./src/plan.ts",
+    "./highs-adapter": "./src/highs-adapter.ts"
   },
   "scripts": {
     "lint": "eslint src",

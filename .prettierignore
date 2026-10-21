@@ -9,3 +9,6 @@ ingest
 supabase/.temp
 **/*.sql
 packages/core/src/data/taxonomy.json
+apps/web/out
+apps/web/public/highs
+apps/web/public/demo

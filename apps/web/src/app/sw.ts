@@ -11,6 +11,9 @@ declare global {
 
 declare const self: ServiceWorkerGlobalScope;
 
+const DEMO = process.env.NEXT_PUBLIC_DEMO === "1";
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 const serwist = new Serwist({
   // Armazón de la app: rutas, CSS, JS e iconos precargados en la instalación.
   precacheEntries: self.__SW_MANIFEST,
@@ -34,7 +37,7 @@ const serwist = new Serwist({
   fallbacks: {
     entries: [
       {
-        url: "/~offline",
+        url: `${BASE}/~offline${DEMO ? "/" : ""}`,
         matcher: ({ request }) => request.destination === "document",
       },
     ],

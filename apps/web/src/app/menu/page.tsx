@@ -21,12 +21,14 @@ import {
   type PlanResponse,
 } from "@/lib/menu";
 import { useRecipe } from "@/lib/recipes";
+import { DEMO } from "@/lib/demo";
 import { useOnline } from "@/lib/useOnline";
 
 function MenuPage() {
   const household = useHousehold();
   const plan = useCurrentPlan();
-  const online = useOnline();
+  // En la demo el menú se calcula en el móvil: no necesita conexión.
+  const online = useOnline() || DEMO;
   const addId = useSearchParams().get("add");
   const pending = useRecipe(addId);
   const [configuring, setConfiguring] = useState(false);

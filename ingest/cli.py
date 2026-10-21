@@ -224,6 +224,19 @@ def cmd_load_sample(args: argparse.Namespace, settings: Settings) -> int:
     return 0
 
 
+def cmd_export_demo(args: argparse.Namespace, settings: Settings) -> int:
+    """Escribe el catálogo estático de la demo sin servidor (GitHub Pages)."""
+    import export_demo
+
+    with _connect(settings) as conn:
+        data = export_demo.export(conn)
+    out = Path(args.out)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")))
+    print(f"{len(data['products'])} productos, {len(data['zones'])} códigos postales -> {out}")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Ingesta de precios de ComparaCompra")
     sub = parser.add_subparsers(dest="cmd", required=True)
@@ -243,6 +256,8 @@ def main(argv: list[str] | None = None) -> int:
         "--llm", action="store_true", help="Usa la IA para lo que las reglas no resuelven"
     )
     sub.add_parser("load-sample", help="Carga la muestra grabada en la base de datos (desarrollo)")
+    d = sub.add_parser("export-demo", help="Exporta el catálogo estático de la demo (GitHub Pages)")
+    d.add_argument("--out", required=True, help="Ruta del JSON")
     args = parser.parse_args(argv)
     settings = load_settings()
     handlers = {
@@ -252,6 +267,7 @@ def main(argv: list[str] | None = None) -> int:
         "record-sample": cmd_record_sample,
         "match": cmd_match,
         "load-sample": cmd_load_sample,
+        "export-demo": cmd_export_demo,
     }
     return handlers[args.cmd](args, settings)
 

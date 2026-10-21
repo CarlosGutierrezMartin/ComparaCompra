@@ -13,6 +13,9 @@ const eslintConfig = defineConfig([
   globalIgnores([
     ".next/**",
     "out/**",
+    // Demo estática: copias generadas al compilar (HiGHS y catálogo).
+    "public/highs/**",
+    "public/demo/**",
     "build/**",
     "next-env.d.ts",
     "playwright-report/**",

@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { AppShell } from "@/components/AppShell";
+import { DEMO, withBase } from "@/lib/demo";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -7,7 +8,9 @@ export const metadata: Metadata = {
   description: "Tu lista de la compra, lo más barata posible.",
   applicationName: "ComparaCompra",
   appleWebApp: { capable: true, title: "ComparaCompra", statusBarStyle: "default" },
-  icons: { apple: "/icons/apple-touch-icon.png" },
+  icons: { apple: withBase("/icons/apple-touch-icon.png") },
+  // La demo pública es para probar: que no la indexen los buscadores.
+  ...(DEMO ? { robots: { index: false, follow: false } } : {}),
   // Next emite mobile-web-app-capable; iOS antiguos leen la etiqueta con prefijo de Apple.
   other: { "apple-mobile-web-app-capable": "yes" },
 };

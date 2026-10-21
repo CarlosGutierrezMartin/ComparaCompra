@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { t } from "@/i18n/es";
+import { pageUrl } from "@/lib/demo";
 import { useOnline } from "@/lib/useOnline";
 
 const TABS = [
@@ -43,7 +44,7 @@ export function BottomNav() {
                 onClick={(e) => {
                   if (navigator.onLine) return;
                   e.preventDefault();
-                  window.location.assign(tab.href);
+                  window.location.assign(pageUrl(tab.href));
                 }}
                 aria-current={active ? "page" : undefined}
                 className={`tap flex flex-col items-center justify-center gap-0.5 py-2 text-xs ${

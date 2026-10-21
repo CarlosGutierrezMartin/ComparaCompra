@@ -17,6 +17,8 @@ import {
 } from "./db";
 import { addLines, ensureActiveList } from "./lists";
 import type { PlanRequest } from "./menu-types";
+import { DEMO } from "./demo";
+import { demoPlan } from "./demo-api";
 import { enqueue } from "./sync";
 
 export const MEAL_ORDER: Meal[] = ["desayuno", "comida", "cena"];
@@ -75,6 +77,7 @@ export type PlanResponse = PlanResult & {
 };
 
 async function requestPlan(body: PlanRequest): Promise<PlanResponse> {
+  if (DEMO) return demoPlan(body);
   if (!navigator.onLine) throw new MenuApiError("offline");
   let res: Response;
   try {

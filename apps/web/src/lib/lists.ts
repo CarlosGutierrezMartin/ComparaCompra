@@ -4,6 +4,7 @@ import { parseList, type ParsedLine } from "@comparacompra/core";
 import { useLiveQuery } from "dexie-react-hooks";
 import type { ParseResponse, ParsedLineDTO } from "./api-types";
 import { db, newId, nowIso, type ListItemLocal, type ShoppingListLocal } from "./db";
+import { DEMO } from "./demo";
 import { enqueue } from "./sync";
 
 export const DEFAULT_LIST_NAME = "Mi lista";
@@ -46,6 +47,7 @@ async function touchList(listId: string) {
 export async function interpretList(
   text: string,
 ): Promise<{ lines: ParsedLineDTO[]; source: "ia" | "reglas" | "local" }> {
+  if (DEMO) return { lines: parseList(text).map((l: ParsedLine) => ({ ...l })), source: "reglas" };
   try {
     if (navigator.onLine) {
       const res = await fetch("/api/list/parse", {

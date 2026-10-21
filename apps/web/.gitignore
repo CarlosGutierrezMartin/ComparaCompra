@@ -1,0 +1,5 @@
+
+# Demo estática (se generan al compilar la demo)
+/public/highs/
+/public/demo/
+/out/

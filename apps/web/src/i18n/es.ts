@@ -8,6 +8,9 @@ export const es = {
     tagline: "Tu lista de la compra, lo más barata posible.",
   },
   nav: { lista: "Lista", platos: "Platos", menu: "Menú", tienda: "Tienda", perfil: "Perfil" },
+  demo: {
+    banner: "Demo: precios reales de una muestra, con la fecha de cada uno. Sin IA ni cuenta.",
+  },
   offline: {
     banner:
       "Sin conexión. Los precios pueden no estar actualizados; tus cambios se guardan y se enviarán al volver la conexión.",

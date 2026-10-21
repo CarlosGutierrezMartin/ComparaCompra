@@ -8,10 +8,12 @@ import { t } from "@/i18n/es";
 import { useHousehold } from "@/lib/household";
 import type { RecipeDraft } from "@/lib/recipe-types";
 import { RecipeApiError, extractRecipe, generateRecipe, saveRecipe } from "@/lib/recipes";
+import { DEMO } from "@/lib/demo";
 import { useOnline } from "@/lib/useOnline";
 
 type Mode = "manual" | "text" | "url" | "image" | "ai";
-const MODES: Mode[] = ["manual", "text", "url", "image", "ai"];
+// En la demo sin servidor no hay IA ni descarga de enlaces: solo escribir y pegar texto.
+const MODES: Mode[] = DEMO ? ["manual", "text"] : ["manual", "text", "url", "image", "ai"];
 
 const EMPTY: RecipeDraft = {
   title: "",

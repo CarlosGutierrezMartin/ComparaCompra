@@ -1,5 +1,12 @@
 import Dexie, { type EntityTable } from "dexie";
 import type { BaseUnit } from "@comparacompra/core";
+import type {
+  IngredientBalance,
+  MenuMetrics,
+  Purchase,
+  Unpriced,
+} from "@comparacompra/menu/tolist";
+import type { Meal, MenuMode, MenuRecipe } from "@comparacompra/menu/types";
 
 /**
  * Datos del usuario en el dispositivo (IndexedDB). Son la fuente de verdad en el móvil:
@@ -81,10 +88,25 @@ export interface RecipeLocal {
 
 export interface MealSlotLocal {
   day: number;
-  meal: "desayuno" | "comida" | "cena";
+  meal: Meal;
+  /** id de un plato del usuario o "base:…" del recetario base. */
   recipeId: string | null;
   servings: number;
   locked: boolean;
+}
+
+/** Resultado del último cálculo del menú, guardado para verlo sin conexión. */
+export interface MealPlanSummary {
+  metrics: MenuMetrics;
+  baseline: MenuMetrics | null;
+  savings: number | null;
+  purchases: Purchase[];
+  balances: IngredientBalance[];
+  unpriced: Unpriced[];
+  excluded: { recipeId: string; title: string; reasons: string[] }[];
+  /** Copia de los platos usados (los del recetario base no están en la tabla de platos). */
+  recipes: MenuRecipe[];
+  computedAt: string;
 }
 
 export interface MealPlanLocal {
@@ -92,15 +114,18 @@ export interface MealPlanLocal {
   weekStart: string;
   budget: number | null;
   people: number;
-  optimizedFor: "ahorro" | "variedad" | "aprovechamiento";
+  optimizedFor: MenuMode;
+  includeBase: boolean;
   slots: MealSlotLocal[];
-  summary: unknown;
+  summary: MealPlanSummary | null;
   createdAt: string;
+  updatedAt: string;
 }
 
 export interface PantryItemLocal {
   id: string;
   leafSlug: string;
+  variant: string | null;
   name: string;
   quantity: number;
   unit: BaseUnit;

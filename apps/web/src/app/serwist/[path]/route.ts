@@ -13,6 +13,10 @@ const APP_ROUTES = [
   "/bienvenida",
   "/instalar",
   "/~offline",
+  "/metodologia",
+  "/legal/aviso-legal",
+  "/legal/privacidad",
+  "/legal/cookies",
 ];
 const revision = process.env.NEXT_PUBLIC_BUILD_ID ?? crypto.randomUUID();
 

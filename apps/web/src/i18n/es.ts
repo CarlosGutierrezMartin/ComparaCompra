@@ -40,6 +40,8 @@ export const es = {
     budgetHelp: "En euros. Lo usamos para proponer el menú semanal.",
     diet: "Dieta",
     allergens: "Alérgenos que evitar",
+    healthConsent:
+      "Guardar también mis dietas y alergias en mi cuenta para usarlas en otros dispositivos. Son datos de salud: sin esta casilla se quedan solo en este móvil. Puedes retirarlo cuando quieras.",
     chains: "Supermercados que tienes cerca",
     chainNoPrices: "sin precios por ahora",
     submit: "Guardar y empezar",
@@ -63,7 +65,10 @@ export const es = {
       n === 1 ? "1 cambio pendiente de enviar." : `${n} cambios pendientes de enviar.`,
     allSynced: "Todo está guardado.",
     install: "Instalar",
-    privacy: "Solo guardamos tu correo y tu código postal. Nunca pedimos tu ubicación exacta.",
+    privacy:
+      "De ti solo pedimos el correo (si creas una cuenta) y el código postal. Nunca pedimos tu ubicación exacta.",
+    legal: "Aviso legal, privacidad y cookies",
+    methodology: "Cómo calculamos los precios",
   },
   list: {
     title: "Lista",
@@ -254,6 +259,24 @@ export const es = {
     needsHousehold: "Configura tu código postal en el perfil para calcular el menú.",
     computedAt: (d: string) => `Calculado el ${d}`,
     notOptimal: "Mejor menú encontrado en el tiempo disponible.",
+  },
+  store: {
+    title: "Tienda",
+    empty:
+      "Compara tu lista y pulsa «Ir a comprar» en la tienda que elijas: la lista se guarda en el móvil y funciona sin conexión.",
+    goToList: "Ir a la lista",
+    estimated: "Total estimado",
+    taken: (a: number, b: number) => `${a} de ${b} cogidos`,
+    notHere: "No disponible en esta tienda",
+    realPrice: "Precio real",
+    realPriceLabel: (name: string) => `Precio real de ${name} (€)`,
+    save: "Guardar",
+    observed: (p: string) => `Visto en tienda: ${p}`,
+    observedHelp: "Se envía al volver la conexión y ayuda a corregir el precio publicado.",
+    finish: "Terminar la compra",
+    confirmFinish: "¿Terminar la compra? La lista de la tienda se borra del móvil; tu lista sigue.",
+    savedOffline: "Sin conexión: todo se guarda en el móvil.",
+    product: "Ver producto",
   },
   result: {
     title: "Dónde te sale más barata",

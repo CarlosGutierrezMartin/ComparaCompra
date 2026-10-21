@@ -1,6 +1,7 @@
 "use client";
 
 import { useLiveQuery } from "dexie-react-hooks";
+import Link from "next/link";
 import { useEffect, useState, type FormEvent } from "react";
 import type { Session } from "@supabase/supabase-js";
 import { HouseholdForm } from "@/components/HouseholdForm";
@@ -126,6 +127,23 @@ export default function Perfil() {
           <InstallButton />
           <p className="text-sm text-muted">{t.profile.privacy}</p>
         </section>
+        <nav
+          aria-label={t.profile.legal}
+          className="flex flex-col border-t border-border pt-4 text-sm"
+        >
+          <Link href="/metodologia" className="tap flex items-center text-brand underline">
+            {t.profile.methodology}
+          </Link>
+          <Link href="/legal/aviso-legal" className="tap flex items-center text-brand underline">
+            Aviso legal
+          </Link>
+          <Link href="/legal/privacidad" className="tap flex items-center text-brand underline">
+            Privacidad
+          </Link>
+          <Link href="/legal/cookies" className="tap flex items-center text-brand underline">
+            Cookies
+          </Link>
+        </nav>
       </Page>
     </>
   );

@@ -3,47 +3,20 @@ import {
   recipeNutrition,
   scaleIngredients,
   type ChainRecipeCost,
-  type Offer,
   type RecipeCostIngredient,
 } from "@comparacompra/core";
-import { CostRequestSchema, type IngredientDTO } from "@/lib/recipe-types";
+import { CostRequestSchema } from "@/lib/recipe-types";
 import {
   CatalogUnavailableError,
   eansForProducts,
-  offersForLine,
+  offersForIngredient,
   unitWeightsForLeaves,
 } from "@/server/catalog";
 import { nutritionForEan, type Nutrition } from "@/server/off";
 
 /**
  * POST /api/recipes/cost: coste por ración y coste de compra del plato en cada cadena.
- * Cada ingrediente busca primero productos equivalentes y, si no hay, cualquiera de su hoja.
  */
-async function offersFor(
-  ing: IngredientDTO,
-  postalCode: string,
-  chains: string[],
-): Promise<Offer[]> {
-  const base = {
-    id: "x",
-    label: ing.name,
-    leafSlug: ing.leafSlug,
-    variant: ing.variant,
-    flags: ing.flags,
-    quantity: ing.quantity,
-    unit: ing.unit,
-  };
-  const eq = await offersForLine({ ...base, level: "equivalent" }, postalCode, chains);
-  const missing = chains.filter((c) => !eq.some((o) => o.chain === c));
-  if (!missing.length) return eq;
-  const gen = await offersForLine(
-    { ...base, variant: null, flags: [], level: "generic" },
-    postalCode,
-    missing,
-  );
-  return [...eq, ...gen];
-}
-
 /**
  * Nutrición por ración en cada cadena con los productos elegidos, solo si todos tienen EAN
  * con datos en Open Food Facts. Si no, null: la interfaz muestra "sin datos".
@@ -108,7 +81,7 @@ export async function POST(request: Request) {
       unitWeightsForLeaves(leaves),
       Promise.all(
         scaled.map((i) =>
-          i.leafSlug ? offersFor(i, req.postalCode, req.chains) : Promise.resolve([]),
+          i.leafSlug ? offersForIngredient(i, req.postalCode, req.chains) : Promise.resolve([]),
         ),
       ),
     ]);

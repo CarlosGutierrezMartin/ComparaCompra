@@ -125,6 +125,11 @@ const FLAG_PATTERNS: [Flag, RegExp][] = [
 
 const MODIFIERS = new Set(["con", "en", "al", "sabor", "estilo"]);
 
+export function detectFlags(text: string): Flag[] {
+  const t = normalize(text);
+  return FLAG_PATTERNS.filter(([, rx]) => rx.test(t)).map(([f]) => f);
+}
+
 export function normalize(text: string): string {
   return text
     .toLowerCase()
@@ -190,7 +195,7 @@ export function matchLeaf(text: string): { slug: string; confidence: number } | 
         continue;
       }
       let score = 3 * phrase.length + Math.max(0, 3 - pos);
-      if (pos + phrase.length <= head) score += 4;
+      if (pos + phrase.length <= head) score += 5;
       best = Math.max(best, score);
     }
     if (best) scored.push([best, slug]);
@@ -203,7 +208,7 @@ export function matchLeaf(text: string): { slug: string; confidence: number } | 
   return { slug, confidence: Math.min(1, 0.6 + ((top - second) / top) * 0.5) };
 }
 
-function detectVariant(leaf: TaxonomyLeaf, text: string): string | null {
+export function detectVariant(leaf: TaxonomyLeaf, text: string): string | null {
   const ws = words(text);
   let best: [number, string] | null = null;
   for (const v of leaf.variants) {
@@ -213,7 +218,7 @@ function detectVariant(leaf: TaxonomyLeaf, text: string): string | null {
   return best?.[1] ?? null;
 }
 
-function parseNumber(token: string | undefined): number | null {
+export function parseNumber(token: string | undefined): number | null {
   if (!token) return null;
   const word = NUMBER_WORDS[token];
   if (word !== undefined) return word;
@@ -295,7 +300,7 @@ export function parseLine(raw: string): ParsedLine {
   const match = matchLeaf(label);
   const display = displayLabel(raw, label);
   const leaf = match ? (LEAF_BY_SLUG.get(match.slug) ?? null) : null;
-  const flags = FLAG_PATTERNS.filter(([, rx]) => rx.test(label)).map(([f]) => f);
+  const flags = detectFlags(label);
   return {
     raw,
     label: display,

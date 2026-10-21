@@ -101,6 +101,14 @@ class MatchResult:
         return None
 
 
+def own_traits(name: str, leaf: str) -> tuple[str, ...]:
+    """Rasgos diferenciadores del producto, sin los que ya forman parte de la hoja
+    ("Garbanzos cocidos" no se separa de sí misma por el rasgo "cocinado")."""
+    section = BY_SLUG[leaf].section
+    inherent = set(differentiators(BY_SLUG[leaf].name, section))
+    return tuple(t for t in differentiators(name, section) if t not in inherent)
+
+
 def generic_key(leaf: str) -> str:
     return f"g:{leaf}"
 
@@ -206,7 +214,7 @@ def match(
         result.links.append(Link(it.key, gk, "generic", c.confidence, c.source))
         if c.confidence < EQUIVALENT_CONFIDENCE[c.source]:
             continue
-        traits = differentiators(it.name, BY_SLUG[c.leaf].section)
+        traits = own_traits(it.name, c.leaf)
         ek = equivalent_key(c.leaf, c.variant, c.flags, traits)
         result.canonicals.setdefault(
             ek,
@@ -237,7 +245,7 @@ def match(
             fmt.unit,
             total,
             fmt.units_per_pack,
-            differentiators(it.name, BY_SLUG[c.leaf].section),
+            own_traits(it.name, c.leaf),
         )
         groups[gkey].append(it)
 

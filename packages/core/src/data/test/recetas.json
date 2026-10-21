@@ -1,0 +1,85 @@
+{
+  "descripcion": "Recetas de prueba escritas para el proyecto (no copiadas de ninguna fuente). Cada ingrediente lleva la hoja canónica correcta.",
+  "recetas": [
+    {
+      "texto": "Lentejas con verduras\nPara 4 personas · 50 minutos\n\nIngredientes:\n- 300 g de lentejas pardinas\n- 1 cebolla\n- 2 zanahorias\n- 1 pimiento verde\n- 2 dientes de ajo\n- 1 patata grande\n- 1 cucharadita de pimentón dulce\n- 1 hoja de laurel\n- 2 cucharadas de aceite de oliva virgen extra\n- 1 litro de caldo de verduras\n\nPreparación:\n1. Pica la cebolla, el ajo y el pimiento y rehógalos en el aceite.\n2. Añade la zanahoria y la patata en dados y el pimentón.\n3. Incorpora las lentejas, el laurel y el caldo y cuece 40 minutos.",
+      "raciones": 4,
+      "hojas": [
+        "lentejas-secas",
+        "cebolla",
+        "zanahoria",
+        "pimiento",
+        "ajo",
+        "patata",
+        "especias",
+        "especias",
+        "aceite-de-oliva",
+        "caldo"
+      ]
+    },
+    {
+      "texto": "Pollo al horno con patatas\nIngredientes (4 raciones):\n4 muslos de pollo\n800 g de patatas\n1 cebolla morada\n1 limón\n4 dientes de ajo\n100 ml de vino blanco\n3 cucharadas de aceite de oliva\n1 cucharadita de tomillo seco\nsal\npimienta negra molida\nElaboración:\nCorta las patatas en rodajas y colócalas en la bandeja con la cebolla.\nPon encima el pollo, el ajo, el limón, el vino y las especias y hornea a 200 grados durante 60 minutos.",
+      "raciones": 4,
+      "hojas": [
+        "muslos-y-contramuslos-de-pollo",
+        "patata",
+        "cebolla",
+        "limon",
+        "ajo",
+        "vino-blanco",
+        "aceite-de-oliva",
+        "especias",
+        "sal",
+        "pimienta"
+      ]
+    },
+    {
+      "texto": "Macarrones con tomate y atún\nPara 3 personas\nIngredientes\n- 300 g de macarrones\n- 1 lata de tomate triturado (400 g)\n- 2 latas de atún en aceite de oliva\n- 1 cebolla\n- 1 diente de ajo\n- 100 g de queso rallado\n- 1 cucharadita de orégano\n- 2 cucharadas de aceite de oliva\n- 1 cucharadita de azúcar\n- sal al gusto\nPreparación\nCuece la pasta. Sofríe la cebolla y el ajo, añade el tomate y el azúcar y deja reducir. Mezcla con el atún y la pasta y gratina con el queso.",
+      "raciones": 3,
+      "hojas": [
+        "macarrones",
+        "tomate-triturado",
+        "atun-en-conserva",
+        "cebolla",
+        "ajo",
+        "queso-rallado",
+        "especias",
+        "aceite-de-oliva",
+        "azucar",
+        "sal"
+      ]
+    },
+    {
+      "texto": "Tortilla de patatas con calabacín\nIngredientes:\n6 huevos\n500 g de patatas\n1 calabacín\n1 cebolla\n200 ml de aceite de oliva suave\nsal\n1 pimiento rojo\n50 g de queso tierno\n1 puñado de perejil fresco\n1 pizca de pimienta\nPreparación:\nFríe las patatas, la cebolla y el calabacín a fuego lento. Bate los huevos, mezcla y cuaja la tortilla por ambos lados.",
+      "raciones": 4,
+      "hojas": [
+        "huevos",
+        "patata",
+        "calabacin",
+        "cebolla",
+        "aceite-de-oliva",
+        "sal",
+        "pimiento",
+        "queso-tierno",
+        "hierbas-aromaticas-frescas",
+        "pimienta"
+      ]
+    },
+    {
+      "texto": "Garbanzos con espinacas\nPara 4 personas, 30 minutos\nIngredientes:\n- 2 botes de garbanzos cocidos (400 g)\n- 300 g de espinacas frescas\n- 2 dientes de ajo\n- 1 rebanada de pan de molde\n- 1 cucharadita de comino molido\n- 1 cucharadita de pimentón\n- 3 cucharadas de aceite de oliva\n- 1 cucharada de vinagre de jerez\n- 200 ml de caldo de pollo\n- 2 huevos\nPreparación:\nFríe el ajo y el pan y májalos con las especias y el vinagre. Rehoga las espinacas, añade los garbanzos, el majado y el caldo y cuece diez minutos. Sirve con huevo cocido.",
+      "raciones": 4,
+      "hojas": [
+        "garbanzos-cocidos",
+        "espinacas",
+        "ajo",
+        "pan-de-molde",
+        "especias",
+        "especias",
+        "aceite-de-oliva",
+        "vinagre",
+        "caldo",
+        "huevos"
+      ]
+    }
+  ]
+}

@@ -241,6 +241,24 @@ KEYWORDS: dict[str, tuple[str, ...]] = {
         "guisantes al natural",
         "guisante al natural",
     ),
+    "especias": (
+        "especias",
+        "pimenton",
+        "comino",
+        "oregano",
+        "canela",
+        "curry",
+        "curcuma",
+        "laurel",
+        "tomillo",
+        "romero",
+        "nuez moscada",
+        "ajo en polvo",
+        "perejil seco",
+        "azafran",
+        "colorante alimentario",
+        "hierbas provenzales",
+    ),
     "pastillas-de-caldo": (
         "pastillas de caldo",
         "caldo en pastillas",
@@ -460,7 +478,7 @@ def classify(name: str, category_path: str = "", brand: str | None = None) -> Cl
             # Más palabras coincidentes, dentro del núcleo y cerca del principio.
             score = 3.0 * len(phrase) + max(0.0, 3.0 - 1.0 * pos)
             if pos + len(phrase) <= head:
-                score += 4.0
+                score += 5.0
             if score > best:
                 best = score
                 matched[slug] = phrase

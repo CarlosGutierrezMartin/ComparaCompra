@@ -14,6 +14,8 @@ declare const self: ServiceWorkerGlobalScope;
 const serwist = new Serwist({
   // Armazón de la app: rutas, CSS, JS e iconos precargados en la instalación.
   precacheEntries: self.__SW_MANIFEST,
+  // "/platos/plato?id=…" usa la página precargada "/platos/plato"; los datos están en el móvil.
+  precacheOptions: { ignoreURLParametersMatching: [/^utm_/, /^fbclid$/, /^id$/, /^add$/] },
   skipWaiting: true,
   clientsClaim: true,
   navigationPreload: true,

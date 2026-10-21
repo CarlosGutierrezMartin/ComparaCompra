@@ -34,10 +34,11 @@ jobs:
       postgres:
         image: pgvector/pgvector:pg17
         env:
+          # Base desechable del runner, solo accesible desde el propio job: sin contraseña.
           POSTGRES_HOST_AUTH_METHOD: trust
         ports: ["5432:5432"]
         options: >-
-          --health-cmd pg_isready --health-interval 5s --health-timeout 5s --health-retries 10
+          --health-cmd "pg_isready -U postgres" --health-interval 5s --health-timeout 5s --health-retries 10
     env:
       TEST_ADMIN_DATABASE_URL: postgresql://postgres@localhost:5432/postgres
     defaults:
@@ -69,10 +70,11 @@ jobs:
       postgres:
         image: pgvector/pgvector:pg17
         env:
+          # Base desechable del runner, solo accesible desde el propio job: sin contraseña.
           POSTGRES_HOST_AUTH_METHOD: trust
         ports: ["5432:5432"]
         options: >-
-          --health-cmd pg_isready --health-interval 5s --health-timeout 5s --health-retries 10
+          --health-cmd "pg_isready -U postgres" --health-interval 5s --health-timeout 5s --health-retries 10
     env:
       DATABASE_URL: postgresql://postgres@localhost:5432/postgres
       SUPABASE_DB_URL: postgresql://postgres@localhost:5432/postgres

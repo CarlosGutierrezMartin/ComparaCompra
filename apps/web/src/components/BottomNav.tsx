@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { t } from "@/i18n/es";
+import { useOnline } from "@/lib/useOnline";
 
 const TABS = [
   { href: "/lista", label: t.nav.lista, icon: "M4 6h16M4 12h16M4 18h10" },
@@ -22,6 +23,7 @@ const TABS = [
 
 export function BottomNav() {
   const pathname = usePathname();
+  const online = useOnline();
   return (
     <nav
       aria-label="Secciones"
@@ -34,6 +36,15 @@ export function BottomNav() {
             <li key={tab.href}>
               <Link
                 href={tab.href}
+                // Sin conexión el router de Next no puede pedir los datos de la página y su
+                // vuelta a la navegación normal compite con otras navegaciones: se navega
+                // directamente y el service worker sirve la página guardada.
+                prefetch={online ? undefined : false}
+                onClick={(e) => {
+                  if (navigator.onLine) return;
+                  e.preventDefault();
+                  window.location.assign(tab.href);
+                }}
                 aria-current={active ? "page" : undefined}
                 className={`tap flex flex-col items-center justify-center gap-0.5 py-2 text-xs ${
                   active ? "font-semibold text-brand" : "text-muted"

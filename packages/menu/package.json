@@ -4,7 +4,10 @@
   "private": true,
   "type": "module",
   "exports": {
-    ".": "./src/index.ts"
+    ".": "./src/index.ts",
+    "./recetario": "./src/recetario.ts",
+    "./tolist": "./src/tolist.ts",
+    "./types": "./src/types.ts"
   },
   "scripts": {
     "lint": "eslint src",
@@ -19,6 +22,7 @@
     "vitest": "5.0.5"
   },
   "dependencies": {
-    "@comparacompra/core": "workspace:*"
+    "@comparacompra/core": "workspace:*",
+    "highs": "1.15.3"
   }
 }

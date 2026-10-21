@@ -1,5 +1,20 @@
 import { expect, test, type Page } from "@playwright/test";
 
+// Registro de los eventos de conexión de cada página: si una navegación sin conexión acaba
+// en otra página, la salida de la prueba dice qué evento llegó y cuándo.
+test.beforeEach(async ({ page }) => {
+  await page.addInitScript(() => {
+    for (const type of ["online", "offline"]) {
+      window.addEventListener(type, () =>
+        console.log(`[conexión] ${type} en ${location.pathname}`),
+      );
+    }
+  });
+  page.on("console", (msg) => {
+    if (msg.text().startsWith("[conexión]")) console.log(msg.text());
+  });
+});
+
 /** Rutas relativas a la base (/ComparaCompra/); el export estático usa barra final. */
 async function onboard(page: Page) {
   await page.goto("bienvenida/");

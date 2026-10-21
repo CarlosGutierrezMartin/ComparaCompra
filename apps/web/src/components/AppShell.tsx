@@ -46,6 +46,10 @@ export function AppShell({ children }: { children: ReactNode }) {
       // a la raíz de la web para que su alcance la cubra entera.
       swUrl={DEMO ? withBase("/sw.js") : "/serwist/sw.js"}
       options={SW_OPTIONS}
+      // Sin recarga al volver la conexión: borraría lo que se está escribiendo y, en Chromium
+      // reciente, cancelaba la navegación en curso volviendo a la página anterior. Los
+      // cambios ya se envían solos al volver la conexión (lib/sync.ts).
+      reloadOnOnline={false}
       disable={process.env.NODE_ENV !== "production"}
     >
       <OfflineBanner />

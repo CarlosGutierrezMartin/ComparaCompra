@@ -133,8 +133,8 @@ export class SupabaseRemote implements Remote {
           p_members: h.members,
           p_weekly_budget: h.weeklyBudget,
           p_chain_ids: chainIds,
-          p_diet: h.diet,
-          p_allergens: h.allergens,
+          p_diet: h.syncHealthData ? h.diet : [],
+          p_allergens: h.syncHealthData ? h.allergens : [],
         });
         if (error) throw new Error(error.message);
         remoteId = data as string;
@@ -157,7 +157,13 @@ export class SupabaseRemote implements Remote {
     if (userId) {
       const { error: pe } = await this.sb
         .from("profile")
-        .update({ diet: h.diet, allergens: h.allergens, disliked: h.disliked })
+        // Sin consentimiento explícito, las dietas y alergias no salen del móvil (y se borran
+        // del servidor si se retira).
+        .update({
+          diet: h.syncHealthData ? h.diet : [],
+          allergens: h.syncHealthData ? h.allergens : [],
+          disliked: h.disliked,
+        })
         .eq("user_id", userId);
       if (pe) throw new Error(pe.message);
     }

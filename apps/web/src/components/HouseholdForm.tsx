@@ -14,6 +14,7 @@ const EMPTY: HouseholdInput = {
   diet: [],
   allergens: [],
   disliked: [],
+  syncHealthData: false,
 };
 
 function toggle(list: string[], value: string): string[] {
@@ -29,7 +30,9 @@ export function HouseholdForm({
   submitLabel: string;
   onSubmit: (value: HouseholdInput) => Promise<void> | void;
 }) {
-  const [value, setValue] = useState<HouseholdInput>(initial ?? EMPTY);
+  const [value, setValue] = useState<HouseholdInput>(
+    initial ? { ...initial, syncHealthData: initial.syncHealthData ?? false } : EMPTY,
+  );
   const [budgetText, setBudgetText] = useState(
     initial?.weeklyBudget != null ? String(initial.weeklyBudget).replace(".", ",") : "",
   );
@@ -168,6 +171,16 @@ export function HouseholdForm({
           ))}
         </div>
       </fieldset>
+
+      <label className="tap flex items-start gap-3 text-sm">
+        <input
+          type="checkbox"
+          className="mt-0.5 h-5 w-5 shrink-0"
+          checked={value.syncHealthData}
+          onChange={(e) => setValue({ ...value, syncHealthData: e.target.checked })}
+        />
+        <span>{t.onboarding.healthConsent}</span>
+      </label>
 
       <Button type="submit" disabled={busy}>
         {submitLabel}

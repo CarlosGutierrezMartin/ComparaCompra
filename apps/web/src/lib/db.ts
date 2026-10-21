@@ -25,6 +25,11 @@ export interface HouseholdLocal {
   diet: string[];
   allergens: string[];
   disliked: string[];
+  /**
+   * Consentimiento explícito para guardar dietas y alergias (datos de salud, art. 9 RGPD)
+   * en la cuenta. Sin él se quedan solo en el móvil.
+   */
+  syncHealthData: boolean;
   /** id del hogar en el servidor, cuando hay cuenta. */
   remoteId: string | null;
   updatedAt: string;

@@ -11,6 +11,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from .classify_rules import KEYWORDS
 from .taxonomy import LEAVES, SECTIONS, diets_excluded, slugify
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -82,6 +83,8 @@ def as_json() -> dict:
                 "unit": leaf.unit,
                 "variants": list(leaf.variants),
                 "aliases": list(leaf.aliases),
+                # Mismas palabras clave que el clasificador de productos (classify_rules.py).
+                "keywords": list(KEYWORDS.get(leaf.slug) or (leaf.name.lower(), *leaf.aliases)),
                 "allergens": list(leaf.allergens),
                 "notFor": list(diets_excluded(leaf)),
             }

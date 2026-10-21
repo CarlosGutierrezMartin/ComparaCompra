@@ -79,6 +79,7 @@ KEYWORDS: dict[str, tuple[str, ...]] = {
         "filete de pechuga",
         "pechuga entera",
         "pechuga fileteada",
+        "pechuga",
     ),
     "muslos-y-contramuslos-de-pollo": ("muslo de pollo", "contramuslo"),
     "alitas-de-pollo": ("alita",),
@@ -446,6 +447,7 @@ def classify(name: str, category_path: str = "", brand: str | None = None) -> Cl
             words = words[len(brand_words) :]
     head = _head_length(words)
     scored: list[tuple[float, str]] = []
+    matched: dict[str, list[str]] = {}
     for slug, phrases in _PHRASES.items():
         best = 0.0
         for phrase in phrases:
@@ -459,7 +461,9 @@ def classify(name: str, category_path: str = "", brand: str | None = None) -> Cl
             score = 3.0 * len(phrase) + max(0.0, 3.0 - 1.0 * pos)
             if pos + len(phrase) <= head:
                 score += 4.0
-            best = max(best, score)
+            if score > best:
+                best = score
+                matched[slug] = phrase
         if best:
             leaf = BY_SLUG[slug]
             best += 2.0 * _section_score(leaf.section, category_path, slug)
@@ -471,6 +475,15 @@ def classify(name: str, category_path: str = "", brand: str | None = None) -> Cl
     second = scored[1][0] if len(scored) > 1 else 0.0
     leaf = BY_SLUG[top]
     margin = (top_score - second) / top_score
+    if len(scored) > 1:
+        top_phrase, second_phrase = matched.get(top, []), matched.get(scored[1][1], [])
+        if (
+            second_phrase
+            and len(top_phrase) > len(second_phrase)
+            and set(second_phrase) <= set(top_phrase)
+        ):
+            # "garbanzo cocido" contiene a "garbanzo": la frase más específica no deja dudas.
+            margin = 1.0
     section_ok = _section_score(leaf.section, category_path, top) > 0 or not category_path
     confidence = min(1.0, 0.55 + margin * 0.6 + (0.15 if section_ok else -0.2))
     if not section_ok and _other_section(leaf.section, category_path):

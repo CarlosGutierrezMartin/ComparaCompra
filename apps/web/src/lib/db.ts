@@ -35,11 +35,19 @@ export interface ListItemLocal {
   id: string;
   listId: string;
   rawText: string;
+  /** Texto del producto sin cantidades. */
+  label: string;
+  /** Canónico idéntico elegido ("este producto exactamente"). */
   canonicalId: number | null;
   canonicalName: string | null;
   leafSlug: string | null;
+  variant: string | null;
+  flags: string[];
   quantity: number | null;
   unit: BaseUnit | null;
+  packs: number | null;
+  people: number | null;
+  estimated: boolean;
   level: EquivalenceLevel;
   preferredBrand: string | null;
   checked: boolean;

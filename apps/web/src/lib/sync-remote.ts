@@ -207,6 +207,7 @@ export class SupabaseRemote implements Remote {
       budget: p.budget ?? null,
       people: p.people,
       optimized_for: p.optimizedFor,
+      summary: p.summary ? { ...(p.summary as Record<string, unknown>), recipes: undefined } : null,
     });
     if (error) throw new Error(error.message);
     const { error: de } = await this.sb.from("meal_plan_slot").delete().eq("meal_plan_id", id);
@@ -218,7 +219,11 @@ export class SupabaseRemote implements Remote {
           meal_plan_id: id,
           day: s.day,
           meal: s.meal,
-          recipe_id: s.recipeId ?? null,
+          // Los platos del recetario base no tienen fila en recipe: se guardan por referencia.
+          recipe_id:
+            typeof s.recipeId === "string" && !s.recipeId.startsWith("base:") ? s.recipeId : null,
+          recipe_ref:
+            typeof s.recipeId === "string" && s.recipeId.startsWith("base:") ? s.recipeId : null,
           servings: s.servings,
           locked: Boolean(s.locked),
         })),

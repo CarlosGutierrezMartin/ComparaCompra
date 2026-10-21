@@ -1,0 +1,28 @@
+{
+  "name": "@comparacompra/menu",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./recetario": "./src/recetario.ts",
+    "./tolist": "./src/tolist.ts",
+    "./types": "./src/types.ts"
+  },
+  "scripts": {
+    "lint": "eslint src",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "eslint": "^9.39.5",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.72.0",
+    "vitest": "5.0.5"
+  },
+  "dependencies": {
+    "@comparacompra/core": "workspace:*",
+    "highs": "1.15.3"
+  }
+}

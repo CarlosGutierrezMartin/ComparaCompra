@@ -1,0 +1,37 @@
+name: Captura diaria de precios
+
+# Desactivada hasta que el propietario la active: la ejecución programada solo corre si la
+# variable del repositorio INGEST_ENABLED vale "true" (Settings > Secrets and variables >
+# Actions > Variables). Siempre se puede lanzar a mano con "Run workflow".
+on:
+  schedule:
+    - cron: "17 4 * * *" # 04:17 UTC, franja de poca carga
+  workflow_dispatch:
+    inputs:
+      chain:
+        description: "Cadena (mercadona, carrefour, dia, alcampo o all)"
+        default: all
+        required: true
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+jobs:
+  capture:
+    if: github.event_name == 'workflow_dispatch' || vars.INGEST_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    defaults:
+      run:
+        working-directory: ingest
+    env:
+      SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+      INGEST_USER_AGENT: ${{ vars.INGEST_USER_AGENT }}
+      INGEST_RPM_DEFAULT: ${{ vars.INGEST_RPM_DEFAULT || '20' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --locked
+      # Falla (y GitHub avisa por correo) si alguna cadena acaba en alerta, bloqueo o error.
+      - run: uv run python cli.py run --chain "${{ inputs.chain || 'all' }}" | tee -a "$GITHUB_STEP_SUMMARY"

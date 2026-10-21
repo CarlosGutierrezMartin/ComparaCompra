@@ -1,0 +1,2206 @@
+{
+ "source": "tests/fixtures/sample (Dia y Alcampo, 20/10/2026)",
+ "criterio": "El precio por unidad calculado del formato coincide (±2 %) con el que publica la cadena",
+ "cases": [
+  {
+   "chain": "alcampo",
+   "name": "ALCAMPO CULTIVAMOS LO BUENO Huevos de gallinas camperas clase L y cat. A 12 uds",
+   "price": "4.61",
+   "published_unit_price": "0.3841666666666666666666666667",
+   "expected": {
+    "quantity": "12",
+    "unit": "unit",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "ALCAMPO CULTIVAMOS LO BUENO Huevos de gallinas camperas clase L y cat. A 6 uds",
+   "price": "2.82",
+   "published_unit_price": "0.47",
+   "expected": {
+    "quantity": "6",
+    "unit": "unit",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "ALCAMPO CULTIVAMOS LO BUENO Leche de vaca desnatada, de origen española 6x1 l",
+   "price": "5.94",
+   "published_unit_price": "0.99",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "ALCAMPO CULTIVAMOS LO BUENO Leche de vaca entera, de origen española 6x1 l",
+   "price": "6.54",
+   "published_unit_price": "1.09",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "ALCAMPO CULTIVAMOS LO BUENO Leche de vaca semidesnatada, de origen española 6x1 l",
+   "price": "6.18",
+   "published_unit_price": "1.03",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "ALCAMPO ECOLÓGICO Arroz redondo categ. extra bio 1 kg",
+   "price": "3.69",
+   "published_unit_price": "3.69",
+   "expected": {
+    "quantity": "1000",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "ALCAMPO ECOLÓGICO Arroz redondo integral bio 1 kg",
+   "price": "3.69",
+   "published_unit_price": "3.69",
+   "expected": {
+    "quantity": "1000",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "ALTA COCINA Guisantes de calidad extra 3 uds x 95 g",
+   "price": "2.61",
+   "published_unit_price": "9.16",
+   "expected": {
+    "quantity": "95",
+    "unit": "g",
+    "units_per_pack": 3
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "ANETO Caldo de pollo natural Pack 2 x 330 ml",
+   "price": "3.44",
+   "published_unit_price": "5.21",
+   "expected": {
+    "quantity": "330",
+    "unit": "ml",
+    "units_per_pack": 2
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "ANETO Caldo de verduras pack 2 uds. x 1 l",
+   "price": "7.78",
+   "published_unit_price": "3.89",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 2
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "AUCHAN Huevos de gallinas sueltas en el gallinero clase L - XL y cat. A 12 uds. Producto Alcampo",
+   "price": "4.39",
+   "published_unit_price": "0.3658333333333333333333333333",
+   "expected": {
+    "quantity": "12",
+    "unit": "unit",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "AUCHAN Huevos de gallinas sueltas en el gallinero clase L - XL y cat. A 6 uds. Producto Alcampo",
+   "price": "3.14",
+   "published_unit_price": "0.5233333333333333333333333333",
+   "expected": {
+    "quantity": "6",
+    "unit": "unit",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "AUCHAN Huevos de gallinas sueltas en el gallinero clase L y cat. A 12 uds Producto Alcampo",
+   "price": "3.05",
+   "published_unit_price": "0.2541666666666666666666666667",
+   "expected": {
+    "quantity": "12",
+    "unit": "unit",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "AUCHAN Huevos de gallinas sueltas en el gallinero clase L y cat. A 12 uds Producto Alcampo",
+   "price": "3.20",
+   "published_unit_price": "0.2666666666666666666666666667",
+   "expected": {
+    "quantity": "12",
+    "unit": "unit",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "AUCHAN Huevos de gallinas sueltas en el gallinero clase L y cat. A 6 uds. Producto Alcampo",
+   "price": "1.81",
+   "published_unit_price": "0.3016666666666666666666666667",
+   "expected": {
+    "quantity": "6",
+    "unit": "unit",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "AUCHAN Huevos de gallinas sueltas en el gallinero clase M y cat. A 12 uds. Producto Alcampo",
+   "price": "2.99",
+   "published_unit_price": "0.2491666666666666666666666667",
+   "expected": {
+    "quantity": "12",
+    "unit": "unit",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "AUCHAN Huevos de gallinas sueltas en el gallinero clase M y cat. A 30 uds. Producto Alcampo",
+   "price": "7.12",
+   "published_unit_price": "0.2375",
+   "expected": {
+    "quantity": "30",
+    "unit": "unit",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "AUCHAN Huevos de gallinas sueltas en el gallinero clase M y categoría A 12 uds. Producto Alcampo",
+   "price": "2.99",
+   "published_unit_price": "0.2491666666666666666666666667",
+   "expected": {
+    "quantity": "12",
+    "unit": "unit",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "AUCHAN Leche de vaca desnatada 6 x 1,5 l Producto Alcampo",
+   "price": "8.52",
+   "published_unit_price": "0.95",
+   "expected": {
+    "quantity": "1500",
+    "unit": "ml",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "AUCHAN Leche de vaca entera 6 x 1,5 l Producto Alcampo",
+   "price": "9.36",
+   "published_unit_price": "1.04",
+   "expected": {
+    "quantity": "1500",
+    "unit": "ml",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "AUCHAN Leche de vaca semidesnatada 6 x 1,5 l Producto Alcampo",
+   "price": "8.70",
+   "published_unit_price": "0.97",
+   "expected": {
+    "quantity": "1500",
+    "unit": "ml",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "AUCHAN Leche desnatada de vaca 6x 1 l Producto Alcampo",
+   "price": "5.16",
+   "published_unit_price": "0.86",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "AUCHAN Leche entera de vaca 6 x 1 l Producto Alcampo",
+   "price": "5.76",
+   "published_unit_price": "0.96",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "AUCHAN Leche mini entera 6 x 200 ml Producto Alcampo",
+   "price": "1.71",
+   "published_unit_price": "1.42",
+   "expected": {
+    "quantity": "200",
+    "unit": "ml",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "AUCHAN Leche mini semidesnatada 6 x 200 ml Producto Alcampo",
+   "price": "1.64",
+   "published_unit_price": "1.37",
+   "expected": {
+    "quantity": "200",
+    "unit": "ml",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "AUCHAN Leche semidesnatada de vaca 6 x 1l Producto Alcampo",
+   "price": "5.28",
+   "published_unit_price": "0.88",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "AUCHAN Queso rallado Emmental 70 g. pack de 3 uds. Producto Alcampo",
+   "price": "2.72",
+   "published_unit_price": "12.95",
+   "expected": {
+    "quantity": "70",
+    "unit": "g",
+    "units_per_pack": 3
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "AUCHAN Yogur natural azucarado 8 x 125 g. Producto Alcampo",
+   "price": "1.40",
+   "published_unit_price": "1.40",
+   "expected": {
+    "quantity": "125",
+    "unit": "g",
+    "units_per_pack": 8
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "AVECREM Pastillas de caldo de pollo 24 uds. 240 g",
+   "price": "2.93",
+   "published_unit_price": "12.21",
+   "expected": {
+    "quantity": "10",
+    "unit": "g",
+    "units_per_pack": 24
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "AVECREM Pastillas de caldo vegetal 8 uds. 80 g",
+   "price": "0.97",
+   "published_unit_price": "12.13",
+   "expected": {
+    "quantity": "10",
+    "unit": "g",
+    "units_per_pack": 8
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Alubias blancas Dia Vegecampo 1 Kg",
+   "price": "2.45",
+   "published_unit_price": "2.4500",
+   "expected": {
+    "quantity": "1000",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Alubias blancas Luengo 1 Kg",
+   "price": "4.08",
+   "published_unit_price": "4.08",
+   "expected": {
+    "quantity": "1000",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Alubias moradas Luengo 1 Kg",
+   "price": "4.65",
+   "published_unit_price": "4.6500",
+   "expected": {
+    "quantity": "1000",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Alubias pintas Dia Vegecampo 1 Kg",
+   "price": "2.3",
+   "published_unit_price": "2.3000",
+   "expected": {
+    "quantity": "1000",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Arroz basmati Dia Selección Mundial 1 Kg",
+   "price": "2.1",
+   "published_unit_price": "2.10",
+   "expected": {
+    "quantity": "1000",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Arroz basmati Tilda 1 Kg",
+   "price": "3.59",
+   "published_unit_price": "3.59",
+   "expected": {
+    "quantity": "1000",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Arroz bomba La fallera 1 Kg",
+   "price": "4.71",
+   "published_unit_price": "4.71",
+   "expected": {
+    "quantity": "1000",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Arroz extra Dia Arrozona 1 Kg",
+   "price": "1.15",
+   "published_unit_price": "1.15",
+   "expected": {
+    "quantity": "1000",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Arroz integral Dia Arrozona 1 Kg",
+   "price": "1.65",
+   "published_unit_price": "1.6500",
+   "expected": {
+    "quantity": "1000",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Arroz integral SOS 1 Kg",
+   "price": "2.09",
+   "published_unit_price": "2.09",
+   "expected": {
+    "quantity": "1000",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Arroz largo Dia Arrozona 1 Kg",
+   "price": "1.2",
+   "published_unit_price": "1.20",
+   "expected": {
+    "quantity": "1000",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Arroz redondo D.O.P. Calasparra 1 Kg",
+   "price": "3.15",
+   "published_unit_price": "3.15",
+   "expected": {
+    "quantity": "1000",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Arroz redondo J.Sendra Dia Arrozona 1 Kg",
+   "price": "1.6",
+   "published_unit_price": "1.60",
+   "expected": {
+    "quantity": "1000",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Arroz redondo SOS 1 Kg",
+   "price": "1.88",
+   "published_unit_price": "1.88",
+   "expected": {
+    "quantity": "1000",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Arroz redondo Sabroz Brillante 1 Kg",
+   "price": "2.79",
+   "published_unit_price": "2.7900",
+   "expected": {
+    "quantity": "1000",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Arroz risotto Dia Selección Mundial 1 Kg",
+   "price": "2.95",
+   "published_unit_price": "2.95",
+   "expected": {
+    "quantity": "1000",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Arroz vaporizado Brillante 1 Kg",
+   "price": "1.99",
+   "published_unit_price": "1.9900",
+   "expected": {
+    "quantity": "1000",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Arroz vaporizado Dia Arrozona 1 Kg",
+   "price": "1.55",
+   "published_unit_price": "1.55",
+   "expected": {
+    "quantity": "1000",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún al natural Dia Mari Marinera 3 x 56 g",
+   "price": "1.96",
+   "published_unit_price": "11.67",
+   "expected": {
+    "quantity": "56",
+    "unit": "g",
+    "units_per_pack": 3
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún claro al natural Calvo 3 x 56 g",
+   "price": "3.41",
+   "published_unit_price": "20.30",
+   "expected": {
+    "quantity": "56",
+    "unit": "g",
+    "units_per_pack": 3
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún claro al natural Dia Mari Marinera 6 x 60 g",
+   "price": "4.2",
+   "published_unit_price": "11.67",
+   "expected": {
+    "quantity": "60",
+    "unit": "g",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún claro al natural alto en proteínas Dia Mari Marinera 2 x 56 g",
+   "price": "1.95",
+   "published_unit_price": "17.4107",
+   "expected": {
+    "quantity": "56",
+    "unit": "g",
+    "units_per_pack": 2
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún claro en aceite de girasol Albo 3 x 48 g",
+   "price": "3.49",
+   "published_unit_price": "24.2361",
+   "expected": {
+    "quantity": "48",
+    "unit": "g",
+    "units_per_pack": 3
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún claro en aceite de girasol Calvo 2 x 52 g",
+   "price": "1.5",
+   "published_unit_price": "14.4231",
+   "expected": {
+    "quantity": "52",
+    "unit": "g",
+    "units_per_pack": 2
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún claro en aceite de girasol Calvo 3 x 52 g",
+   "price": "3.49",
+   "published_unit_price": "22.37",
+   "expected": {
+    "quantity": "52",
+    "unit": "g",
+    "units_per_pack": 3
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún claro en aceite de oliva Albo 3 x 48 g",
+   "price": "4.85",
+   "published_unit_price": "33.6806",
+   "expected": {
+    "quantity": "48",
+    "unit": "g",
+    "units_per_pack": 3
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún claro en aceite de oliva Calvo 2 x 52 g",
+   "price": "1.75",
+   "published_unit_price": "16.83",
+   "expected": {
+    "quantity": "52",
+    "unit": "g",
+    "units_per_pack": 2
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún claro en aceite de oliva Calvo 3 x 52 g",
+   "price": "4.29",
+   "published_unit_price": "27.5000",
+   "expected": {
+    "quantity": "52",
+    "unit": "g",
+    "units_per_pack": 3
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún claro en aceite de oliva Calvo 6 x 52 g",
+   "price": "8.24",
+   "published_unit_price": "26.41",
+   "expected": {
+    "quantity": "52",
+    "unit": "g",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún claro en aceite de oliva Dia Mari Marinera 3 x 60 g",
+   "price": "2.95",
+   "published_unit_price": "16.39",
+   "expected": {
+    "quantity": "60",
+    "unit": "g",
+    "units_per_pack": 3
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún claro en aceite de oliva Dia Mari Marinera 6 x 60 g",
+   "price": "4.9",
+   "published_unit_price": "13.61",
+   "expected": {
+    "quantity": "60",
+    "unit": "g",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún claro en aceite de oliva bajo en sal Calvo 3 x 52 g",
+   "price": "4.67",
+   "published_unit_price": "29.94",
+   "expected": {
+    "quantity": "52",
+    "unit": "g",
+    "units_per_pack": 3
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún claro en aceite de oliva bajo en sal Dia Mari Marinera 3 x 60 g",
+   "price": "2.99",
+   "published_unit_price": "16.6111",
+   "expected": {
+    "quantity": "60",
+    "unit": "g",
+    "units_per_pack": 3
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún claro en aceite de oliva ligero Calvo 3 x 56 g",
+   "price": "4.67",
+   "published_unit_price": "27.80",
+   "expected": {
+    "quantity": "56",
+    "unit": "g",
+    "units_per_pack": 3
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún claro en escabeche Dia Mari Marinera 6 x 60 g",
+   "price": "4.6",
+   "published_unit_price": "12.7778",
+   "expected": {
+    "quantity": "60",
+    "unit": "g",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún con tomate Isabel 3 x 52 g",
+   "price": "3.19",
+   "published_unit_price": "20.4487",
+   "expected": {
+    "quantity": "52",
+    "unit": "g",
+    "units_per_pack": 3
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún en aceite de girasol Dia Mari Marinera 3 x 52 g",
+   "price": "2.19",
+   "published_unit_price": "14.0385",
+   "expected": {
+    "quantity": "52",
+    "unit": "g",
+    "units_per_pack": 3
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún en aceite de girasol Dia Mari Marinera 6 x 52 g",
+   "price": "3.64",
+   "published_unit_price": "11.67",
+   "expected": {
+    "quantity": "52",
+    "unit": "g",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún en aceite de girasol Isabel 6 x 52 g",
+   "price": "5.95",
+   "published_unit_price": "19.0705",
+   "expected": {
+    "quantity": "52",
+    "unit": "g",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún en aceite de oliva Calvo 3 x 52 g",
+   "price": "4.1",
+   "published_unit_price": "26.28",
+   "expected": {
+    "quantity": "52",
+    "unit": "g",
+    "units_per_pack": 3
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún en aceite de oliva Dia Mari Marinera 3 x 52 g",
+   "price": "2.45",
+   "published_unit_price": "15.71",
+   "expected": {
+    "quantity": "52",
+    "unit": "g",
+    "units_per_pack": 3
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún en aceite de oliva Dia Mari Marinera 6 x 52 g",
+   "price": "4.25",
+   "published_unit_price": "13.62",
+   "expected": {
+    "quantity": "52",
+    "unit": "g",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún en aceite girasol Isabel 3 x 52 g",
+   "price": "3.29",
+   "published_unit_price": "21.09",
+   "expected": {
+    "quantity": "52",
+    "unit": "g",
+    "units_per_pack": 3
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún en salsa de tomate Dia Mari Marinera 3 x 52 g",
+   "price": "2.1",
+   "published_unit_price": "13.4615",
+   "expected": {
+    "quantity": "52",
+    "unit": "g",
+    "units_per_pack": 3
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Avecrem Gallina Blanca 24 unidades",
+   "price": "2.95",
+   "published_unit_price": "0.12",
+   "expected": {
+    "quantity": "24",
+    "unit": "unit",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Avecrem Gallina Blanca 8 unidades",
+   "price": "1",
+   "published_unit_price": "0.1250",
+   "expected": {
+    "quantity": "8",
+    "unit": "unit",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Avecrem bajo en sal Gallina Blanca 10 unidades",
+   "price": "1.73",
+   "published_unit_price": "0.17",
+   "expected": {
+    "quantity": "10",
+    "unit": "unit",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "BONDUELLE Guisantes Un Toque de pack 3 uds. x 65 g",
+   "price": "2.86",
+   "published_unit_price": "14.67",
+   "expected": {
+    "quantity": "65",
+    "unit": "g",
+    "units_per_pack": 3
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "BONDUELLE Guisantes al natural muy finos pack 3 uds. 140 g",
+   "price": "3.68",
+   "published_unit_price": "8.76",
+   "expected": {
+    "quantity": "140",
+    "unit": "g",
+    "units_per_pack": 3
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "BONDUELLE Maíz dulce sin azúcares añadidos pack 3 uds X 140 g",
+   "price": "3.64",
+   "published_unit_price": "8.67",
+   "expected": {
+    "quantity": "140",
+    "unit": "g",
+    "units_per_pack": 3
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "BONDUELLE Maíz dulce sin azúcares añadidos pack 6 uds. x 140 g",
+   "price": "6.55",
+   "published_unit_price": "7.80",
+   "expected": {
+    "quantity": "140",
+    "unit": "g",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "BRILLANTE Arroz al curry verde en tarrina 2 X 125 g",
+   "price": "1.93",
+   "published_unit_price": "7.72",
+   "expected": {
+    "quantity": "125",
+    "unit": "g",
+    "units_per_pack": 2
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "BRILLANTE Arroz basmati en tarrina paquete de 2 uds x 125 g",
+   "price": "1.29",
+   "published_unit_price": "5.16",
+   "expected": {
+    "quantity": "125",
+    "unit": "g",
+    "units_per_pack": 2
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "BRILLANTE Arroz integral con chia en tarrina 2 x 125 gr",
+   "price": "1.64",
+   "published_unit_price": "6.56",
+   "expected": {
+    "quantity": "125",
+    "unit": "g",
+    "units_per_pack": 2
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "BRILLANTE Arroz integral en tarrina paquete de 2 uds x 125 g",
+   "price": "1.20",
+   "published_unit_price": "4.80",
+   "expected": {
+    "quantity": "125",
+    "unit": "g",
+    "units_per_pack": 2
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "BRILLANTE Arroz integral en tarrina paquete de 2 uds x 125 g",
+   "price": "1.51",
+   "published_unit_price": "6.04",
+   "expected": {
+    "quantity": "125",
+    "unit": "g",
+    "units_per_pack": 2
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "BRILLANTE Arroz largo en tarrina paquete 2 uds x 200 g",
+   "price": "2.09",
+   "published_unit_price": "5.23",
+   "expected": {
+    "quantity": "200",
+    "unit": "g",
+    "units_per_pack": 2
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "BRILLANTE Arroz redondo en tarrina paquete de 2 uds x 200 g",
+   "price": "2.22",
+   "published_unit_price": "5.55",
+   "expected": {
+    "quantity": "200",
+    "unit": "g",
+    "units_per_pack": 2
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "BRILLANTE Arroz salvaje con arroz basmati en tarrina 2 X 125 gr",
+   "price": "1.93",
+   "published_unit_price": "7.72",
+   "expected": {
+    "quantity": "125",
+    "unit": "g",
+    "units_per_pack": 2
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "BRILLANTE Arroz teriyaki 2 x 125 g",
+   "price": "1.88",
+   "published_unit_price": "7.52",
+   "expected": {
+    "quantity": "125",
+    "unit": "g",
+    "units_per_pack": 2
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "BURGO DE ARIAS Queso de cabra mini BURGO DE ARIAS 3 x 70 g",
+   "price": "4.32",
+   "published_unit_price": "20.57",
+   "expected": {
+    "quantity": "70",
+    "unit": "g",
+    "units_per_pack": 3
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Batata mini Fresh natur 1 kg",
+   "price": "2.99",
+   "published_unit_price": "2.99",
+   "expected": {
+    "quantity": "1000",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Bonito del norte en trozos Dia Mari Marinera 3 x 52 g",
+   "price": "2.89",
+   "published_unit_price": "18.5256",
+   "expected": {
+    "quantity": "52",
+    "unit": "g",
+    "units_per_pack": 3
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Brócoli, coliflor y zanahoria Dia Vegecampo 1 Kg",
+   "price": "1.8",
+   "published_unit_price": "1.8000",
+   "expected": {
+    "quantity": "1000",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Burger de cerdo y vacuno 6 unidades Selección de Dia 540 g",
+   "price": "3.99",
+   "published_unit_price": "7.39",
+   "expected": {
+    "quantity": "90",
+    "unit": "g",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Burger de pollo 6 unidades Gremlins Selección de Dia 540 g",
+   "price": "3.99",
+   "published_unit_price": "7.39",
+   "expected": {
+    "quantity": "90",
+    "unit": "g",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Burger de vacuno 6 unidades Selección de Dia 540 g",
+   "price": "5.99",
+   "published_unit_price": "1.8488",
+   "expected": {
+    "quantity": "540",
+    "unit": "g",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Bífidus con fresa doble 0% Dia 4 x 125 g",
+   "price": "1.29",
+   "published_unit_price": "2.58",
+   "expected": {
+    "quantity": "125",
+    "unit": "g",
+    "units_per_pack": 4
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Bífidus con kiwi y ciruela doble 0% Dia 4 x 125 g",
+   "price": "1.29",
+   "published_unit_price": "2.58",
+   "expected": {
+    "quantity": "125",
+    "unit": "g",
+    "units_per_pack": 4
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Bífidus con melocotón doble 0% Dia 4 x 125 g",
+   "price": "1.29",
+   "published_unit_price": "2.5800",
+   "expected": {
+    "quantity": "125",
+    "unit": "g",
+    "units_per_pack": 4
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Bífidus con nueces y cereales doble 0% Dia 4 x 125 g",
+   "price": "1.29",
+   "published_unit_price": "2.58",
+   "expected": {
+    "quantity": "125",
+    "unit": "g",
+    "units_per_pack": 4
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Bífidus con piña y coco doble 0% Dia 4 x 125 g",
+   "price": "1.29",
+   "published_unit_price": "2.58",
+   "expected": {
+    "quantity": "125",
+    "unit": "g",
+    "units_per_pack": 4
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Bífidus desnatado con melocotón Activia 4 x 120 g",
+   "price": "2.89",
+   "published_unit_price": "6.0208",
+   "expected": {
+    "quantity": "120",
+    "unit": "g",
+    "units_per_pack": 4
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Bífidus natural desnatado Activia 8 x 120 g",
+   "price": "3.99",
+   "published_unit_price": "4.1562",
+   "expected": {
+    "quantity": "120",
+    "unit": "g",
+    "units_per_pack": 8
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Bífidus natural doble 0% Dia Láctea 4 x 125 g",
+   "price": "0.79",
+   "published_unit_price": "1.5800",
+   "expected": {
+    "quantity": "125",
+    "unit": "g",
+    "units_per_pack": 4
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "CALASPARRA Arroz redondo 1 kg",
+   "price": "3.43",
+   "published_unit_price": "3.43",
+   "expected": {
+    "quantity": "1000",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "CALASPARRA Arroz redondo 1 kg",
+   "price": "5.24",
+   "published_unit_price": "5.24",
+   "expected": {
+    "quantity": "1000",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "CALNORT Pastillas de caldo de pollo deshidratado, con garantia Halal 12 uds. 10 g",
+   "price": "0.41",
+   "published_unit_price": "3.42",
+   "expected": {
+    "quantity": "10",
+    "unit": "g",
+    "units_per_pack": 12
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "CALVO Atún claro en escabeche lata pack de 3 uds. 52 g",
+   "price": "3.33",
+   "published_unit_price": "21.35",
+   "expected": {
+    "quantity": "52",
+    "unit": "g",
+    "units_per_pack": 3
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "CALVO Atún en salsa de tomate 3 uds x 52 g",
+   "price": "2.69",
+   "published_unit_price": "17.24",
+   "expected": {
+    "quantity": "52",
+    "unit": "g",
+    "units_per_pack": 3
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "CARRETILLA Tomate para untar 2 uds. 185 g",
+   "price": "3.48",
+   "published_unit_price": "9.41",
+   "expected": {
+    "quantity": "185",
+    "unit": "g",
+    "units_per_pack": 2
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "CARRETILLA Tumaca con ajo 2 uds. 370 g",
+   "price": "3.48",
+   "published_unit_price": "9.41",
+   "expected": {
+    "quantity": "185",
+    "unit": "g",
+    "units_per_pack": 2
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "CENTRAL LECHERA ASTURIANA Leche de vaca desnatada (0,0% materia grasa) de origen español 6 x 1 l",
+   "price": "6.18",
+   "published_unit_price": "1.03",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "CENTRAL LECHERA ASTURIANA Leche de vaca desnatada de origen español 6 x 1.5 l",
+   "price": "9.84",
+   "published_unit_price": "1.09",
+   "expected": {
+    "quantity": "1500",
+    "unit": "ml",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "CENTRAL LECHERA ASTURIANA Leche de vaca desnatada de origen español 6 x 1l",
+   "price": "6.06",
+   "published_unit_price": "1.01",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "CENTRAL LECHERA ASTURIANA Leche de vaca entera de origen español 6 x 1.5 l",
+   "price": "10.80",
+   "published_unit_price": "1.20",
+   "expected": {
+    "quantity": "1500",
+    "unit": "ml",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "CENTRAL LECHERA ASTURIANA Leche de vaca entera de origen español 6 x 1l",
+   "price": "7.08",
+   "published_unit_price": "1.18",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "CENTRAL LECHERA ASTURIANA Leche de vaca entera de origen español 6 x 2.2 l",
+   "price": "15.06",
+   "published_unit_price": "1.14",
+   "expected": {
+    "quantity": "2200",
+    "unit": "ml",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "CENTRAL LECHERA ASTURIANA Leche de vaca entera de origen español 6 x 500 ml",
+   "price": "4.50",
+   "published_unit_price": "1.50",
+   "expected": {
+    "quantity": "500",
+    "unit": "ml",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "CENTRAL LECHERA ASTURIANA Leche de vaca semidesnatada de origen español 6 x 1 l",
+   "price": "6.24",
+   "published_unit_price": "1.04",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 6
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "ALCAMPO CULTIVAMOS LO BUENO Bio Crema de brócoli con garbanzos ecológica bote 500 ml",
+   "price": "5.25",
+   "published_unit_price": "10.50",
+   "expected": {
+    "quantity": "500",
+    "unit": "ml",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "ALCAMPO ECOLÓGICO Maíz dulce al natural ALCAMPO ECOLÓGICO tarro de 215 g",
+   "price": "2.11",
+   "published_unit_price": "9.81",
+   "expected": {
+    "quantity": "215",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "ANETO Caldo natural de cocido Madrileño 1 l",
+   "price": "4.46",
+   "published_unit_price": "4.46",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "ANIZVI Patatas fritas light 250 g",
+   "price": "2.09",
+   "published_unit_price": "8.36",
+   "expected": {
+    "quantity": "250",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "AUCHAN Leche desnatada de vaca 1 l. Producto Alcampo",
+   "price": "0.86",
+   "published_unit_price": "0.86",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Aceite de oliva intenso Dia La Almazara del Olivar 1 L",
+   "price": "3.8",
+   "published_unit_price": "3.80",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Aceite de oliva virgen Dia La Almazara del Olivar 3 L",
+   "price": "12",
+   "published_unit_price": "4.00",
+   "expected": {
+    "quantity": "3000",
+    "unit": "ml",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Aceite de oliva virgen extra de trufa La Española 250 ml",
+   "price": "3.69",
+   "published_unit_price": "14.7600",
+   "expected": {
+    "quantity": "250",
+    "unit": "ml",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Ajo troceado Dia Vegecampo 150 g",
+   "price": "0.95",
+   "published_unit_price": "6.33",
+   "expected": {
+    "quantity": "150",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Alubias blancas cocidas Dia Vegecampo 400 g",
+   "price": "0.75",
+   "published_unit_price": "1.88",
+   "expected": {
+    "quantity": "400",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Apio 500 g",
+   "price": "1.09",
+   "published_unit_price": "2.1800",
+   "expected": {
+    "quantity": "500",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Atún claro en aceite de oliva Albo 67 g",
+   "price": "2.39",
+   "published_unit_price": "35.67",
+   "expected": {
+    "quantity": "67",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "BONDUELLE Guisantes cocinados extra finos frasco de 465 g",
+   "price": "4.03",
+   "published_unit_price": "8.67",
+   "expected": {
+    "quantity": "465",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Bacalao desmigado desalado MSC Selección de Dia 250 g",
+   "price": "5.99",
+   "published_unit_price": "23.96",
+   "expected": {
+    "quantity": "250",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Bonito del norte en aceite de oliva Consorcio 82 g",
+   "price": "3.52",
+   "published_unit_price": "42.9268",
+   "expected": {
+    "quantity": "82",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Burger BIO Selección de Dia 240 g",
+   "price": "3.99",
+   "published_unit_price": "16.63",
+   "expected": {
+    "quantity": "240",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "CALVO Ensalada Mediterránea de atún 150 g",
+   "price": "1.60",
+   "published_unit_price": "10.67",
+   "expected": {
+    "quantity": "150",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "CARBONELL Aceite de oliva suave garrafa de 5 l",
+   "price": "24.92",
+   "published_unit_price": "4.98",
+   "expected": {
+    "quantity": "5000",
+    "unit": "ml",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "CELORRIO Tomate triturado 390 g",
+   "price": "0.59",
+   "published_unit_price": "1.51",
+   "expected": {
+    "quantity": "390",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "CENTRAL LECHERA ASTURIANA Leche semidesnatada de vaca, de origen española 1 l",
+   "price": "1.04",
+   "published_unit_price": "1.04",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Cachopines de pollo con bacon y queso Selección de Dia 350 g aprox.",
+   "price": "3.85",
+   "published_unit_price": "10.99",
+   "expected": {
+    "quantity": "350",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Caldo de pollo Gallina Blanca 1 L",
+   "price": "2.3",
+   "published_unit_price": "2.30",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Caldo para paella Dia Al Punto 1 L",
+   "price": "1.9",
+   "published_unit_price": "1.9000",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Cebolla malla 750 g",
+   "price": "1",
+   "published_unit_price": "1.33",
+   "expected": {
+    "quantity": "750",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Chuletas de cerdo Selección de Dia 650 g aprox.",
+   "price": "4.48",
+   "published_unit_price": "6.8923",
+   "expected": {
+    "quantity": "650",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Costillas troceadas de cerdo Selección de Dia 550 g aprox.",
+   "price": "4.5",
+   "published_unit_price": "8.1818",
+   "expected": {
+    "quantity": "550",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "ENTREMONT Queso rallado Emmental ENTREMONT 200 g",
+   "price": "4.13",
+   "published_unit_price": "20.65",
+   "expected": {
+    "quantity": "200",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Ensaladilla Findus 800 g",
+   "price": "3.99",
+   "published_unit_price": "4.9875",
+   "expected": {
+    "quantity": "800",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Espinacas Dia Vegecampo 250 g",
+   "price": "1.49",
+   "published_unit_price": "5.96",
+   "expected": {
+    "quantity": "250",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "FRIT RAVICH PREMIUM Patatas fritas sabor jamón Ibérico 150 g",
+   "price": "2.57",
+   "published_unit_price": "17.13",
+   "expected": {
+    "quantity": "150",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Fabada asturiana reducido en sal Litoral 435 g",
+   "price": "3.15",
+   "published_unit_price": "7.2414",
+   "expected": {
+    "quantity": "435",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Filetes de merluza Argentina sin piel grandes Pescanova 400 g",
+   "price": "5.19",
+   "published_unit_price": "12.9750",
+   "expected": {
+    "quantity": "400",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "GALLINA BLANCA 100% Caldo casero de carne 1 l",
+   "price": "1.75",
+   "published_unit_price": "1.75",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "GALLINA BLANCA Caldo para paella de marisco brik de 1 l",
+   "price": "3.35",
+   "published_unit_price": "3.35",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "GALLO Caldo de pollo, elaborado con ingredientes frescos 1 l",
+   "price": "2.33",
+   "published_unit_price": "2.33",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "GVTARRA JudÍas verdes en tiras 340 gr",
+   "price": "3.44",
+   "published_unit_price": "10.12",
+   "expected": {
+    "quantity": "340",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Garbanzos cocidos pedrosillanos Dia Vegecampo 400 g",
+   "price": "0.9",
+   "published_unit_price": "2.25",
+   "expected": {
+    "quantity": "400",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "HELLMANN\"S Salsa barbacoa 250 ml",
+   "price": "2.57",
+   "published_unit_price": "10.28",
+   "expected": {
+    "quantity": "250",
+    "unit": "ml",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Hogaza de centeno y avena El Molino de Dia 500 g",
+   "price": "1.94",
+   "published_unit_price": "3.88",
+   "expected": {
+    "quantity": "500",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "KNORR Crema de bogavantes y cigalas 500 ml",
+   "price": "3.19",
+   "published_unit_price": "6.38",
+   "expected": {
+    "quantity": "500",
+    "unit": "ml",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "KOIPESOL Aceite de girasol botella de 1 l",
+   "price": "1.99",
+   "published_unit_price": "1.99",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "LA COLMENAREÑA Leche entera 1 l",
+   "price": "1.29",
+   "published_unit_price": "1.29",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "LA MASÍA Aceite de Oliva suave botella 1 l",
+   "price": "3.69",
+   "published_unit_price": "3.69",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "LAY'S Artesanas Patatas fritas artesanas en aceite de oliva en bolsa 140 gr",
+   "price": "1.93",
+   "published_unit_price": "13.79",
+   "expected": {
+    "quantity": "140",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Langostino cocido Selección de Dia 400 g",
+   "price": "4.29",
+   "published_unit_price": "10.73",
+   "expected": {
+    "quantity": "400",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Leche semidesnatada de cabra Covap 1 L",
+   "price": "2.29",
+   "published_unit_price": "2.29",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Lentejas pardinas Luengo 500 g",
+   "price": "2.09",
+   "published_unit_price": "4.18",
+   "expected": {
+    "quantity": "500",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Lunch bowl de garbanzos Bonduelle 250 g",
+   "price": "2.99",
+   "published_unit_price": "11.9600",
+   "expected": {
+    "quantity": "250",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Macarrones a la boloñesa Selección de Dia 350 g",
+   "price": "2.99",
+   "published_unit_price": "8.54",
+   "expected": {
+    "quantity": "350",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Mantequilla sin sal Dia Láctea 250 g",
+   "price": "2.05",
+   "published_unit_price": "8.20",
+   "expected": {
+    "quantity": "250",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Margarina ligera Diasol 500 g",
+   "price": "1.45",
+   "published_unit_price": "2.90",
+   "expected": {
+    "quantity": "500",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Menestra de la huerta Findus 650 g",
+   "price": "5.24",
+   "published_unit_price": "8.0615",
+   "expected": {
+    "quantity": "650",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Nata montada Asturiana 250 g",
+   "price": "2.85",
+   "published_unit_price": "11.40",
+   "expected": {
+    "quantity": "250",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "PASCUAL Leche de vaca semidesnatada, de bienestar animal garantizado 1.5 l",
+   "price": "1.70",
+   "published_unit_price": "1.13",
+   "expected": {
+    "quantity": "1500",
+    "unit": "ml",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "PRIMA Salsa Barbacoa Cero 510 gr",
+   "price": "4.65",
+   "published_unit_price": "9.12",
+   "expected": {
+    "quantity": "510",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "PRODUCTO ALCAMPO Aceite de oliva intenso botella de 1 l",
+   "price": "3.89",
+   "published_unit_price": "3.89",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "PRODUCTO ALCAMPO Caldo de pollo 19% receta tradicional 1L",
+   "price": "1.30",
+   "published_unit_price": "1.30",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "PRODUCTO ALCAMPO Ensalada Italiana de atún PRODUCTO ALCAMPO 250 g",
+   "price": "2.33",
+   "published_unit_price": "9.32",
+   "expected": {
+    "quantity": "250",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "PRODUCTO ALCAMPO Maíz dulce 285 g",
+   "price": "1.07",
+   "published_unit_price": "3.75",
+   "expected": {
+    "quantity": "285",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "PRODUCTO ALCAMPO Patatas fritas lisas con sabor a jamón bolsa de 160 g",
+   "price": "1.28",
+   "published_unit_price": "8.00",
+   "expected": {
+    "quantity": "160",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "PRODUCTO ALCAMPO Tumaca listo para comer 2 frascos 185g",
+   "price": "2.09",
+   "published_unit_price": "5.65",
+   "expected": {
+    "quantity": "185",
+    "unit": "g",
+    "units_per_pack": 2
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "PRÉSIDENT Queso rallado mozzarella y Emmental PRÉSIDENT 150 g",
+   "price": "3.44",
+   "published_unit_price": "22.93",
+   "expected": {
+    "quantity": "150",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Pan de molde artesano Bimbo 500 g",
+   "price": "2.99",
+   "published_unit_price": "5.9800",
+   "expected": {
+    "quantity": "500",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Pan de molde trigo integral El Molino de Dia 820 g",
+   "price": "1.29",
+   "published_unit_price": "1.57",
+   "expected": {
+    "quantity": "820",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Pasta penne rigate Barilla 500 g",
+   "price": "1.74",
+   "published_unit_price": "3.48",
+   "expected": {
+    "quantity": "500",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Pepino holandés 1 unidad",
+   "price": "1.15",
+   "published_unit_price": "1.1500",
+   "expected": {
+    "quantity": "1",
+    "unit": "unit",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Pesto genovese Barilla 190 g",
+   "price": "3.14",
+   "published_unit_price": "16.5263",
+   "expected": {
+    "quantity": "190",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Pisto de tomate frito con verduras Hida 340 g",
+   "price": "2.09",
+   "published_unit_price": "6.15",
+   "expected": {
+    "quantity": "340",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Potón cocido en rodajas Dia Mari Marinera 200 g",
+   "price": "4.69",
+   "published_unit_price": "23.4500",
+   "expected": {
+    "quantity": "200",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Queso curado cortado Dia El Cencerro 250 g",
+   "price": "3.55",
+   "published_unit_price": "14.20",
+   "expected": {
+    "quantity": "250",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Queso feta D.O.P. en dados Dia Selección Mundial 150 g",
+   "price": "2.65",
+   "published_unit_price": "17.6667",
+   "expected": {
+    "quantity": "150",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Queso mozzarella rallado Dia Láctea 200 g",
+   "price": "1.6",
+   "published_unit_price": "8.00",
+   "expected": {
+    "quantity": "200",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "RAM Leche de vaca desnatada 1 l",
+   "price": "1.10",
+   "published_unit_price": "1.10",
+   "expected": {
+    "quantity": "1000",
+    "unit": "ml",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Rúcula Dia Vegecampo 50 g",
+   "price": "0.99",
+   "published_unit_price": "19.80",
+   "expected": {
+    "quantity": "50",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "SANTA TERESA Crema de coliflor con manzana, elaborada sin conservantes, ni aditivos ni espesantes SANTA TERESA 400 ml",
+   "price": "3.15",
+   "published_unit_price": "7.88",
+   "expected": {
+    "quantity": "400",
+    "unit": "ml",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "alcampo",
+   "name": "SOLÍS Tomate frito estilo casero, sabor 100% bote 550 g",
+   "price": "2.72",
+   "published_unit_price": "4.95",
+   "expected": {
+    "quantity": "550",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Salmón salvaje MSC Dia Mari Marinera 360 g",
+   "price": "6.79",
+   "published_unit_price": "18.8611",
+   "expected": {
+    "quantity": "360",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Salsa napolitana Gallo 350 g",
+   "price": "2.39",
+   "published_unit_price": "6.8286",
+   "expected": {
+    "quantity": "350",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Solomillo de atún marinado Selección de Dia 250 g aprox.",
+   "price": "5.74",
+   "published_unit_price": "22.97",
+   "expected": {
+    "quantity": "250",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  },
+  {
+   "chain": "dia",
+   "name": "Sopa de pollo con maravilla Dia Al Punto 90 g",
+   "price": "0.65",
+   "published_unit_price": "7.22",
+   "expected": {
+    "quantity": "90",
+    "unit": "g",
+    "units_per_pack": 1
+   }
+  }
+ ]
+}

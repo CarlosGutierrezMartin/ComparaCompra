@@ -1,0 +1,7 @@
+{
+ "url": "https://tienda.mercadona.es/api/categories/156/?lang=es&wh=mad3",
+ "status": 200,
+ "headers": {
+  "content-type": "application/json"
+ }
+}

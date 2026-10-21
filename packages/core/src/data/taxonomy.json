@@ -1,0 +1,6589 @@
+{
+ "sections": [
+  {
+   "name": "Fruta",
+   "subsections": [
+    "Fruta fresca"
+   ]
+  },
+  {
+   "name": "Verdura",
+   "subsections": [
+    "Hortalizas",
+    "Hoja verde",
+    "Otras verduras"
+   ]
+  },
+  {
+   "name": "Carne",
+   "subsections": [
+    "Pollo y pavo",
+    "Vacuno",
+    "Cerdo",
+    "Otras carnes",
+    "Picadas y elaboradas"
+   ]
+  },
+  {
+   "name": "Pescado y marisco",
+   "subsections": [
+    "Pescado",
+    "Marisco"
+   ]
+  },
+  {
+   "name": "Charcutería",
+   "subsections": [
+    "Fiambres",
+    "Curados",
+    "Patés"
+   ]
+  },
+  {
+   "name": "Quesos",
+   "subsections": [
+    "Quesos"
+   ]
+  },
+  {
+   "name": "Huevos y lácteos",
+   "subsections": [
+    "Huevos",
+    "Leche",
+    "Nata y mantequilla"
+   ]
+  },
+  {
+   "name": "Yogures y postres",
+   "subsections": [
+    "Yogures",
+    "Postres"
+   ]
+  },
+  {
+   "name": "Panadería",
+   "subsections": [
+    "Pan",
+    "Bollería y repostería"
+   ]
+  },
+  {
+   "name": "Arroz, pasta y legumbres",
+   "subsections": [
+    "Arroz",
+    "Pasta",
+    "Legumbres"
+   ]
+  },
+  {
+   "name": "Aceite, salsas y especias",
+   "subsections": [
+    "Aceite y vinagre",
+    "Sal y especias",
+    "Tomate y salsas"
+   ]
+  },
+  {
+   "name": "Conservas, caldos y cremas",
+   "subsections": [
+    "Conservas de pescado",
+    "Conservas vegetales",
+    "Caldos y cremas"
+   ]
+  },
+  {
+   "name": "Congelados",
+   "subsections": [
+    "Congelados"
+   ]
+  },
+  {
+   "name": "Platos preparados",
+   "subsections": [
+    "Refrigerados"
+   ]
+  },
+  {
+   "name": "Desayuno y dulces",
+   "subsections": [
+    "Café e infusiones",
+    "Cereales y galletas",
+    "Dulces"
+   ]
+  },
+  {
+   "name": "Aperitivos",
+   "subsections": [
+    "Aperitivos"
+   ]
+  },
+  {
+   "name": "Bebidas",
+   "subsections": [
+    "Agua y refrescos",
+    "Zumos",
+    "Bebidas alcohólicas"
+   ]
+  },
+  {
+   "name": "Limpieza y hogar",
+   "subsections": [
+    "Ropa",
+    "Cocina y superficies",
+    "Papel y desechables",
+    "Otros de hogar"
+   ]
+  },
+  {
+   "name": "Higiene y cuidado personal",
+   "subsections": [
+    "Higiene",
+    "Cuidado personal"
+   ]
+  },
+  {
+   "name": "Bebé",
+   "subsections": [
+    "Bebé"
+   ]
+  },
+  {
+   "name": "Mascotas",
+   "subsections": [
+    "Mascotas"
+   ]
+  }
+ ],
+ "leaves": [
+  {
+   "slug": "platano",
+   "name": "Plátano",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [
+    "de canarias",
+    "banana",
+    "macho"
+   ],
+   "aliases": [
+    "plátanos",
+    "banana"
+   ],
+   "keywords": [
+    "platano",
+    "banana"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "manzana",
+   "name": "Manzana",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [
+    "golden",
+    "royal gala",
+    "fuji",
+    "granny smith",
+    "reineta",
+    "pink lady"
+   ],
+   "aliases": [],
+   "keywords": [
+    "manzana"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "pera",
+   "name": "Pera",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [
+    "conferencia",
+    "ercolini",
+    "blanquilla",
+    "limonera"
+   ],
+   "aliases": [],
+   "keywords": [
+    "pera"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "naranja",
+   "name": "Naranja",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [
+    "de mesa",
+    "de zumo"
+   ],
+   "aliases": [],
+   "keywords": [
+    "naranja"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "mandarina",
+   "name": "Mandarina",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "mandarina"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "limon",
+   "name": "Limón",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "limón"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "lima",
+   "name": "Lima",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "lima"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "uva",
+   "name": "Uva",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [
+    "blanca",
+    "negra"
+   ],
+   "aliases": [],
+   "keywords": [
+    "uva"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "fresa",
+   "name": "Fresa",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [],
+   "aliases": [
+    "fresones"
+   ],
+   "keywords": [
+    "fresa",
+    "freson"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "arandanos",
+   "name": "Arándanos",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "arándanos"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "frambuesas",
+   "name": "Frambuesas",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "frambuesas"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "melon",
+   "name": "Melón",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "melón"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "sandia",
+   "name": "Sandía",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "sandía"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "kiwi",
+   "name": "Kiwi",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "kiwi"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "pina",
+   "name": "Piña",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "piña"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "mango",
+   "name": "Mango",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "mango"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "papaya",
+   "name": "Papaya",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "papaya"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "melocoton",
+   "name": "Melocotón",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "melocoton"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "nectarina",
+   "name": "Nectarina",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "nectarina"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "paraguayo",
+   "name": "Paraguayo",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "paraguayo"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "ciruela",
+   "name": "Ciruela",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "ciruela"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "cereza",
+   "name": "Cereza",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "cereza"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "albaricoque",
+   "name": "Albaricoque",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "albaricoque"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "granada",
+   "name": "Granada",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "granada"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "caqui",
+   "name": "Caqui",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "caqui"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "aguacate",
+   "name": "Aguacate",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "aguacate"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "chirimoya",
+   "name": "Chirimoya",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "chirimoya"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "higo",
+   "name": "Higo",
+   "section": "Fruta",
+   "subsection": "Fruta fresca",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "higo"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "tomate",
+   "name": "Tomate",
+   "section": "Verdura",
+   "subsection": "Hortalizas",
+   "unit": "g",
+   "variants": [
+    "ensalada",
+    "pera",
+    "rama",
+    "raf",
+    "cherry",
+    "canario"
+   ],
+   "aliases": [],
+   "keywords": [
+    "tomate"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "pimiento",
+   "name": "Pimiento",
+   "section": "Verdura",
+   "subsection": "Hortalizas",
+   "unit": "g",
+   "variants": [
+    "rojo",
+    "verde",
+    "amarillo",
+    "italiano",
+    "padrón",
+    "tricolor"
+   ],
+   "aliases": [],
+   "keywords": [
+    "pimiento"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "pepino",
+   "name": "Pepino",
+   "section": "Verdura",
+   "subsection": "Hortalizas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "pepino"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "calabacin",
+   "name": "Calabacín",
+   "section": "Verdura",
+   "subsection": "Hortalizas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "calabacín"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "berenjena",
+   "name": "Berenjena",
+   "section": "Verdura",
+   "subsection": "Hortalizas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "berenjena"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "calabaza",
+   "name": "Calabaza",
+   "section": "Verdura",
+   "subsection": "Hortalizas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "calabaza"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "cebolla",
+   "name": "Cebolla",
+   "section": "Verdura",
+   "subsection": "Hortalizas",
+   "unit": "g",
+   "variants": [
+    "blanca",
+    "morada",
+    "dulce"
+   ],
+   "aliases": [],
+   "keywords": [
+    "cebolla"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "cebolleta",
+   "name": "Cebolleta",
+   "section": "Verdura",
+   "subsection": "Hortalizas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "cebolleta"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "puerro",
+   "name": "Puerro",
+   "section": "Verdura",
+   "subsection": "Hortalizas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "puerro"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "ajo",
+   "name": "Ajo",
+   "section": "Verdura",
+   "subsection": "Hortalizas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [
+    "ajos",
+    "cabeza de ajo"
+   ],
+   "keywords": [
+    "ajo",
+    "ajos",
+    "cabeza de ajo"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "patata",
+   "name": "Patata",
+   "section": "Verdura",
+   "subsection": "Hortalizas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "patata"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "boniato",
+   "name": "Boniato",
+   "section": "Verdura",
+   "subsection": "Hortalizas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "boniato"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "zanahoria",
+   "name": "Zanahoria",
+   "section": "Verdura",
+   "subsection": "Hortalizas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "zanahoria"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "apio",
+   "name": "Apio",
+   "section": "Verdura",
+   "subsection": "Hortalizas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "apio"
+   ],
+   "allergens": [
+    "apio"
+   ],
+   "notFor": []
+  },
+  {
+   "slug": "rabano",
+   "name": "Rábano",
+   "section": "Verdura",
+   "subsection": "Hortalizas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "rábano"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "remolacha",
+   "name": "Remolacha",
+   "section": "Verdura",
+   "subsection": "Hortalizas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "remolacha"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "jengibre",
+   "name": "Jengibre",
+   "section": "Verdura",
+   "subsection": "Hortalizas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "jengibre"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "maiz-en-mazorca",
+   "name": "Maíz en mazorca",
+   "section": "Verdura",
+   "subsection": "Hortalizas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "maíz en mazorca"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "lechuga",
+   "name": "Lechuga",
+   "section": "Verdura",
+   "subsection": "Hoja verde",
+   "unit": "g",
+   "variants": [
+    "iceberg",
+    "romana",
+    "batavia",
+    "trocadero",
+    "cogollos",
+    "hoja de roble"
+   ],
+   "aliases": [],
+   "keywords": [
+    "lechuga",
+    "cogollo",
+    "iceberg"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "ensalada-en-bolsa",
+   "name": "Ensalada en bolsa",
+   "section": "Verdura",
+   "subsection": "Hoja verde",
+   "unit": "g",
+   "variants": [
+    "canónigos",
+    "rúcula",
+    "brotes tiernos",
+    "mezcla"
+   ],
+   "aliases": [],
+   "keywords": [
+    "canonigo",
+    "rucula",
+    "brotes tiernos",
+    "mezclum",
+    "ensalada tierna",
+    "ensalada mezcla",
+    "ensalada de la casa",
+    "ensalada ensatun",
+    "trio de brotes"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "espinacas",
+   "name": "Espinacas",
+   "section": "Verdura",
+   "subsection": "Hoja verde",
+   "unit": "g",
+   "variants": [
+    "baby"
+   ],
+   "aliases": [],
+   "keywords": [
+    "espinacas"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "acelgas",
+   "name": "Acelgas",
+   "section": "Verdura",
+   "subsection": "Hoja verde",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "acelgas"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "col",
+   "name": "Col",
+   "section": "Verdura",
+   "subsection": "Hoja verde",
+   "unit": "g",
+   "variants": [
+    "repollo",
+    "lombarda",
+    "kale",
+    "coles de bruselas"
+   ],
+   "aliases": [],
+   "keywords": [
+    "col",
+    "repollo",
+    "lombarda",
+    "kale",
+    "coles de bruselas"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "brocoli",
+   "name": "Brócoli",
+   "section": "Verdura",
+   "subsection": "Otras verduras",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "brócoli"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "coliflor",
+   "name": "Coliflor",
+   "section": "Verdura",
+   "subsection": "Otras verduras",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "coliflor"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "judias-verdes",
+   "name": "Judías verdes",
+   "section": "Verdura",
+   "subsection": "Otras verduras",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "judías verdes"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "alcachofa",
+   "name": "Alcachofa",
+   "section": "Verdura",
+   "subsection": "Otras verduras",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "alcachofa"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "esparragos-verdes",
+   "name": "Espárragos verdes",
+   "section": "Verdura",
+   "subsection": "Otras verduras",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "espárragos verdes"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "champinones",
+   "name": "Champiñones",
+   "section": "Verdura",
+   "subsection": "Otras verduras",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "champinon"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "setas",
+   "name": "Setas",
+   "section": "Verdura",
+   "subsection": "Otras verduras",
+   "unit": "g",
+   "variants": [
+    "ostra",
+    "shiitake",
+    "variadas"
+   ],
+   "aliases": [],
+   "keywords": [
+    "seta",
+    "boletus",
+    "shiitake",
+    "nameko"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "hierbas-aromaticas-frescas",
+   "name": "Hierbas aromáticas frescas",
+   "section": "Verdura",
+   "subsection": "Otras verduras",
+   "unit": "g",
+   "variants": [
+    "perejil",
+    "cilantro",
+    "albahaca",
+    "hierbabuena",
+    "eneldo"
+   ],
+   "aliases": [],
+   "keywords": [
+    "perejil fresco",
+    "cilantro",
+    "albahaca fresca",
+    "hierbabuena"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "guisantes-frescos",
+   "name": "Guisantes frescos",
+   "section": "Verdura",
+   "subsection": "Otras verduras",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "guisante"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "habas",
+   "name": "Habas",
+   "section": "Verdura",
+   "subsection": "Otras verduras",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "habas"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "pechuga-de-pollo",
+   "name": "Pechuga de pollo",
+   "section": "Carne",
+   "subsection": "Pollo y pavo",
+   "unit": "g",
+   "variants": [
+    "entera",
+    "fileteada",
+    "en tacos",
+    "picada"
+   ],
+   "aliases": [],
+   "keywords": [
+    "pechuga de pollo",
+    "filete de pechuga",
+    "pechuga entera",
+    "pechuga fileteada",
+    "pechuga"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "muslos-y-contramuslos-de-pollo",
+   "name": "Muslos y contramuslos de pollo",
+   "section": "Carne",
+   "subsection": "Pollo y pavo",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "muslo de pollo",
+    "contramuslo"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "alitas-de-pollo",
+   "name": "Alitas de pollo",
+   "section": "Carne",
+   "subsection": "Pollo y pavo",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "alita"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "pollo-entero",
+   "name": "Pollo entero",
+   "section": "Carne",
+   "subsection": "Pollo y pavo",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "pollo entero",
+    "pollo para asar",
+    "pollo limpio"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "pollo-troceado",
+   "name": "Pollo troceado",
+   "section": "Carne",
+   "subsection": "Pollo y pavo",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "pollo troceado",
+    "pollo en cuartos",
+    "cuarto trasero"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "pavo",
+   "name": "Pavo",
+   "section": "Carne",
+   "subsection": "Pollo y pavo",
+   "unit": "g",
+   "variants": [
+    "filetes",
+    "muslo",
+    "picado"
+   ],
+   "aliases": [],
+   "keywords": [
+    "pavo"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "filetes-de-ternera",
+   "name": "Filetes de ternera",
+   "section": "Carne",
+   "subsection": "Vacuno",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "filete de ternera",
+    "filete de vacuno",
+    "filete de anojo"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "carne-de-ternera-para-guisar",
+   "name": "Carne de ternera para guisar",
+   "section": "Carne",
+   "subsection": "Vacuno",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "ternera para guisar",
+    "carne para guisar",
+    "aguja de ternera",
+    "morcillo"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "entrecot-y-chuleton",
+   "name": "Entrecot y chuletón",
+   "section": "Carne",
+   "subsection": "Vacuno",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "entrecot y chuletón"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "solomillo-de-ternera",
+   "name": "Solomillo de ternera",
+   "section": "Carne",
+   "subsection": "Vacuno",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "solomillo de ternera"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "lomo-de-cerdo",
+   "name": "Lomo de cerdo",
+   "section": "Carne",
+   "subsection": "Cerdo",
+   "unit": "g",
+   "variants": [
+    "cinta",
+    "filetes",
+    "chuletas"
+   ],
+   "aliases": [],
+   "keywords": [
+    "lomo de cerdo",
+    "cinta de lomo",
+    "lomo fresco"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "costillas-de-cerdo",
+   "name": "Costillas de cerdo",
+   "section": "Carne",
+   "subsection": "Cerdo",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "costilla"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "solomillo-de-cerdo",
+   "name": "Solomillo de cerdo",
+   "section": "Carne",
+   "subsection": "Cerdo",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "solomillo de cerdo"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "secreto-presa-y-pluma",
+   "name": "Secreto, presa y pluma",
+   "section": "Carne",
+   "subsection": "Cerdo",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "secreto",
+    "presa iberica",
+    "pluma iberica"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "panceta",
+   "name": "Panceta",
+   "section": "Carne",
+   "subsection": "Cerdo",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "panceta"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "chuletas-de-cerdo",
+   "name": "Chuletas de cerdo",
+   "section": "Carne",
+   "subsection": "Cerdo",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "chuleta de cerdo",
+    "chuleta de aguja",
+    "chuleta aguja",
+    "chuleta de lomo"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "cordero",
+   "name": "Cordero",
+   "section": "Carne",
+   "subsection": "Otras carnes",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "cordero"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "conejo",
+   "name": "Conejo",
+   "section": "Carne",
+   "subsection": "Otras carnes",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "conejo"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "carne-picada",
+   "name": "Carne picada",
+   "section": "Carne",
+   "subsection": "Picadas y elaboradas",
+   "unit": "g",
+   "variants": [
+    "vacuno",
+    "cerdo",
+    "mixta",
+    "pollo",
+    "pavo"
+   ],
+   "aliases": [],
+   "keywords": [
+    "carne picada",
+    "picada de",
+    "preparado de carne picada",
+    "picado de"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "hamburguesas",
+   "name": "Hamburguesas",
+   "section": "Carne",
+   "subsection": "Picadas y elaboradas",
+   "unit": "g",
+   "variants": [
+    "vacuno",
+    "cerdo",
+    "mixta",
+    "pollo",
+    "pavo"
+   ],
+   "aliases": [],
+   "keywords": [
+    "hamburguesa",
+    "burger"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "albondigas",
+   "name": "Albóndigas",
+   "section": "Carne",
+   "subsection": "Picadas y elaboradas",
+   "unit": "g",
+   "variants": [
+    "vacuno",
+    "cerdo",
+    "mixta",
+    "pollo",
+    "pavo"
+   ],
+   "aliases": [],
+   "keywords": [
+    "albondiga"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "salchichas-frescas",
+   "name": "Salchichas frescas",
+   "section": "Carne",
+   "subsection": "Picadas y elaboradas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "salchicha fresca",
+    "salchicha de pollo",
+    "salchicha de cerdo",
+    "longaniza"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "chorizo-fresco",
+   "name": "Chorizo fresco",
+   "section": "Carne",
+   "subsection": "Picadas y elaboradas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "chorizo fresco"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "morcilla",
+   "name": "Morcilla",
+   "section": "Carne",
+   "subsection": "Picadas y elaboradas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "morcilla"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "empanados-de-pollo",
+   "name": "Empanados de pollo",
+   "section": "Carne",
+   "subsection": "Picadas y elaboradas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [
+    "nuggets",
+    "san jacobos"
+   ],
+   "keywords": [
+    "nugget",
+    "san jacobo",
+    "empanado",
+    "fingers de pollo",
+    "pechuga empanada"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana",
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "merluza",
+   "name": "Merluza",
+   "section": "Pescado y marisco",
+   "subsection": "Pescado",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "merluza"
+   ],
+   "allergens": [
+    "pescado"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "bacalao",
+   "name": "Bacalao",
+   "section": "Pescado y marisco",
+   "subsection": "Pescado",
+   "unit": "g",
+   "variants": [
+    "fresco",
+    "desalado",
+    "salado"
+   ],
+   "aliases": [],
+   "keywords": [
+    "bacalao"
+   ],
+   "allergens": [
+    "pescado"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "salmon",
+   "name": "Salmón",
+   "section": "Pescado y marisco",
+   "subsection": "Pescado",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "salmon"
+   ],
+   "allergens": [
+    "pescado"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "dorada",
+   "name": "Dorada",
+   "section": "Pescado y marisco",
+   "subsection": "Pescado",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "dorada"
+   ],
+   "allergens": [
+    "pescado"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "lubina",
+   "name": "Lubina",
+   "section": "Pescado y marisco",
+   "subsection": "Pescado",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "lubina"
+   ],
+   "allergens": [
+    "pescado"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "sardinas",
+   "name": "Sardinas",
+   "section": "Pescado y marisco",
+   "subsection": "Pescado",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "sardinas"
+   ],
+   "allergens": [
+    "pescado"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "boquerones",
+   "name": "Boquerones",
+   "section": "Pescado y marisco",
+   "subsection": "Pescado",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "boquerones"
+   ],
+   "allergens": [
+    "pescado"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "atun-fresco",
+   "name": "Atún fresco",
+   "section": "Pescado y marisco",
+   "subsection": "Pescado",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "atún fresco"
+   ],
+   "allergens": [
+    "pescado"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "bonito-fresco",
+   "name": "Bonito fresco",
+   "section": "Pescado y marisco",
+   "subsection": "Pescado",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "bonito fresco"
+   ],
+   "allergens": [
+    "pescado"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "rape",
+   "name": "Rape",
+   "section": "Pescado y marisco",
+   "subsection": "Pescado",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "rape"
+   ],
+   "allergens": [
+    "pescado"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "lenguado",
+   "name": "Lenguado",
+   "section": "Pescado y marisco",
+   "subsection": "Pescado",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "lenguado"
+   ],
+   "allergens": [
+    "pescado"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "gallo",
+   "name": "Gallo",
+   "section": "Pescado y marisco",
+   "subsection": "Pescado",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "gallo"
+   ],
+   "allergens": [
+    "pescado"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "emperador",
+   "name": "Emperador",
+   "section": "Pescado y marisco",
+   "subsection": "Pescado",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "emperador"
+   ],
+   "allergens": [
+    "pescado"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "panga",
+   "name": "Panga",
+   "section": "Pescado y marisco",
+   "subsection": "Pescado",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "panga"
+   ],
+   "allergens": [
+    "pescado"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "abadejo",
+   "name": "Abadejo",
+   "section": "Pescado y marisco",
+   "subsection": "Pescado",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "abadejo"
+   ],
+   "allergens": [
+    "pescado"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "salmon-ahumado",
+   "name": "Salmón ahumado",
+   "section": "Pescado y marisco",
+   "subsection": "Pescado",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "salmon ahumado"
+   ],
+   "allergens": [
+    "pescado"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "palitos-de-surimi",
+   "name": "Palitos de surimi",
+   "section": "Pescado y marisco",
+   "subsection": "Pescado",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "surimi",
+    "palito de mar",
+    "barrita de mar"
+   ],
+   "allergens": [
+    "pescado",
+    "huevo",
+    "gluten"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana",
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "gulas",
+   "name": "Gulas",
+   "section": "Pescado y marisco",
+   "subsection": "Pescado",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "gulas"
+   ],
+   "allergens": [
+    "pescado"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "gambas-y-langostinos",
+   "name": "Gambas y langostinos",
+   "section": "Pescado y marisco",
+   "subsection": "Marisco",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "gamba",
+    "langostino",
+    "camaron"
+   ],
+   "allergens": [
+    "crustaceos"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "mejillones",
+   "name": "Mejillones",
+   "section": "Pescado y marisco",
+   "subsection": "Marisco",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "mejillones"
+   ],
+   "allergens": [
+    "moluscos"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "almejas",
+   "name": "Almejas",
+   "section": "Pescado y marisco",
+   "subsection": "Marisco",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "almejas"
+   ],
+   "allergens": [
+    "moluscos"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "calamar",
+   "name": "Calamar",
+   "section": "Pescado y marisco",
+   "subsection": "Marisco",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "calamar"
+   ],
+   "allergens": [
+    "moluscos"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "sepia",
+   "name": "Sepia",
+   "section": "Pescado y marisco",
+   "subsection": "Marisco",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "sepia"
+   ],
+   "allergens": [
+    "moluscos"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "pulpo",
+   "name": "Pulpo",
+   "section": "Pescado y marisco",
+   "subsection": "Marisco",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "pulpo"
+   ],
+   "allergens": [
+    "moluscos"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "anillas-y-rabas",
+   "name": "Anillas y rabas",
+   "section": "Pescado y marisco",
+   "subsection": "Marisco",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "anilla",
+    "raba",
+    "calamar a la romana",
+    "rebozad",
+    "fritura de pescado"
+   ],
+   "allergens": [
+    "moluscos",
+    "gluten"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana",
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "jamon-cocido",
+   "name": "Jamón cocido",
+   "section": "Charcutería",
+   "subsection": "Fiambres",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "jamón cocido"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "pechuga-de-pavo-en-lonchas",
+   "name": "Pechuga de pavo en lonchas",
+   "section": "Charcutería",
+   "subsection": "Fiambres",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "pechuga de pavo",
+    "fiambre de pavo"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "mortadela-y-chopped",
+   "name": "Mortadela y chopped",
+   "section": "Charcutería",
+   "subsection": "Fiambres",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "mortadela",
+    "chopped"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "bacon",
+   "name": "Bacon",
+   "section": "Charcutería",
+   "subsection": "Fiambres",
+   "unit": "g",
+   "variants": [],
+   "aliases": [
+    "bacón",
+    "beicon"
+   ],
+   "keywords": [
+    "bacon",
+    "beicon"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "salchichas-cocidas",
+   "name": "Salchichas cocidas",
+   "section": "Charcutería",
+   "subsection": "Fiambres",
+   "unit": "g",
+   "variants": [],
+   "aliases": [
+    "frankfurt"
+   ],
+   "keywords": [
+    "salchicha",
+    "frankfurt"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "jamon-serrano",
+   "name": "Jamón serrano",
+   "section": "Charcutería",
+   "subsection": "Curados",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "jamón serrano"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "jamon-iberico",
+   "name": "Jamón ibérico",
+   "section": "Charcutería",
+   "subsection": "Curados",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "jamón ibérico"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "chorizo",
+   "name": "Chorizo",
+   "section": "Charcutería",
+   "subsection": "Curados",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "chorizo"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "salchichon",
+   "name": "Salchichón",
+   "section": "Charcutería",
+   "subsection": "Curados",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "salchichón"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "lomo-embuchado",
+   "name": "Lomo embuchado",
+   "section": "Charcutería",
+   "subsection": "Curados",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "lomo embuchado"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "fuet",
+   "name": "Fuet",
+   "section": "Charcutería",
+   "subsection": "Curados",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "fuet"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "sobrasada",
+   "name": "Sobrasada",
+   "section": "Charcutería",
+   "subsection": "Curados",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "sobrasada"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "paleta",
+   "name": "Paleta",
+   "section": "Charcutería",
+   "subsection": "Curados",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "paleta"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "pate",
+   "name": "Paté",
+   "section": "Charcutería",
+   "subsection": "Patés",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "paté"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "queso-curado",
+   "name": "Queso curado",
+   "section": "Quesos",
+   "subsection": "Quesos",
+   "unit": "g",
+   "variants": [
+    "vaca",
+    "oveja",
+    "cabra",
+    "mezcla"
+   ],
+   "aliases": [],
+   "keywords": [
+    "queso curado"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "queso-semicurado",
+   "name": "Queso semicurado",
+   "section": "Quesos",
+   "subsection": "Quesos",
+   "unit": "g",
+   "variants": [
+    "vaca",
+    "oveja",
+    "cabra",
+    "mezcla"
+   ],
+   "aliases": [],
+   "keywords": [
+    "queso semicurado"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "queso-tierno",
+   "name": "Queso tierno",
+   "section": "Quesos",
+   "subsection": "Quesos",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "queso tierno"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "queso-fresco",
+   "name": "Queso fresco",
+   "section": "Quesos",
+   "subsection": "Quesos",
+   "unit": "g",
+   "variants": [],
+   "aliases": [
+    "queso de burgos"
+   ],
+   "keywords": [
+    "queso fresco",
+    "queso de burgos",
+    "burgos"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "mozzarella",
+   "name": "Mozzarella",
+   "section": "Quesos",
+   "subsection": "Quesos",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "mozzarella"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "queso-en-lonchas",
+   "name": "Queso en lonchas",
+   "section": "Quesos",
+   "subsection": "Quesos",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "queso en lonchas",
+    "lonchas de queso",
+    "queso lonchas",
+    "lonchas"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "queso-rallado",
+   "name": "Queso rallado",
+   "section": "Quesos",
+   "subsection": "Quesos",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "queso rallado",
+    "rallado",
+    "queso en hilo",
+    "hilos de queso"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "queso-untable",
+   "name": "Queso untable",
+   "section": "Quesos",
+   "subsection": "Quesos",
+   "unit": "g",
+   "variants": [],
+   "aliases": [
+    "queso crema"
+   ],
+   "keywords": [
+    "queso untable",
+    "queso crema",
+    "queso de untar",
+    "philadelphia"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "queso-azul",
+   "name": "Queso azul",
+   "section": "Quesos",
+   "subsection": "Quesos",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "queso azul",
+    "roquefort",
+    "cabrales",
+    "gorgonzola"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "queso-de-cabra",
+   "name": "Queso de cabra",
+   "section": "Quesos",
+   "subsection": "Quesos",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "queso de cabra"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "parmesano-y-grana-padano",
+   "name": "Parmesano y grana padano",
+   "section": "Quesos",
+   "subsection": "Quesos",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "parmesano",
+    "grana padano",
+    "parmigiano"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "queso-en-porciones",
+   "name": "Queso en porciones",
+   "section": "Quesos",
+   "subsection": "Quesos",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "queso en porciones",
+    "quesito",
+    "porciones de queso"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "requeson-y-ricotta",
+   "name": "Requesón y ricotta",
+   "section": "Quesos",
+   "subsection": "Quesos",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "requeson",
+    "ricotta",
+    "mascarpone"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "queso-feta",
+   "name": "Queso feta",
+   "section": "Quesos",
+   "subsection": "Quesos",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "feta"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "queso-brie-y-camembert",
+   "name": "Queso brie y camembert",
+   "section": "Quesos",
+   "subsection": "Quesos",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "brie",
+    "camembert"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "queso-emmental-y-gouda",
+   "name": "Queso emmental y gouda",
+   "section": "Quesos",
+   "subsection": "Quesos",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "emmental",
+    "gouda",
+    "edam",
+    "havarti"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "huevos",
+   "name": "Huevos",
+   "section": "Huevos y lácteos",
+   "subsection": "Huevos",
+   "unit": "unit",
+   "variants": [
+    "M",
+    "L",
+    "XL"
+   ],
+   "aliases": [],
+   "keywords": [
+    "huevo"
+   ],
+   "allergens": [
+    "huevo"
+   ],
+   "notFor": [
+    "vegana"
+   ]
+  },
+  {
+   "slug": "claras-de-huevo",
+   "name": "Claras de huevo",
+   "section": "Huevos y lácteos",
+   "subsection": "Huevos",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "clara de huevo",
+    "claras de huevo",
+    "clara liquida"
+   ],
+   "allergens": [
+    "huevo"
+   ],
+   "notFor": [
+    "vegana"
+   ]
+  },
+  {
+   "slug": "leche",
+   "name": "Leche",
+   "section": "Huevos y lácteos",
+   "subsection": "Leche",
+   "unit": "ml",
+   "variants": [
+    "entera",
+    "semidesnatada",
+    "desnatada"
+   ],
+   "aliases": [],
+   "keywords": [
+    "leche entera",
+    "leche semidesnatada",
+    "leche desnatada",
+    "leche fresca",
+    "leche"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "leche-enriquecida",
+   "name": "Leche enriquecida",
+   "section": "Huevos y lácteos",
+   "subsection": "Leche",
+   "unit": "ml",
+   "variants": [
+    "calcio",
+    "omega 3",
+    "crecimiento"
+   ],
+   "aliases": [],
+   "keywords": [
+    "leche con calcio",
+    "leche enriquecida",
+    "leche omega",
+    "leche de crecimiento"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "bebida-vegetal",
+   "name": "Bebida vegetal",
+   "section": "Huevos y lácteos",
+   "subsection": "Leche",
+   "unit": "ml",
+   "variants": [
+    "avena",
+    "soja",
+    "almendra",
+    "arroz",
+    "coco"
+   ],
+   "aliases": [],
+   "keywords": [
+    "bebida de avena",
+    "bebida de soja",
+    "bebida de almendra",
+    "bebida de arroz",
+    "bebida vegetal",
+    "bebida de coco",
+    "bebida avena",
+    "bebida soja"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "batido",
+   "name": "Batido",
+   "section": "Huevos y lácteos",
+   "subsection": "Leche",
+   "unit": "ml",
+   "variants": [
+    "chocolate",
+    "vainilla",
+    "fresa",
+    "proteínas"
+   ],
+   "aliases": [],
+   "keywords": [
+    "batido"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "leche-condensada",
+   "name": "Leche condensada",
+   "section": "Huevos y lácteos",
+   "subsection": "Leche",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "leche condensada"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "leche-evaporada",
+   "name": "Leche evaporada",
+   "section": "Huevos y lácteos",
+   "subsection": "Leche",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "leche evaporada"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "horchata",
+   "name": "Horchata",
+   "section": "Huevos y lácteos",
+   "subsection": "Leche",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "horchata"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "nata-para-cocinar",
+   "name": "Nata para cocinar",
+   "section": "Huevos y lácteos",
+   "subsection": "Nata y mantequilla",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "nata para cocinar",
+    "nata cocina",
+    "nata liquida para cocinar"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "nata-para-montar",
+   "name": "Nata para montar",
+   "section": "Huevos y lácteos",
+   "subsection": "Nata y mantequilla",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "nata para montar",
+    "nata montar",
+    "nata liquida 35"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "mantequilla",
+   "name": "Mantequilla",
+   "section": "Huevos y lácteos",
+   "subsection": "Nata y mantequilla",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "mantequilla"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "margarina",
+   "name": "Margarina",
+   "section": "Huevos y lácteos",
+   "subsection": "Nata y mantequilla",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "margarina"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "yogur-natural",
+   "name": "Yogur natural",
+   "section": "Yogures y postres",
+   "subsection": "Yogures",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "yogur natural",
+    "yogur entero natural"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "yogur-de-sabores",
+   "name": "Yogur de sabores",
+   "section": "Yogures y postres",
+   "subsection": "Yogures",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "yogur de sabores",
+    "yogur sabor",
+    "yogur de fresa",
+    "yogur con frutas"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "yogur-griego",
+   "name": "Yogur griego",
+   "section": "Yogures y postres",
+   "subsection": "Yogures",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "griego"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "yogur-desnatado",
+   "name": "Yogur desnatado",
+   "section": "Yogures y postres",
+   "subsection": "Yogures",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "yogur desnatado",
+    "desnatado natural",
+    "yogur 0%"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "yogur-liquido",
+   "name": "Yogur líquido",
+   "section": "Yogures y postres",
+   "subsection": "Yogures",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "yogur liquido",
+    "yogur para beber"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "bifidus",
+   "name": "Bífidus",
+   "section": "Yogures y postres",
+   "subsection": "Yogures",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "bífidus"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "kefir",
+   "name": "Kéfir",
+   "section": "Yogures y postres",
+   "subsection": "Yogures",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "kéfir"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "petit-suisse",
+   "name": "Petit suisse",
+   "section": "Yogures y postres",
+   "subsection": "Yogures",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "petit suisse"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "yogur-proteico",
+   "name": "Yogur proteico",
+   "section": "Yogures y postres",
+   "subsection": "Yogures",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "yogur proteico"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "postre-vegetal",
+   "name": "Postre vegetal",
+   "section": "Yogures y postres",
+   "subsection": "Postres",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "postre vegetal"
+   ],
+   "allergens": [
+    "soja"
+   ],
+   "notFor": []
+  },
+  {
+   "slug": "natillas",
+   "name": "Natillas",
+   "section": "Yogures y postres",
+   "subsection": "Postres",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "natillas"
+   ],
+   "allergens": [
+    "lacteos",
+    "huevo"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "flan",
+   "name": "Flan",
+   "section": "Yogures y postres",
+   "subsection": "Postres",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "flan"
+   ],
+   "allergens": [
+    "lacteos",
+    "huevo"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "arroz-con-leche",
+   "name": "Arroz con leche",
+   "section": "Yogures y postres",
+   "subsection": "Postres",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "arroz con leche"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "cuajada",
+   "name": "Cuajada",
+   "section": "Yogures y postres",
+   "subsection": "Postres",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "cuajada"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "gelatina",
+   "name": "Gelatina",
+   "section": "Yogures y postres",
+   "subsection": "Postres",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "gelatina"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "mousse",
+   "name": "Mousse",
+   "section": "Yogures y postres",
+   "subsection": "Postres",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "mousse"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "pan-de-barra",
+   "name": "Pan de barra",
+   "section": "Panadería",
+   "subsection": "Pan",
+   "unit": "g",
+   "variants": [
+    "baguette",
+    "chapata",
+    "rústico",
+    "integral",
+    "hogaza",
+    "cristal"
+   ],
+   "aliases": [],
+   "keywords": [
+    "barra de pan",
+    "baguette",
+    "chapata",
+    "pan rustico",
+    "hogaza"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "pan-de-molde",
+   "name": "Pan de molde",
+   "section": "Panadería",
+   "subsection": "Pan",
+   "unit": "g",
+   "variants": [
+    "blanco",
+    "integral",
+    "sin corteza",
+    "multicereales"
+   ],
+   "aliases": [],
+   "keywords": [
+    "pan de molde",
+    "pan molde",
+    "pan bimbo",
+    "sandwich",
+    "pan de hogaza de molde"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "pan-de-hamburguesa-y-perritos",
+   "name": "Pan de hamburguesa y perritos",
+   "section": "Panadería",
+   "subsection": "Pan",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "pan de hamburguesa y perritos"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "pan-tostado",
+   "name": "Pan tostado",
+   "section": "Panadería",
+   "subsection": "Pan",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "pan tostado"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "picos-y-rosquilletas",
+   "name": "Picos y rosquilletas",
+   "section": "Panadería",
+   "subsection": "Pan",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "picos y rosquilletas"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "tortillas-de-trigo",
+   "name": "Tortillas de trigo",
+   "section": "Panadería",
+   "subsection": "Pan",
+   "unit": "g",
+   "variants": [],
+   "aliases": [
+    "wraps",
+    "fajitas"
+   ],
+   "keywords": [
+    "tortilla de trigo",
+    "wrap",
+    "fajita"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "pan-rallado",
+   "name": "Pan rallado",
+   "section": "Panadería",
+   "subsection": "Pan",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "pan rallado"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "croissants",
+   "name": "Croissants",
+   "section": "Panadería",
+   "subsection": "Bollería y repostería",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "croissants"
+   ],
+   "allergens": [
+    "gluten",
+    "lacteos",
+    "huevo"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_gluten",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "magdalenas",
+   "name": "Magdalenas",
+   "section": "Panadería",
+   "subsection": "Bollería y repostería",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "magdalenas"
+   ],
+   "allergens": [
+    "gluten",
+    "huevo"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "bizcocho",
+   "name": "Bizcocho",
+   "section": "Panadería",
+   "subsection": "Bollería y repostería",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "bizcocho"
+   ],
+   "allergens": [
+    "gluten",
+    "huevo"
+   ],
+   "notFor": [
+    "vegana",
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "bolleria-envasada",
+   "name": "Bollería envasada",
+   "section": "Panadería",
+   "subsection": "Bollería y repostería",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "bollería envasada"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "harina-de-trigo",
+   "name": "Harina de trigo",
+   "section": "Panadería",
+   "subsection": "Bollería y repostería",
+   "unit": "g",
+   "variants": [
+    "todo uso",
+    "de fuerza",
+    "repostería"
+   ],
+   "aliases": [],
+   "keywords": [
+    "harina de trigo",
+    "harina de fuerza",
+    "harina",
+    "harina integral de trigo"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "otras-harinas",
+   "name": "Otras harinas",
+   "section": "Panadería",
+   "subsection": "Bollería y repostería",
+   "unit": "g",
+   "variants": [
+    "maíz",
+    "garbanzo",
+    "arroz",
+    "avena"
+   ],
+   "aliases": [],
+   "keywords": [
+    "harina de garbanzo",
+    "harina de maiz",
+    "harina de arroz",
+    "harina de avena",
+    "maicena"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "levadura",
+   "name": "Levadura",
+   "section": "Panadería",
+   "subsection": "Bollería y repostería",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "levadura"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "masa-de-hojaldre-y-pizza",
+   "name": "Masa de hojaldre y pizza",
+   "section": "Panadería",
+   "subsection": "Bollería y repostería",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "hojaldre",
+    "masa de pizza",
+    "masa fresca",
+    "base de pizza"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "arroz",
+   "name": "Arroz",
+   "section": "Arroz, pasta y legumbres",
+   "subsection": "Arroz",
+   "unit": "g",
+   "variants": [
+    "redondo",
+    "largo",
+    "basmati",
+    "integral",
+    "vaporizado",
+    "bomba",
+    "jazmín"
+   ],
+   "aliases": [],
+   "keywords": [
+    "arroz"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "macarrones",
+   "name": "Macarrones",
+   "section": "Arroz, pasta y legumbres",
+   "subsection": "Pasta",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "macarron",
+    "penne",
+    "plumas",
+    "rigatoni"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "espaguetis",
+   "name": "Espaguetis",
+   "section": "Arroz, pasta y legumbres",
+   "subsection": "Pasta",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "espagueti",
+    "spaghetti"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "fideos",
+   "name": "Fideos",
+   "section": "Arroz, pasta y legumbres",
+   "subsection": "Pasta",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "fideo",
+    "fideua"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "tallarines",
+   "name": "Tallarines",
+   "section": "Arroz, pasta y legumbres",
+   "subsection": "Pasta",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "tallarin",
+    "tagliatelle",
+    "linguine",
+    "fettuccine"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "helices-y-otras-pastas-cortas",
+   "name": "Hélices y otras pastas cortas",
+   "section": "Arroz, pasta y legumbres",
+   "subsection": "Pasta",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "helice",
+    "fusilli",
+    "pajarita",
+    "farfalle",
+    "lacito",
+    "estrellas",
+    "conchas",
+    "tiburon"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "placas-de-lasana",
+   "name": "Placas de lasaña",
+   "section": "Arroz, pasta y legumbres",
+   "subsection": "Pasta",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "lasana"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "canelones",
+   "name": "Canelones",
+   "section": "Arroz, pasta y legumbres",
+   "subsection": "Pasta",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "canelon"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "pasta-rellena",
+   "name": "Pasta rellena",
+   "section": "Arroz, pasta y legumbres",
+   "subsection": "Pasta",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "tortellini",
+    "ravioli",
+    "pasta rellena",
+    "girasoli",
+    "tortelloni",
+    "cappelletti"
+   ],
+   "allergens": [
+    "gluten",
+    "huevo"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "pasta-fresca",
+   "name": "Pasta fresca",
+   "section": "Arroz, pasta y legumbres",
+   "subsection": "Pasta",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "pasta fresca"
+   ],
+   "allergens": [
+    "gluten",
+    "huevo"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "noodles",
+   "name": "Noodles",
+   "section": "Arroz, pasta y legumbres",
+   "subsection": "Pasta",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "noodle",
+    "fideos orientales",
+    "ramen",
+    "yakisoba",
+    "udon"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "cuscus",
+   "name": "Cuscús",
+   "section": "Arroz, pasta y legumbres",
+   "subsection": "Pasta",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "cuscús"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "quinoa",
+   "name": "Quinoa",
+   "section": "Arroz, pasta y legumbres",
+   "subsection": "Pasta",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "quinoa"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "garbanzos-secos",
+   "name": "Garbanzos secos",
+   "section": "Arroz, pasta y legumbres",
+   "subsection": "Legumbres",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "garbanzo"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "garbanzos-cocidos",
+   "name": "Garbanzos cocidos",
+   "section": "Arroz, pasta y legumbres",
+   "subsection": "Legumbres",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "garbanzo cocido",
+    "garbanzos cocidos"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "lentejas-secas",
+   "name": "Lentejas secas",
+   "section": "Arroz, pasta y legumbres",
+   "subsection": "Legumbres",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "lenteja"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "lentejas-cocidas",
+   "name": "Lentejas cocidas",
+   "section": "Arroz, pasta y legumbres",
+   "subsection": "Legumbres",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "lenteja cocida",
+    "lentejas cocidas"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "alubias-secas",
+   "name": "Alubias secas",
+   "section": "Arroz, pasta y legumbres",
+   "subsection": "Legumbres",
+   "unit": "g",
+   "variants": [
+    "blancas",
+    "pintas",
+    "rojas"
+   ],
+   "aliases": [],
+   "keywords": [
+    "alubia",
+    "judia blanca",
+    "judion",
+    "fabe"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "alubias-cocidas",
+   "name": "Alubias cocidas",
+   "section": "Arroz, pasta y legumbres",
+   "subsection": "Legumbres",
+   "unit": "g",
+   "variants": [
+    "blancas",
+    "pintas",
+    "rojas"
+   ],
+   "aliases": [],
+   "keywords": [
+    "alubia cocida",
+    "alubias cocidas",
+    "judias cocidas",
+    "alubia blanca cocida"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "soja-texturizada",
+   "name": "Soja texturizada",
+   "section": "Arroz, pasta y legumbres",
+   "subsection": "Legumbres",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "soja texturizada"
+   ],
+   "allergens": [
+    "soja"
+   ],
+   "notFor": []
+  },
+  {
+   "slug": "aceite-de-oliva",
+   "name": "Aceite de oliva",
+   "section": "Aceite, salsas y especias",
+   "subsection": "Aceite y vinagre",
+   "unit": "ml",
+   "variants": [
+    "virgen extra",
+    "virgen",
+    "suave",
+    "intenso"
+   ],
+   "aliases": [],
+   "keywords": [
+    "aceite de oliva"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "aceite-de-girasol",
+   "name": "Aceite de girasol",
+   "section": "Aceite, salsas y especias",
+   "subsection": "Aceite y vinagre",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "aceite de girasol",
+    "aceite girasol"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "otros-aceites",
+   "name": "Otros aceites",
+   "section": "Aceite, salsas y especias",
+   "subsection": "Aceite y vinagre",
+   "unit": "ml",
+   "variants": [
+    "coco",
+    "sésamo",
+    "orujo"
+   ],
+   "aliases": [],
+   "keywords": [
+    "aceite de coco",
+    "aceite de sesamo",
+    "aceite de orujo",
+    "aceite de semillas"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "vinagre",
+   "name": "Vinagre",
+   "section": "Aceite, salsas y especias",
+   "subsection": "Aceite y vinagre",
+   "unit": "ml",
+   "variants": [
+    "vino",
+    "manzana",
+    "módena",
+    "jerez"
+   ],
+   "aliases": [],
+   "keywords": [
+    "vinagre"
+   ],
+   "allergens": [
+    "sulfitos"
+   ],
+   "notFor": []
+  },
+  {
+   "slug": "sal",
+   "name": "Sal",
+   "section": "Aceite, salsas y especias",
+   "subsection": "Sal y especias",
+   "unit": "g",
+   "variants": [
+    "fina",
+    "gruesa",
+    "en escamas",
+    "yodada"
+   ],
+   "aliases": [],
+   "keywords": [
+    "sal"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "pimienta",
+   "name": "Pimienta",
+   "section": "Aceite, salsas y especias",
+   "subsection": "Sal y especias",
+   "unit": "g",
+   "variants": [
+    "negra",
+    "blanca",
+    "molida",
+    "en grano"
+   ],
+   "aliases": [],
+   "keywords": [
+    "pimienta"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "especias",
+   "name": "Especias",
+   "section": "Aceite, salsas y especias",
+   "subsection": "Sal y especias",
+   "unit": "g",
+   "variants": [
+    "pimentón dulce",
+    "pimentón picante",
+    "comino",
+    "orégano",
+    "canela",
+    "curry",
+    "cúrcuma",
+    "laurel",
+    "tomillo",
+    "romero",
+    "nuez moscada",
+    "ajo en polvo",
+    "perejil seco",
+    "azafrán",
+    "colorante"
+   ],
+   "aliases": [],
+   "keywords": [
+    "especias",
+    "pimenton",
+    "comino",
+    "oregano",
+    "canela",
+    "curry",
+    "curcuma",
+    "laurel",
+    "tomillo",
+    "romero",
+    "nuez moscada",
+    "ajo en polvo",
+    "perejil seco",
+    "azafran",
+    "colorante alimentario",
+    "hierbas provenzales"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "tomate-frito",
+   "name": "Tomate frito",
+   "section": "Aceite, salsas y especias",
+   "subsection": "Tomate y salsas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "tomate frito"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "sofrito",
+   "name": "Sofrito",
+   "section": "Aceite, salsas y especias",
+   "subsection": "Tomate y salsas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "sofrito"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "tomate-triturado",
+   "name": "Tomate triturado",
+   "section": "Aceite, salsas y especias",
+   "subsection": "Tomate y salsas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "tomate triturado",
+    "tomate tamizado"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "tomate-natural-entero",
+   "name": "Tomate natural entero",
+   "section": "Aceite, salsas y especias",
+   "subsection": "Tomate y salsas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "tomate entero",
+    "tomate pelado",
+    "tomate natural"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "concentrado-de-tomate",
+   "name": "Concentrado de tomate",
+   "section": "Aceite, salsas y especias",
+   "subsection": "Tomate y salsas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "concentrado de tomate",
+    "tomate concentrado"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "mayonesa",
+   "name": "Mayonesa",
+   "section": "Aceite, salsas y especias",
+   "subsection": "Tomate y salsas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "mayonesa"
+   ],
+   "allergens": [
+    "huevo"
+   ],
+   "notFor": [
+    "vegana"
+   ]
+  },
+  {
+   "slug": "ketchup",
+   "name": "Ketchup",
+   "section": "Aceite, salsas y especias",
+   "subsection": "Tomate y salsas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "ketchup"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "mostaza",
+   "name": "Mostaza",
+   "section": "Aceite, salsas y especias",
+   "subsection": "Tomate y salsas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "mostaza"
+   ],
+   "allergens": [
+    "mostaza"
+   ],
+   "notFor": []
+  },
+  {
+   "slug": "alioli",
+   "name": "Alioli",
+   "section": "Aceite, salsas y especias",
+   "subsection": "Tomate y salsas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "alioli"
+   ],
+   "allergens": [
+    "huevo"
+   ],
+   "notFor": []
+  },
+  {
+   "slug": "salsas-para-pasta",
+   "name": "Salsas para pasta",
+   "section": "Aceite, salsas y especias",
+   "subsection": "Tomate y salsas",
+   "unit": "g",
+   "variants": [
+    "pesto",
+    "carbonara",
+    "boloñesa",
+    "cuatro quesos"
+   ],
+   "aliases": [],
+   "keywords": [
+    "salsas para pasta"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "salsa-de-soja",
+   "name": "Salsa de soja",
+   "section": "Aceite, salsas y especias",
+   "subsection": "Tomate y salsas",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "salsa de soja"
+   ],
+   "allergens": [
+    "soja",
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "otras-salsas",
+   "name": "Otras salsas",
+   "section": "Aceite, salsas y especias",
+   "subsection": "Tomate y salsas",
+   "unit": "g",
+   "variants": [
+    "barbacoa",
+    "brava",
+    "curry",
+    "picante",
+    "césar"
+   ],
+   "aliases": [],
+   "keywords": [
+    "otras salsas"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "atun-en-conserva",
+   "name": "Atún en conserva",
+   "section": "Conservas, caldos y cremas",
+   "subsection": "Conservas de pescado",
+   "unit": "g",
+   "variants": [
+    "aceite de oliva",
+    "aceite vegetal",
+    "natural",
+    "escabeche"
+   ],
+   "aliases": [],
+   "keywords": [
+    "atun",
+    "atun claro"
+   ],
+   "allergens": [
+    "pescado"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "bonito-en-conserva",
+   "name": "Bonito en conserva",
+   "section": "Conservas, caldos y cremas",
+   "subsection": "Conservas de pescado",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "bonito del norte",
+    "bonito"
+   ],
+   "allergens": [
+    "pescado"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "sardinas-en-lata",
+   "name": "Sardinas en lata",
+   "section": "Conservas, caldos y cremas",
+   "subsection": "Conservas de pescado",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "sardina",
+    "sardinilla"
+   ],
+   "allergens": [
+    "pescado"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "caballa-en-lata",
+   "name": "Caballa en lata",
+   "section": "Conservas, caldos y cremas",
+   "subsection": "Conservas de pescado",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "caballa",
+    "melva"
+   ],
+   "allergens": [
+    "pescado"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "mejillones-en-lata",
+   "name": "Mejillones en lata",
+   "section": "Conservas, caldos y cremas",
+   "subsection": "Conservas de pescado",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "mejillones en lata"
+   ],
+   "allergens": [
+    "moluscos"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "berberechos",
+   "name": "Berberechos",
+   "section": "Conservas, caldos y cremas",
+   "subsection": "Conservas de pescado",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "berberechos"
+   ],
+   "allergens": [
+    "moluscos"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "anchoas",
+   "name": "Anchoas",
+   "section": "Conservas, caldos y cremas",
+   "subsection": "Conservas de pescado",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "anchoas"
+   ],
+   "allergens": [
+    "pescado"
+   ],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "pimientos-en-conserva",
+   "name": "Pimientos en conserva",
+   "section": "Conservas, caldos y cremas",
+   "subsection": "Conservas vegetales",
+   "unit": "g",
+   "variants": [
+    "piquillo",
+    "asados",
+    "morrones"
+   ],
+   "aliases": [],
+   "keywords": [
+    "pimientos en conserva"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "esparragos-en-conserva",
+   "name": "Espárragos en conserva",
+   "section": "Conservas, caldos y cremas",
+   "subsection": "Conservas vegetales",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "espárragos en conserva"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "alcachofas-en-conserva",
+   "name": "Alcachofas en conserva",
+   "section": "Conservas, caldos y cremas",
+   "subsection": "Conservas vegetales",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "alcachofas en conserva"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "maiz-dulce",
+   "name": "Maíz dulce",
+   "section": "Conservas, caldos y cremas",
+   "subsection": "Conservas vegetales",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "maíz dulce"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "guisantes-en-conserva",
+   "name": "Guisantes en conserva",
+   "section": "Conservas, caldos y cremas",
+   "subsection": "Conservas vegetales",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "guisante en conserva",
+    "guisantes al natural",
+    "guisante al natural"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "champinones-en-conserva",
+   "name": "Champiñones en conserva",
+   "section": "Conservas, caldos y cremas",
+   "subsection": "Conservas vegetales",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "champiñones en conserva"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "menestra-en-conserva",
+   "name": "Menestra en conserva",
+   "section": "Conservas, caldos y cremas",
+   "subsection": "Conservas vegetales",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "menestra en conserva"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "aceitunas",
+   "name": "Aceitunas",
+   "section": "Conservas, caldos y cremas",
+   "subsection": "Conservas vegetales",
+   "unit": "g",
+   "variants": [
+    "verdes",
+    "negras",
+    "rellenas",
+    "sin hueso"
+   ],
+   "aliases": [],
+   "keywords": [
+    "aceitunas"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "encurtidos",
+   "name": "Encurtidos",
+   "section": "Conservas, caldos y cremas",
+   "subsection": "Conservas vegetales",
+   "unit": "g",
+   "variants": [
+    "pepinillos",
+    "cebolletas",
+    "banderillas"
+   ],
+   "aliases": [],
+   "keywords": [
+    "encurtidos"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "fruta-en-almibar",
+   "name": "Fruta en almíbar",
+   "section": "Conservas, caldos y cremas",
+   "subsection": "Conservas vegetales",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "fruta en almíbar"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "caldo",
+   "name": "Caldo",
+   "section": "Conservas, caldos y cremas",
+   "subsection": "Caldos y cremas",
+   "unit": "ml",
+   "variants": [
+    "pollo",
+    "verduras",
+    "pescado",
+    "cocido",
+    "carne"
+   ],
+   "aliases": [],
+   "keywords": [
+    "caldo",
+    "fumet"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "pastillas-de-caldo",
+   "name": "Pastillas de caldo",
+   "section": "Conservas, caldos y cremas",
+   "subsection": "Caldos y cremas",
+   "unit": "g",
+   "variants": [
+    "pollo",
+    "verduras",
+    "pescado",
+    "carne",
+    "cocido"
+   ],
+   "aliases": [],
+   "keywords": [
+    "pastillas de caldo",
+    "caldo en pastillas",
+    "pastilla",
+    "avecrem",
+    "cacito"
+   ],
+   "allergens": [
+    "apio"
+   ],
+   "notFor": []
+  },
+  {
+   "slug": "sopa-de-sobre",
+   "name": "Sopa de sobre",
+   "section": "Conservas, caldos y cremas",
+   "subsection": "Caldos y cremas",
+   "unit": "g",
+   "variants": [
+    "pollo",
+    "cocido",
+    "cebolla",
+    "maravilla",
+    "juliana",
+    "jardinera",
+    "hortelana",
+    "marisco",
+    "picadillo",
+    "estrellas",
+    "fideos"
+   ],
+   "aliases": [],
+   "keywords": [
+    "sopa"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "crema-de-verduras",
+   "name": "Crema de verduras",
+   "section": "Conservas, caldos y cremas",
+   "subsection": "Caldos y cremas",
+   "unit": "ml",
+   "variants": [
+    "calabaza",
+    "calabacín",
+    "zanahoria",
+    "puerros",
+    "champiñones",
+    "marisco",
+    "pollo",
+    "garbanzos",
+    "lentejas",
+    "tomate",
+    "espárragos",
+    "verduras"
+   ],
+   "aliases": [],
+   "keywords": [
+    "crema de verdura",
+    "crema de calabaza",
+    "crema de calabacin",
+    "crema de zanahoria",
+    "crema de puerro",
+    "crema de champinon",
+    "crema de marisco",
+    "crema de pollo",
+    "crema de garbanzo",
+    "crema de lenteja",
+    "crema de tomate",
+    "crema de esparrago",
+    "pure de"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "gazpacho-y-salmorejo",
+   "name": "Gazpacho y salmorejo",
+   "section": "Conservas, caldos y cremas",
+   "subsection": "Caldos y cremas",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "gazpacho y salmorejo"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "verdura-congelada",
+   "name": "Verdura congelada",
+   "section": "Congelados",
+   "subsection": "Congelados",
+   "unit": "g",
+   "variants": [
+    "guisantes",
+    "espinacas",
+    "judías verdes",
+    "menestra",
+    "brócoli",
+    "coliflor",
+    "salteado",
+    "maíz",
+    "pimientos",
+    "alcachofas"
+   ],
+   "aliases": [],
+   "keywords": [
+    "menestra",
+    "salteado de verdura",
+    "verdura para",
+    "pisto congelado"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "patatas-congeladas",
+   "name": "Patatas congeladas",
+   "section": "Congelados",
+   "subsection": "Congelados",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "patatas prefritas",
+    "patatas congeladas",
+    "patatas para freir",
+    "patatas gajo"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "pizzas-congeladas",
+   "name": "Pizzas congeladas",
+   "section": "Congelados",
+   "subsection": "Congelados",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "pizzas congeladas"
+   ],
+   "allergens": [
+    "gluten",
+    "lacteos"
+   ],
+   "notFor": [
+    "sin_gluten",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "croquetas",
+   "name": "Croquetas",
+   "section": "Congelados",
+   "subsection": "Congelados",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "croquetas"
+   ],
+   "allergens": [
+    "gluten",
+    "lacteos"
+   ],
+   "notFor": [
+    "sin_gluten",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "empanadillas",
+   "name": "Empanadillas",
+   "section": "Congelados",
+   "subsection": "Congelados",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "empanadillas"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "helados",
+   "name": "Helados",
+   "section": "Congelados",
+   "subsection": "Congelados",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "helados"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "hielo",
+   "name": "Hielo",
+   "section": "Congelados",
+   "subsection": "Congelados",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "hielo"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "platos-preparados-congelados",
+   "name": "Platos preparados congelados",
+   "section": "Congelados",
+   "subsection": "Congelados",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "platos preparados congelados"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "fruta-congelada",
+   "name": "Fruta congelada",
+   "section": "Congelados",
+   "subsection": "Congelados",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "fruta congelada"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "tortilla-de-patata",
+   "name": "Tortilla de patata",
+   "section": "Platos preparados",
+   "subsection": "Refrigerados",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "tortilla de patata"
+   ],
+   "allergens": [
+    "huevo"
+   ],
+   "notFor": [
+    "vegana"
+   ]
+  },
+  {
+   "slug": "pizza-refrigerada",
+   "name": "Pizza refrigerada",
+   "section": "Platos preparados",
+   "subsection": "Refrigerados",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "pizza refrigerada"
+   ],
+   "allergens": [
+    "gluten",
+    "lacteos"
+   ],
+   "notFor": [
+    "sin_gluten",
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "ensaladas-preparadas",
+   "name": "Ensaladas preparadas",
+   "section": "Platos preparados",
+   "subsection": "Refrigerados",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "ensalada de pasta",
+    "ensalada de atun",
+    "ensalada mediterranea",
+    "ensaladilla",
+    "ensalada de quinoa",
+    "ensalada de arroz"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "platos-preparados-refrigerados",
+   "name": "Platos preparados refrigerados",
+   "section": "Platos preparados",
+   "subsection": "Refrigerados",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "listo para comer",
+    "calentar y listo",
+    "arroz a banda",
+    "plato preparado"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "hummus",
+   "name": "Hummus",
+   "section": "Platos preparados",
+   "subsection": "Refrigerados",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "hummus"
+   ],
+   "allergens": [
+    "sesamo"
+   ],
+   "notFor": []
+  },
+  {
+   "slug": "sandwiches",
+   "name": "Sándwiches",
+   "section": "Platos preparados",
+   "subsection": "Refrigerados",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "sándwiches"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "sushi",
+   "name": "Sushi",
+   "section": "Platos preparados",
+   "subsection": "Refrigerados",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "sushi"
+   ],
+   "allergens": [
+    "pescado",
+    "soja"
+   ],
+   "notFor": []
+  },
+  {
+   "slug": "cafe-molido",
+   "name": "Café molido",
+   "section": "Desayuno y dulces",
+   "subsection": "Café e infusiones",
+   "unit": "g",
+   "variants": [
+    "natural",
+    "mezcla",
+    "descafeinado"
+   ],
+   "aliases": [],
+   "keywords": [
+    "café molido"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "cafe-en-grano",
+   "name": "Café en grano",
+   "section": "Desayuno y dulces",
+   "subsection": "Café e infusiones",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "café en grano"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "cafe-en-capsulas",
+   "name": "Café en cápsulas",
+   "section": "Desayuno y dulces",
+   "subsection": "Café e infusiones",
+   "unit": "unit",
+   "variants": [
+    "compatibles nespresso",
+    "dolce gusto",
+    "tassimo"
+   ],
+   "aliases": [],
+   "keywords": [
+    "café en cápsulas"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "cafe-soluble",
+   "name": "Café soluble",
+   "section": "Desayuno y dulces",
+   "subsection": "Café e infusiones",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "café soluble"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "te",
+   "name": "Té",
+   "section": "Desayuno y dulces",
+   "subsection": "Café e infusiones",
+   "unit": "unit",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "té"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "infusiones",
+   "name": "Infusiones",
+   "section": "Desayuno y dulces",
+   "subsection": "Café e infusiones",
+   "unit": "unit",
+   "variants": [
+    "manzanilla",
+    "poleo menta",
+    "tila",
+    "rooibos"
+   ],
+   "aliases": [],
+   "keywords": [
+    "infusiones"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "cacao-soluble",
+   "name": "Cacao soluble",
+   "section": "Desayuno y dulces",
+   "subsection": "Café e infusiones",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "cacao soluble"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "cereales-de-desayuno",
+   "name": "Cereales de desayuno",
+   "section": "Desayuno y dulces",
+   "subsection": "Cereales y galletas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "cereales de desayuno"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "copos-de-avena",
+   "name": "Copos de avena",
+   "section": "Desayuno y dulces",
+   "subsection": "Cereales y galletas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "copos de avena"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "galletas",
+   "name": "Galletas",
+   "section": "Desayuno y dulces",
+   "subsection": "Cereales y galletas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "galletas"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "tortitas-de-arroz-y-maiz",
+   "name": "Tortitas de arroz y maíz",
+   "section": "Desayuno y dulces",
+   "subsection": "Cereales y galletas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "tortitas de arroz y maíz"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "mermelada",
+   "name": "Mermelada",
+   "section": "Desayuno y dulces",
+   "subsection": "Dulces",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "mermelada"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "miel",
+   "name": "Miel",
+   "section": "Desayuno y dulces",
+   "subsection": "Dulces",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "miel"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegana"
+   ]
+  },
+  {
+   "slug": "crema-de-cacao",
+   "name": "Crema de cacao",
+   "section": "Desayuno y dulces",
+   "subsection": "Dulces",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "crema de cacao"
+   ],
+   "allergens": [
+    "frutos_de_cascara",
+    "lacteos"
+   ],
+   "notFor": [
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "azucar",
+   "name": "Azúcar",
+   "section": "Desayuno y dulces",
+   "subsection": "Dulces",
+   "unit": "g",
+   "variants": [
+    "blanco",
+    "moreno",
+    "glas"
+   ],
+   "aliases": [],
+   "keywords": [
+    "azúcar"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "edulcorante",
+   "name": "Edulcorante",
+   "section": "Desayuno y dulces",
+   "subsection": "Dulces",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "edulcorante"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "chocolate",
+   "name": "Chocolate",
+   "section": "Desayuno y dulces",
+   "subsection": "Dulces",
+   "unit": "g",
+   "variants": [
+    "con leche",
+    "negro",
+    "blanco"
+   ],
+   "aliases": [],
+   "keywords": [
+    "chocolate"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "bombones",
+   "name": "Bombones",
+   "section": "Desayuno y dulces",
+   "subsection": "Dulces",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "bombones"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "caramelos-y-chicles",
+   "name": "Caramelos y chicles",
+   "section": "Desayuno y dulces",
+   "subsection": "Dulces",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "caramelos y chicles"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "golosinas",
+   "name": "Golosinas",
+   "section": "Desayuno y dulces",
+   "subsection": "Dulces",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "golosinas"
+   ],
+   "allergens": [],
+   "notFor": [
+    "vegetariana",
+    "vegana"
+   ]
+  },
+  {
+   "slug": "turron",
+   "name": "Turrón",
+   "section": "Desayuno y dulces",
+   "subsection": "Dulces",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "turrón"
+   ],
+   "allergens": [
+    "frutos_de_cascara"
+   ],
+   "notFor": []
+  },
+  {
+   "slug": "patatas-fritas-de-bolsa",
+   "name": "Patatas fritas de bolsa",
+   "section": "Aperitivos",
+   "subsection": "Aperitivos",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "patatas fritas",
+    "patatas chips",
+    "patatas lisas",
+    "patatas onduladas",
+    "patatas sabor",
+    "aperitivo de patata",
+    "pringles",
+    "chips"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "snacks",
+   "name": "Snacks",
+   "section": "Aperitivos",
+   "subsection": "Aperitivos",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "snacks"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "frutos-secos",
+   "name": "Frutos secos",
+   "section": "Aperitivos",
+   "subsection": "Aperitivos",
+   "unit": "g",
+   "variants": [
+    "almendras",
+    "nueces",
+    "pistachos",
+    "anacardos",
+    "avellanas",
+    "mezcla"
+   ],
+   "aliases": [],
+   "keywords": [
+    "frutos secos"
+   ],
+   "allergens": [
+    "frutos_de_cascara"
+   ],
+   "notFor": []
+  },
+  {
+   "slug": "cacahuetes",
+   "name": "Cacahuetes",
+   "section": "Aperitivos",
+   "subsection": "Aperitivos",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "cacahuetes"
+   ],
+   "allergens": [
+    "cacahuete"
+   ],
+   "notFor": []
+  },
+  {
+   "slug": "pipas",
+   "name": "Pipas",
+   "section": "Aperitivos",
+   "subsection": "Aperitivos",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "pipas"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "fruta-deshidratada",
+   "name": "Fruta deshidratada",
+   "section": "Aperitivos",
+   "subsection": "Aperitivos",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "fruta deshidratada"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "palomitas",
+   "name": "Palomitas",
+   "section": "Aperitivos",
+   "subsection": "Aperitivos",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "palomitas"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "agua-mineral",
+   "name": "Agua mineral",
+   "section": "Bebidas",
+   "subsection": "Agua y refrescos",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "agua mineral"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "agua-con-gas",
+   "name": "Agua con gas",
+   "section": "Bebidas",
+   "subsection": "Agua y refrescos",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "agua con gas"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "refresco-de-cola",
+   "name": "Refresco de cola",
+   "section": "Bebidas",
+   "subsection": "Agua y refrescos",
+   "unit": "ml",
+   "variants": [
+    "normal",
+    "zero",
+    "light",
+    "sin cafeína"
+   ],
+   "aliases": [],
+   "keywords": [
+    "refresco de cola"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "refresco-de-naranja-y-limon",
+   "name": "Refresco de naranja y limón",
+   "section": "Bebidas",
+   "subsection": "Agua y refrescos",
+   "unit": "ml",
+   "variants": [
+    "naranja",
+    "limón",
+    "lima limón"
+   ],
+   "aliases": [],
+   "keywords": [
+    "refresco de naranja y limón"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "tonica-y-otros-refrescos",
+   "name": "Tónica y otros refrescos",
+   "section": "Bebidas",
+   "subsection": "Agua y refrescos",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "tónica y otros refrescos"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "bebida-isotonica-y-energetica",
+   "name": "Bebida isotónica y energética",
+   "section": "Bebidas",
+   "subsection": "Agua y refrescos",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "bebida isotónica y energética"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "te-frio",
+   "name": "Té frío",
+   "section": "Bebidas",
+   "subsection": "Agua y refrescos",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "té frío"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "kombucha",
+   "name": "Kombucha",
+   "section": "Bebidas",
+   "subsection": "Agua y refrescos",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "kombucha"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "zumo",
+   "name": "Zumo",
+   "section": "Bebidas",
+   "subsection": "Zumos",
+   "unit": "ml",
+   "variants": [
+    "naranja",
+    "piña",
+    "melocotón",
+    "manzana",
+    "multifrutas",
+    "tomate",
+    "uva"
+   ],
+   "aliases": [],
+   "keywords": [
+    "zumo"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "zumo-refrigerado",
+   "name": "Zumo refrigerado",
+   "section": "Bebidas",
+   "subsection": "Zumos",
+   "unit": "ml",
+   "variants": [
+    "naranja",
+    "multifrutas",
+    "smoothie"
+   ],
+   "aliases": [],
+   "keywords": [
+    "zumo refrigerado"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "cerveza",
+   "name": "Cerveza",
+   "section": "Bebidas",
+   "subsection": "Bebidas alcohólicas",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "cerveza"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "cerveza-sin-alcohol",
+   "name": "Cerveza sin alcohol",
+   "section": "Bebidas",
+   "subsection": "Bebidas alcohólicas",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "cerveza sin alcohol"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "vino-tinto",
+   "name": "Vino tinto",
+   "section": "Bebidas",
+   "subsection": "Bebidas alcohólicas",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "vino tinto"
+   ],
+   "allergens": [
+    "sulfitos"
+   ],
+   "notFor": []
+  },
+  {
+   "slug": "vino-blanco",
+   "name": "Vino blanco",
+   "section": "Bebidas",
+   "subsection": "Bebidas alcohólicas",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "vino blanco"
+   ],
+   "allergens": [
+    "sulfitos"
+   ],
+   "notFor": []
+  },
+  {
+   "slug": "vino-rosado",
+   "name": "Vino rosado",
+   "section": "Bebidas",
+   "subsection": "Bebidas alcohólicas",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "vino rosado"
+   ],
+   "allergens": [
+    "sulfitos"
+   ],
+   "notFor": []
+  },
+  {
+   "slug": "cava-y-espumosos",
+   "name": "Cava y espumosos",
+   "section": "Bebidas",
+   "subsection": "Bebidas alcohólicas",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "cava y espumosos"
+   ],
+   "allergens": [
+    "sulfitos"
+   ],
+   "notFor": []
+  },
+  {
+   "slug": "sidra",
+   "name": "Sidra",
+   "section": "Bebidas",
+   "subsection": "Bebidas alcohólicas",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "sidra"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "tinto-de-verano-y-sangria",
+   "name": "Tinto de verano y sangría",
+   "section": "Bebidas",
+   "subsection": "Bebidas alcohólicas",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "tinto de verano y sangría"
+   ],
+   "allergens": [
+    "sulfitos"
+   ],
+   "notFor": []
+  },
+  {
+   "slug": "licores",
+   "name": "Licores",
+   "section": "Bebidas",
+   "subsection": "Bebidas alcohólicas",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "licores"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "detergente-para-ropa",
+   "name": "Detergente para ropa",
+   "section": "Limpieza y hogar",
+   "subsection": "Ropa",
+   "unit": "unit",
+   "variants": [
+    "líquido",
+    "polvo",
+    "cápsulas"
+   ],
+   "aliases": [
+    "detergente"
+   ],
+   "keywords": [
+    "detergente"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "suavizante",
+   "name": "Suavizante",
+   "section": "Limpieza y hogar",
+   "subsection": "Ropa",
+   "unit": "unit",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "suavizante"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "quitamanchas",
+   "name": "Quitamanchas",
+   "section": "Limpieza y hogar",
+   "subsection": "Ropa",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "quitamanchas"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "lavavajillas-a-mano",
+   "name": "Lavavajillas a mano",
+   "section": "Limpieza y hogar",
+   "subsection": "Cocina y superficies",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [
+    "fairy"
+   ],
+   "keywords": [
+    "lavavajillas mano",
+    "lavavajillas a mano",
+    "lavavajillas concentrado"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "lavavajillas-a-maquina",
+   "name": "Lavavajillas a máquina",
+   "section": "Limpieza y hogar",
+   "subsection": "Cocina y superficies",
+   "unit": "unit",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "lavavajillas maquina",
+    "pastillas lavavajillas",
+    "lavavajillas en pastillas"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "lejia",
+   "name": "Lejía",
+   "section": "Limpieza y hogar",
+   "subsection": "Cocina y superficies",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "lejía"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "friegasuelos",
+   "name": "Friegasuelos",
+   "section": "Limpieza y hogar",
+   "subsection": "Cocina y superficies",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "friegasuelos"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "limpiador-multiusos",
+   "name": "Limpiador multiusos",
+   "section": "Limpieza y hogar",
+   "subsection": "Cocina y superficies",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "limpiador multiusos"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "limpiacristales",
+   "name": "Limpiacristales",
+   "section": "Limpieza y hogar",
+   "subsection": "Cocina y superficies",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "limpiacristales"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "limpiador-de-bano",
+   "name": "Limpiador de baño",
+   "section": "Limpieza y hogar",
+   "subsection": "Cocina y superficies",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "limpiador de baño"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "desengrasante",
+   "name": "Desengrasante",
+   "section": "Limpieza y hogar",
+   "subsection": "Cocina y superficies",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "desengrasante"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "papel-higienico",
+   "name": "Papel higiénico",
+   "section": "Limpieza y hogar",
+   "subsection": "Papel y desechables",
+   "unit": "unit",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "papel higiénico"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "papel-de-cocina",
+   "name": "Papel de cocina",
+   "section": "Limpieza y hogar",
+   "subsection": "Papel y desechables",
+   "unit": "unit",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "papel de cocina",
+    "rollo de cocina",
+    "rollo cocina",
+    "papel cocina"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "servilletas",
+   "name": "Servilletas",
+   "section": "Limpieza y hogar",
+   "subsection": "Papel y desechables",
+   "unit": "unit",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "servilletas"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "panuelos-de-papel",
+   "name": "Pañuelos de papel",
+   "section": "Limpieza y hogar",
+   "subsection": "Papel y desechables",
+   "unit": "unit",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "panuelo"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "bolsas-de-basura",
+   "name": "Bolsas de basura",
+   "section": "Limpieza y hogar",
+   "subsection": "Papel y desechables",
+   "unit": "unit",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "bolsas de basura"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "papel-de-aluminio-y-film",
+   "name": "Papel de aluminio y film",
+   "section": "Limpieza y hogar",
+   "subsection": "Papel y desechables",
+   "unit": "unit",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "papel de aluminio y film"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "bolsas-de-congelacion",
+   "name": "Bolsas de congelación",
+   "section": "Limpieza y hogar",
+   "subsection": "Papel y desechables",
+   "unit": "unit",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "bolsas de congelación"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "estropajos-y-bayetas",
+   "name": "Estropajos y bayetas",
+   "section": "Limpieza y hogar",
+   "subsection": "Otros de hogar",
+   "unit": "unit",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "estropajos y bayetas"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "guantes-de-limpieza",
+   "name": "Guantes de limpieza",
+   "section": "Limpieza y hogar",
+   "subsection": "Otros de hogar",
+   "unit": "unit",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "guantes de limpieza"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "ambientador",
+   "name": "Ambientador",
+   "section": "Limpieza y hogar",
+   "subsection": "Otros de hogar",
+   "unit": "unit",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "ambientador"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "insecticida",
+   "name": "Insecticida",
+   "section": "Limpieza y hogar",
+   "subsection": "Otros de hogar",
+   "unit": "unit",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "insecticida"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "pilas",
+   "name": "Pilas",
+   "section": "Limpieza y hogar",
+   "subsection": "Otros de hogar",
+   "unit": "unit",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "pilas"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "gel-de-ducha",
+   "name": "Gel de ducha",
+   "section": "Higiene y cuidado personal",
+   "subsection": "Higiene",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "gel de ducha"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "champu",
+   "name": "Champú",
+   "section": "Higiene y cuidado personal",
+   "subsection": "Higiene",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "champú"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "acondicionador",
+   "name": "Acondicionador",
+   "section": "Higiene y cuidado personal",
+   "subsection": "Higiene",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "acondicionador"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "desodorante",
+   "name": "Desodorante",
+   "section": "Higiene y cuidado personal",
+   "subsection": "Higiene",
+   "unit": "unit",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "desodorante"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "pasta-de-dientes",
+   "name": "Pasta de dientes",
+   "section": "Higiene y cuidado personal",
+   "subsection": "Higiene",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [
+    "dentífrico"
+   ],
+   "keywords": [
+    "pasta de dientes",
+    "dentífrico"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "cepillo-de-dientes",
+   "name": "Cepillo de dientes",
+   "section": "Higiene y cuidado personal",
+   "subsection": "Higiene",
+   "unit": "unit",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "cepillo de dientes"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "enjuague-bucal",
+   "name": "Enjuague bucal",
+   "section": "Higiene y cuidado personal",
+   "subsection": "Higiene",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "enjuague bucal"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "jabon-de-manos",
+   "name": "Jabón de manos",
+   "section": "Higiene y cuidado personal",
+   "subsection": "Higiene",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "jabón de manos"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "compresas",
+   "name": "Compresas",
+   "section": "Higiene y cuidado personal",
+   "subsection": "Higiene",
+   "unit": "unit",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "compresas"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "tampones",
+   "name": "Tampones",
+   "section": "Higiene y cuidado personal",
+   "subsection": "Higiene",
+   "unit": "unit",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "tampones"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "salvaslips",
+   "name": "Salvaslips",
+   "section": "Higiene y cuidado personal",
+   "subsection": "Higiene",
+   "unit": "unit",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "salvaslips"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "bastoncillos",
+   "name": "Bastoncillos",
+   "section": "Higiene y cuidado personal",
+   "subsection": "Higiene",
+   "unit": "unit",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "bastoncillos"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "toallitas-humedas",
+   "name": "Toallitas húmedas",
+   "section": "Higiene y cuidado personal",
+   "subsection": "Higiene",
+   "unit": "unit",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "toallita"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "crema-corporal",
+   "name": "Crema corporal",
+   "section": "Higiene y cuidado personal",
+   "subsection": "Cuidado personal",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "crema corporal"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "crema-facial",
+   "name": "Crema facial",
+   "section": "Higiene y cuidado personal",
+   "subsection": "Cuidado personal",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "crema facial"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "protector-solar",
+   "name": "Protector solar",
+   "section": "Higiene y cuidado personal",
+   "subsection": "Cuidado personal",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "protector solar"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "maquinillas-de-afeitar",
+   "name": "Maquinillas de afeitar",
+   "section": "Higiene y cuidado personal",
+   "subsection": "Cuidado personal",
+   "unit": "unit",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "maquinillas de afeitar"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "espuma-y-gel-de-afeitar",
+   "name": "Espuma y gel de afeitar",
+   "section": "Higiene y cuidado personal",
+   "subsection": "Cuidado personal",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "espuma y gel de afeitar"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "discos-desmaquillantes",
+   "name": "Discos desmaquillantes",
+   "section": "Higiene y cuidado personal",
+   "subsection": "Cuidado personal",
+   "unit": "unit",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "discos desmaquillantes"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "colonia",
+   "name": "Colonia",
+   "section": "Higiene y cuidado personal",
+   "subsection": "Cuidado personal",
+   "unit": "ml",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "colonia"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "panales",
+   "name": "Pañales",
+   "section": "Bebé",
+   "subsection": "Bebé",
+   "unit": "unit",
+   "variants": [
+    "talla 1",
+    "talla 2",
+    "talla 3",
+    "talla 4",
+    "talla 5",
+    "talla 6"
+   ],
+   "aliases": [],
+   "keywords": [
+    "pañales"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "toallitas-de-bebe",
+   "name": "Toallitas de bebé",
+   "section": "Bebé",
+   "subsection": "Bebé",
+   "unit": "unit",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "toallitas de bebé"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "leche-infantil",
+   "name": "Leche infantil",
+   "section": "Bebé",
+   "subsection": "Bebé",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "leche infantil"
+   ],
+   "allergens": [
+    "lacteos"
+   ],
+   "notFor": [
+    "sin_lactosa"
+   ]
+  },
+  {
+   "slug": "potitos",
+   "name": "Potitos",
+   "section": "Bebé",
+   "subsection": "Bebé",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "potitos"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "papillas-de-cereales",
+   "name": "Papillas de cereales",
+   "section": "Bebé",
+   "subsection": "Bebé",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "papillas de cereales"
+   ],
+   "allergens": [
+    "gluten"
+   ],
+   "notFor": [
+    "sin_gluten"
+   ]
+  },
+  {
+   "slug": "comida-seca-para-perro",
+   "name": "Comida seca para perro",
+   "section": "Mascotas",
+   "subsection": "Mascotas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "comida seca para perro"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "comida-humeda-para-perro",
+   "name": "Comida húmeda para perro",
+   "section": "Mascotas",
+   "subsection": "Mascotas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "comida húmeda para perro"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "comida-seca-para-gato",
+   "name": "Comida seca para gato",
+   "section": "Mascotas",
+   "subsection": "Mascotas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "comida seca para gato"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "comida-humeda-para-gato",
+   "name": "Comida húmeda para gato",
+   "section": "Mascotas",
+   "subsection": "Mascotas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "comida húmeda para gato"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "arena-para-gato",
+   "name": "Arena para gato",
+   "section": "Mascotas",
+   "subsection": "Mascotas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "arena para gato"
+   ],
+   "allergens": [],
+   "notFor": []
+  },
+  {
+   "slug": "snacks-para-mascotas",
+   "name": "Snacks para mascotas",
+   "section": "Mascotas",
+   "subsection": "Mascotas",
+   "unit": "g",
+   "variants": [],
+   "aliases": [],
+   "keywords": [
+    "snacks para mascotas"
+   ],
+   "allergens": [],
+   "notFor": []
+  }
+ ]
+}

@@ -1,0 +1,4020 @@
+{
+ "descripcion": "Conjunto de referencia del emparejamiento: 500 pares de productos reales de cadenas distintas (muestra del 20/10/2026).",
+ "etiquetado": "Etiquetado a ciegas (sin ver la predicción del sistema) por Claude revisando nombre, marca y formato. Conviene que una persona lo revise.",
+ "niveles": {
+  "identical": "misma marca, producto y formato",
+  "equivalent": "mismo producto y variante; marca o tamaño pueden cambiar",
+  "generic": "mismo tipo de producto con distinta variante, sabor o marcas (sin lactosa, ecológico...)",
+  "distinct": "no intercambiables"
+ },
+ "pairs": [
+  {
+   "id": 1,
+   "a": "mercadona:60346",
+   "b": "alcampo:50814",
+   "a_name": "Leche condensada desnatada Hacendado",
+   "b_name": "PASCUAL Leche semidesnatada 1 l",
+   "label": "distinct"
+  },
+  {
+   "id": 2,
+   "a": "dia:303856",
+   "b": "alcampo:220241",
+   "a_name": "Caldo de pollo bajo en sal Dia Al Punto 1 L",
+   "b_name": "KNORR Caldo de pollo en pastillas 24 uds",
+   "label": "distinct"
+  },
+  {
+   "id": 3,
+   "a": "dia:307944",
+   "b": "alcampo:430575",
+   "a_name": "Arroz redondo D.O.P. Calasparra 1 Kg",
+   "b_name": "SABROZ BRILLANTE Arroz redondo paquete de 1 kg",
+   "label": "equivalent"
+  },
+  {
+   "id": 4,
+   "a": "dia:307944",
+   "b": "alcampo:24533",
+   "a_name": "Arroz redondo D.O.P. Calasparra 1 Kg",
+   "b_name": "SOS Arroz bomba reserva con 12 meses de maduración 1 kg",
+   "label": "generic"
+  },
+  {
+   "id": 5,
+   "a": "dia:313032",
+   "b": "alcampo:95917",
+   "a_name": "Leche semidesnatada botella Asturiana 1 L",
+   "b_name": "PRÉSIDENT Leche entera de vaca de origen 100% española 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 6,
+   "a": "mercadona:10516",
+   "b": "alcampo:54446",
+   "a_name": "Leche desnatada Asturiana",
+   "b_name": "PRÉSIDENT Leche desnatada de vaca de origen 100% español 6 x 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 7,
+   "a": "mercadona:7305",
+   "b": "alcampo:312200",
+   "a_name": "Caldo de pescado Hacendado en pastillas",
+   "b_name": "ANETO Caldo de verduras pack 2 uds. x 1 l",
+   "label": "distinct"
+  },
+  {
+   "id": 8,
+   "a": "dia:17548P6",
+   "b": "alcampo:51983",
+   "a_name": "Leche semidesnatada Asturiana pack 6 x 1 L",
+   "b_name": "LA COLMENAREÑA Leche entera 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 9,
+   "a": "mercadona:69448",
+   "b": "alcampo:430021",
+   "a_name": "Patatas especial para freír",
+   "b_name": "PRINGLES Patatas sabor nachos original 150gr",
+   "label": "distinct"
+  },
+  {
+   "id": 10,
+   "a": "mercadona:10678",
+   "b": "alcampo:53175",
+   "a_name": "Leche desnatada +Proteínas & calcio",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche de vaca desnatada de origen español 6 x 1l",
+   "label": "generic"
+  },
+  {
+   "id": 11,
+   "a": "mercadona:9588",
+   "b": "alcampo:670590",
+   "a_name": "Harina fina de maíz Hacendado",
+   "b_name": "PRODUCTO ALCAMPO Maíz sin sal 3 x 140 g",
+   "label": "distinct"
+  },
+  {
+   "id": 12,
+   "a": "alcampo:217758",
+   "b": "mercadona:13803",
+   "a_name": "GOTRI Pan chapatón GOTRI 750 g",
+   "b_name": "Maxi pan de burger Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 13,
+   "a": "dia:504",
+   "b": "alcampo:99211",
+   "a_name": "Leche semidesnatada Dia Láctea 1 L",
+   "b_name": "L.R. Leche semidesnatada 6 x 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 14,
+   "a": "alcampo:502259",
+   "b": "mercadona:18713",
+   "a_name": "SWEET BABY RAY´S Salsa barbacoa original 510 g",
+   "b_name": "Calamar en salsa americana Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 15,
+   "a": "mercadona:20196",
+   "b": "dia:278898",
+   "a_name": "Margarina 100% vegetal Hacendado",
+   "b_name": "Margarina rica en omega 3 Flora 400 g",
+   "label": "equivalent"
+  },
+  {
+   "id": 16,
+   "a": "mercadona:69872",
+   "b": "dia:309268",
+   "a_name": "Ensalada ensatún",
+   "b_name": "Ensalada tierna Dia Vegecampo 125 g",
+   "label": "generic"
+  },
+  {
+   "id": 17,
+   "a": "dia:26824",
+   "b": "alcampo:511431",
+   "a_name": "Queso fresco natural Dia Láctea 2 x 250 g",
+   "b_name": "EXQUISA Copos de queso fresco cottage sin lactosa EXQUISA 175 g",
+   "label": "generic"
+  },
+  {
+   "id": 18,
+   "a": "mercadona:52637",
+   "b": "dia:21415",
+   "a_name": "Arroz redondo Sabor",
+   "b_name": "Arroz redondo SOS 1 Kg",
+   "label": "equivalent"
+  },
+  {
+   "id": 19,
+   "a": "dia:261354",
+   "b": "mercadona:3680",
+   "a_name": "Solomillos de pollo Selección de Dia 550 g aprox.",
+   "b_name": "Cuartos traseros familiar de pollo",
+   "label": "distinct"
+  },
+  {
+   "id": 20,
+   "a": "alcampo:67629",
+   "b": "dia:134262",
+   "a_name": "Bandeja con manos abiertas de cerdo MECA",
+   "b_name": "Costillas de cerdo Selección de Dia 1.1 Kg aprox.",
+   "label": "distinct"
+  },
+  {
+   "id": 21,
+   "a": "mercadona:10532",
+   "b": "dia:16066",
+   "a_name": "Leche desnatada Asturiana",
+   "b_name": "Leche desnatada Asturiana pack 6 x 1 L",
+   "label": "identical"
+  },
+  {
+   "id": 22,
+   "a": "mercadona:10683",
+   "b": "alcampo:640245",
+   "a_name": "Leche semidesnatada calcio Hacendado",
+   "b_name": "AUCHAN Leche de vaca desnatada 6 x 1,5 l Producto Alcampo",
+   "label": "generic"
+  },
+  {
+   "id": 23,
+   "a": "dia:104653",
+   "b": "alcampo:23408",
+   "a_name": "Aceite de oliva virgen extra hojiblanca Coosur 1 L",
+   "b_name": "CARBONELL Aceite de oliva suave garrafa de 5 l",
+   "label": "generic"
+  },
+  {
+   "id": 24,
+   "a": "mercadona:10533",
+   "b": "alcampo:99232",
+   "a_name": "Leche entera Hacendado",
+   "b_name": "L.R. Leche de vaca entera 1l",
+   "label": "equivalent"
+  },
+  {
+   "id": 25,
+   "a": "dia:150916",
+   "b": "alcampo:892173",
+   "a_name": "Caldo de carne Gallina Blanca 1 L",
+   "b_name": "GALLINA BLANCA Caldo gourmet de rape y bogavante 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 26,
+   "a": "dia:73677",
+   "b": "alcampo:52320",
+   "a_name": "Leche semidesnatada Pascual pack 6 x 1 L",
+   "b_name": "RAM Leche semidesnatada de vaca 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 27,
+   "a": "alcampo:824180",
+   "b": "mercadona:60348",
+   "a_name": "CENTRAL LECHERA ASTURIANA Leche semidesnatada botella 6 x 1 l",
+   "b_name": "Leche condensada Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 28,
+   "a": "dia:73678",
+   "b": "alcampo:219656",
+   "a_name": "Leche desnatada Pascual 1 L",
+   "b_name": "PRÉSIDENT Leche entera de vaca de origen 100% español 6 x 1.5 l",
+   "label": "generic"
+  },
+  {
+   "id": 29,
+   "a": "mercadona:10532",
+   "b": "alcampo:684309",
+   "a_name": "Leche desnatada Asturiana",
+   "b_name": "PULEVA Leche fresca de vaca semidesnatada 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 30,
+   "a": "mercadona:18151",
+   "b": "dia:297553",
+   "a_name": "Caldo de pollo con jamón ibérico Gourmet Gallina blanca",
+   "b_name": "Caldo gourmet de pollo con jamón Gallina Blanca 1 L",
+   "label": "identical"
+  },
+  {
+   "id": 31,
+   "a": "mercadona:10617",
+   "b": "alcampo:89826",
+   "a_name": "Leche entera Asturiana",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche de vaca semidesnatada de origen español 6 x 500 ml",
+   "label": "generic"
+  },
+  {
+   "id": 32,
+   "a": "dia:301323",
+   "b": "alcampo:29916",
+   "a_name": "Atún claro en aceite de oliva Calvo 2 x 52 g",
+   "b_name": "LA ESPAÑOLA Aceite de oliva intenso botella 1 l",
+   "label": "distinct"
+  },
+  {
+   "id": 33,
+   "a": "dia:35226",
+   "b": "alcampo:713473",
+   "a_name": "Cocido madrileño Litoral 425 g",
+   "b_name": "ANETO Caldo natural de cocido Madrileño 1 l",
+   "label": "distinct"
+  },
+  {
+   "id": 34,
+   "a": "mercadona:10384",
+   "b": "alcampo:219652",
+   "a_name": "Leche desnatada Hacendado",
+   "b_name": "PRÉSIDENT Leche semidesnatada de vaca de origen 100% español Selección 1.5 l",
+   "label": "generic"
+  },
+  {
+   "id": 35,
+   "a": "dia:304350",
+   "b": "alcampo:675898",
+   "a_name": "Caldo de pollo Aneto 500 ml",
+   "b_name": "FRIAS NUTRICION Caldo de pollo 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 36,
+   "a": "mercadona:10382",
+   "b": "alcampo:50814",
+   "a_name": "Leche semidesnatada Hacendado",
+   "b_name": "PASCUAL Leche semidesnatada 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 37,
+   "a": "dia:85943",
+   "b": "alcampo:546511",
+   "a_name": "Sofrito de tomate y cebolla Gallina Blanca 325 g",
+   "b_name": "PRODUCTO ALCAMPO Collection Sofrito Berciano de tomate frasco 290 g",
+   "label": "equivalent"
+  },
+  {
+   "id": 38,
+   "a": "mercadona:14301",
+   "b": "dia:5684",
+   "a_name": "Dúo frutas fresa y plátano Hacendado congeladas",
+   "b_name": "Yogur desnatado con frutas Dia Láctea 8 x 125 g",
+   "label": "distinct"
+  },
+  {
+   "id": 39,
+   "a": "mercadona:10542",
+   "b": "alcampo:54434",
+   "a_name": "Leche semidesnatada Hacendado",
+   "b_name": "PRÉSIDENT Leche entera de vaca de origen 100% español 6 x 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 40,
+   "a": "dia:19814",
+   "b": "alcampo:51292",
+   "a_name": "Leche entera Lauki 1 L",
+   "b_name": "TIERRA DE SABOR Leche desnatada de vaca 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 41,
+   "a": "mercadona:10540",
+   "b": "alcampo:50776",
+   "a_name": "Leche entera Hacendado",
+   "b_name": "LAUKI Leche entera de vaca 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 42,
+   "a": "mercadona:83558",
+   "b": "dia:299085",
+   "a_name": "Pan 5 semillas",
+   "b_name": "Pan de molde con semillas sin gluten El Molino de Dia 280 g",
+   "label": "generic"
+  },
+  {
+   "id": 43,
+   "a": "mercadona:4740",
+   "b": "dia:302801",
+   "a_name": "Aceite de oliva virgen extra Hacendado",
+   "b_name": "Aceite de oliva trufa en spray La Española 200 ml",
+   "label": "generic"
+  },
+  {
+   "id": 44,
+   "a": "mercadona:10541",
+   "b": "alcampo:53082",
+   "a_name": "Leche semidesnatada Hacendado",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche de vaca semidesnatada de origen español 6 x 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 45,
+   "a": "dia:16065",
+   "b": "alcampo:216880",
+   "a_name": "Leche entera Asturiana pack 6 x 1 L",
+   "b_name": "AUCHAN Leche mini entera 6 x 200 ml Producto Alcampo",
+   "label": "equivalent"
+  },
+  {
+   "id": 46,
+   "a": "mercadona:87350",
+   "b": "dia:304867",
+   "a_name": "Filetes de Gallineta descongelada",
+   "b_name": "Filetes de lubina Selección de Dia 340 g aprox.",
+   "label": "distinct"
+  },
+  {
+   "id": 47,
+   "a": "mercadona:40178",
+   "b": "dia:285848",
+   "a_name": "Disuelve manchas Bosque Verde",
+   "b_name": "Pimientos Sweet Palermo 250 g",
+   "label": "distinct"
+  },
+  {
+   "id": 48,
+   "a": "mercadona:61034",
+   "b": "alcampo:429408",
+   "a_name": "Parrillada de verduras Hacendado ultracongeladas",
+   "b_name": "ANETO Crema de verduras asadas 500ml",
+   "label": "distinct"
+  },
+  {
+   "id": 49,
+   "a": "mercadona:11957",
+   "b": "dia:297329",
+   "a_name": "Albóndigas de vacuno",
+   "b_name": "Albóndigas de pollo Selección de Dia 420 g",
+   "label": "generic"
+  },
+  {
+   "id": 50,
+   "a": "mercadona:70740",
+   "b": "alcampo:50952",
+   "a_name": "Edamame soja verde Hacendado ultracongelada",
+   "b_name": "MOLDIPAN Hogaza rebanada artesana 490 gr",
+   "label": "distinct"
+  },
+  {
+   "id": 51,
+   "a": "dia:19814P6",
+   "b": "alcampo:52377",
+   "a_name": "Leche entera Lauki pack 6 x 1 L",
+   "b_name": "LA COLMENAREÑA Leche desnatada 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 52,
+   "a": "mercadona:10933",
+   "b": "alcampo:53081",
+   "a_name": "Leche entera Hacendado",
+   "b_name": "PULEVA Eco Leche desnatada pack de 6 uds x 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 53,
+   "a": "dia:1548",
+   "b": "alcampo:10056",
+   "a_name": "Aceite de oliva suave La Española 1 L",
+   "b_name": "LA ESPAÑOLA Aceite de oliva suave botella 1 l",
+   "label": "identical"
+  },
+  {
+   "id": 54,
+   "a": "mercadona:10806",
+   "b": "dia:34578",
+   "a_name": "Leche semidesnatada de cabra Hacendado",
+   "b_name": "Leche semidesnatada Lauki pack 6 x 1 L",
+   "label": "generic"
+  },
+  {
+   "id": 55,
+   "a": "dia:217167",
+   "b": "alcampo:220241",
+   "a_name": "Caldo de cocido Gallina Blanca 2 L",
+   "b_name": "KNORR Caldo de pollo en pastillas 24 uds",
+   "label": "distinct"
+  },
+  {
+   "id": 56,
+   "a": "dia:271330",
+   "b": "alcampo:95939",
+   "a_name": "Leche semidesnatada pasteurizada Dia Láctea 1 L",
+   "b_name": "PRÉSIDENT Leche semidesnatada de vaca de origen 100% español 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 57,
+   "a": "dia:308119",
+   "b": "alcampo:51982",
+   "a_name": "Leche entera Celta pack 6 x 1 L",
+   "b_name": "LA COLMENAREÑA Leche entera fresca 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 58,
+   "a": "alcampo:19650",
+   "b": "mercadona:18054",
+   "a_name": "LA MASÍA Aceite de Oliva suave botella 1 l",
+   "b_name": "Atún claro en aceite de oliva Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 59,
+   "a": "alcampo:50034",
+   "b": "mercadona:60347",
+   "a_name": "RAM Leche de vaca desnatada 1 l",
+   "b_name": "Leche condensada Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 60,
+   "a": "dia:308784",
+   "b": "alcampo:892173",
+   "a_name": "Caldo de pollo con jamón Gallina Blanca 1 L",
+   "b_name": "GALLINA BLANCA Caldo gourmet de rape y bogavante 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 61,
+   "a": "dia:278909",
+   "b": "alcampo:11079",
+   "a_name": "Margarina al toque de aceite de oliva Flora 225 g",
+   "b_name": "COOSUR Aceite de oliva intenso botella de 1 l",
+   "label": "distinct"
+  },
+  {
+   "id": 62,
+   "a": "mercadona:51223",
+   "b": "alcampo:437236",
+   "a_name": "Queso untar light de vaca Hacendado",
+   "b_name": "HELIOS Tomate para untar 2 uds. 140 g",
+   "label": "distinct"
+  },
+  {
+   "id": 63,
+   "a": "mercadona:10282",
+   "b": "alcampo:90629",
+   "a_name": "Bebida láctea Omega 3 Puleva con nueces y leche desnatada",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche de vaca desnatada (0,0% materia grasa) de origen español 6 x 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 64,
+   "a": "mercadona:7313",
+   "b": "alcampo:634569",
+   "a_name": "Caldo de pollo Hacendado",
+   "b_name": "GALLINA BLANCA Caldo de cocido 4 uds. 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 65,
+   "a": "dia:189013",
+   "b": "alcampo:95903",
+   "a_name": "Vasos de arroz redondo Brillante 2 x 200 g",
+   "b_name": "BRILLANTE Arroz redondo en tarrina paquete de 2 uds x 200 g",
+   "label": "identical"
+  },
+  {
+   "id": 66,
+   "a": "mercadona:8839",
+   "b": "dia:309623",
+   "a_name": "Hamburguesa de cordero al romero",
+   "b_name": "Burger Maestra smoked BB Selección de Dia 150 g",
+   "label": "generic"
+  },
+  {
+   "id": 67,
+   "a": "mercadona:31309",
+   "b": "dia:274541",
+   "a_name": "Claras de huevo líquidas pasteurizadas",
+   "b_name": "Huevos ecológicos grandes/medianos M/L Dia 6 unidades",
+   "label": "distinct"
+  },
+  {
+   "id": 68,
+   "a": "mercadona:29373",
+   "b": "dia:77561",
+   "a_name": "Harina de garbanzo Hacendado",
+   "b_name": "Garbanzos pedrosillanos Luengo 1 Kg",
+   "label": "distinct"
+  },
+  {
+   "id": 69,
+   "a": "mercadona:24048",
+   "b": "dia:11421",
+   "a_name": "Perfumador ropa Dahlía Bosque Verde",
+   "b_name": "Zanahoria 1 Kg",
+   "label": "distinct"
+  },
+  {
+   "id": 70,
+   "a": "dia:271330",
+   "b": "alcampo:53549",
+   "a_name": "Leche semidesnatada pasteurizada Dia Láctea 1 L",
+   "b_name": "AUCHAN Leche semidesnatada de vaca 1 l. Producto Alcampo",
+   "label": "equivalent"
+  },
+  {
+   "id": 71,
+   "a": "dia:145913",
+   "b": "alcampo:44078",
+   "a_name": "Vasos de arroz integral Brillante 2 x 125 g",
+   "b_name": "NOMEN Arroz integral en atmósfera modificada 1 kg",
+   "label": "generic"
+  },
+  {
+   "id": 72,
+   "a": "alcampo:21952",
+   "b": "dia:262432",
+   "a_name": "YBARRA Aceite de oliva suave garrafa 5 l",
+   "b_name": "Atún claro en aceite de oliva Dia Mari Marinera 6 x 60 g",
+   "label": "distinct"
+  },
+  {
+   "id": 73,
+   "a": "dia:264797",
+   "b": "alcampo:42789",
+   "a_name": "Arroz risotto Dia Selección Mundial 1 Kg",
+   "b_name": "BRILLANTE Arroz largo en tarrina paquete 2 uds x 200 g",
+   "label": "generic"
+  },
+  {
+   "id": 74,
+   "a": "dia:151",
+   "b": "alcampo:206810",
+   "a_name": "Arroz extra Dia Arrozona 1 Kg",
+   "b_name": "PRODUCTO ALCAMPO Arroz basmati vasito para microondas calentar y listo 2 x 125 g",
+   "label": "generic"
+  },
+  {
+   "id": 75,
+   "a": "mercadona:69435",
+   "b": "dia:50077",
+   "a_name": "Lechuga romana cortada y lavada",
+   "b_name": "Corazón de lechuga romana unidad",
+   "label": "equivalent"
+  },
+  {
+   "id": 76,
+   "a": "mercadona:20031",
+   "b": "alcampo:95299",
+   "a_name": "Yogur sabor fresa Danone",
+   "b_name": "KAIKU Yogur de sabor natural azucarado Sin lactosa 8 x 125 g",
+   "label": "generic"
+  },
+  {
+   "id": 77,
+   "a": "alcampo:23866",
+   "b": "mercadona:22860",
+   "a_name": "PRODUCTO ALCAMPO Pastillas de caldo de carne 12 uds. 120 g",
+   "b_name": "Caldo de carne Hacendado en pastillas",
+   "label": "equivalent"
+  },
+  {
+   "id": 78,
+   "a": "dia:314649",
+   "b": "mercadona:2781",
+   "a_name": "Redondo de pollo asado La Carloteña 320 g",
+   "b_name": "Pollo entero",
+   "label": "distinct"
+  },
+  {
+   "id": 79,
+   "a": "mercadona:68131",
+   "b": "alcampo:431439",
+   "a_name": "Judía verde plana",
+   "b_name": "ALTA COCINA Judías verdes planas frasco de 360 g",
+   "label": "generic"
+  },
+  {
+   "id": 80,
+   "a": "mercadona:10722",
+   "b": "alcampo:50666",
+   "a_name": "Leche semidesnatada sin lactosa Hacendado",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche entera de vaca de origen español 1.5 l",
+   "label": "generic"
+  },
+  {
+   "id": 81,
+   "a": "dia:19814P6",
+   "b": "alcampo:495310",
+   "a_name": "Leche entera Lauki pack 6 x 1 L",
+   "b_name": "ALCAMPO CULTIVAMOS LO BUENO Leche de vaca desnatada, de origen española 6x1 l",
+   "label": "generic"
+  },
+  {
+   "id": 82,
+   "a": "mercadona:10530",
+   "b": "dia:16065",
+   "a_name": "Leche entera Asturiana",
+   "b_name": "Leche entera Asturiana pack 6 x 1 L",
+   "label": "identical"
+  },
+  {
+   "id": 83,
+   "a": "mercadona:6300",
+   "b": "dia:308781",
+   "a_name": "Macarrón al huevo Hacendado",
+   "b_name": "Plumas altas en proteínas Gallo 400 g",
+   "label": "generic"
+  },
+  {
+   "id": 84,
+   "a": "alcampo:33256",
+   "b": "dia:5616",
+   "a_name": "HIDA Tomate entero pelado lata de 240 g",
+   "b_name": "Tomate entero pelado Dia Vegecampo 480 g",
+   "label": "equivalent"
+  },
+  {
+   "id": 85,
+   "a": "alcampo:959997",
+   "b": "mercadona:18108",
+   "a_name": "ALTA COCINA Pollo desmigado en escabeche - Tarro de 100g",
+   "b_name": "Bonito del norte en escabeche Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 86,
+   "a": "dia:16065",
+   "b": "alcampo:52941",
+   "a_name": "Leche entera Asturiana pack 6 x 1 L",
+   "b_name": "PRIÉGOLA Leche entera fresca 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 87,
+   "a": "alcampo:28178",
+   "b": "mercadona:4711",
+   "a_name": "ANETO Caldo de verduras y aceite de oliva virgen natural brik de 1 l",
+   "b_name": "Aceite de oliva virgen Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 88,
+   "a": "dia:271330",
+   "b": "alcampo:566225",
+   "a_name": "Leche semidesnatada pasteurizada Dia Láctea 1 L",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche semidesnatada sin lactosa 3 x 200 ml",
+   "label": "generic"
+  },
+  {
+   "id": 89,
+   "a": "mercadona:10502",
+   "b": "dia:17548P6",
+   "a_name": "Leche semidesnatada Asturiana",
+   "b_name": "Leche semidesnatada Asturiana pack 6 x 1 L",
+   "label": "equivalent"
+  },
+  {
+   "id": 90,
+   "a": "mercadona:10530",
+   "b": "dia:608",
+   "a_name": "Leche entera Asturiana",
+   "b_name": "Leche entera Dia Láctea 1 L",
+   "label": "equivalent"
+  },
+  {
+   "id": 91,
+   "a": "dia:297835",
+   "b": "mercadona:4641",
+   "a_name": "Atún en aceite de oliva Ribeira 650 g",
+   "b_name": "Aceite de oliva 1º Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 92,
+   "a": "dia:73677",
+   "b": "alcampo:50822",
+   "a_name": "Leche semidesnatada Pascual pack 6 x 1 L",
+   "b_name": "LAUKI Leche semidesnatada de vaca, de origen 100% español 1l",
+   "label": "equivalent"
+  },
+  {
+   "id": 93,
+   "a": "mercadona:10732",
+   "b": "dia:304739",
+   "a_name": "Leche semidesnatada sin lactosa Hacendado",
+   "b_name": "Leche semidesnatada Dia Láctea pack 6 x 1.5 L",
+   "label": "generic"
+  },
+  {
+   "id": 94,
+   "a": "mercadona:10712",
+   "b": "dia:313032",
+   "a_name": "Leche semidesnatada Asturiana",
+   "b_name": "Leche semidesnatada botella Asturiana 1 L",
+   "label": "identical"
+  },
+  {
+   "id": 95,
+   "a": "mercadona:10379",
+   "b": "alcampo:95917",
+   "a_name": "Leche entera Hacendado",
+   "b_name": "PRÉSIDENT Leche entera de vaca de origen 100% española 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 96,
+   "a": "mercadona:10922",
+   "b": "dia:504P6",
+   "a_name": "Leche semidesnatada Hacendado",
+   "b_name": "Leche semidesnatada Dia Láctea pack 6 x 1 L",
+   "label": "equivalent"
+  },
+  {
+   "id": 97,
+   "a": "dia:184524",
+   "b": "mercadona:18214",
+   "a_name": "Atún en aceite de oliva Calvo 3 x 52 g",
+   "b_name": "Sardinillas reducidas en sal en aceite de oliva Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 98,
+   "a": "mercadona:10545",
+   "b": "alcampo:258966",
+   "a_name": "Leche semidesnatada sin lactosa Hacendado",
+   "b_name": "PASCUAL Leche de vaca entera, de bienestar animal garantizado 6 x 1.5 l",
+   "label": "generic"
+  },
+  {
+   "id": 99,
+   "a": "mercadona:10683",
+   "b": "alcampo:216831",
+   "a_name": "Leche semidesnatada calcio Hacendado",
+   "b_name": "AUCHAN Leche de vaca semidesnatada 1,5 l Producto Alcampo",
+   "label": "generic"
+  },
+  {
+   "id": 100,
+   "a": "mercadona:12533",
+   "b": "dia:504",
+   "a_name": "Chocolate con leche fundir Hacendado",
+   "b_name": "Leche semidesnatada Dia Láctea 1 L",
+   "label": "distinct"
+  },
+  {
+   "id": 101,
+   "a": "mercadona:4241",
+   "b": "dia:184524",
+   "a_name": "Aceite de oliva 0,4º Hacendado",
+   "b_name": "Atún en aceite de oliva Calvo 3 x 52 g",
+   "label": "distinct"
+  },
+  {
+   "id": 102,
+   "a": "mercadona:18030",
+   "b": "dia:262432",
+   "a_name": "Atún en aceite de oliva Hacendado",
+   "b_name": "Atún claro en aceite de oliva Dia Mari Marinera 6 x 60 g",
+   "label": "equivalent"
+  },
+  {
+   "id": 103,
+   "a": "mercadona:3028",
+   "b": "alcampo:59765",
+   "a_name": "Manzana Golden",
+   "b_name": "Manzana Reineta gris al peso",
+   "label": "generic"
+  },
+  {
+   "id": 104,
+   "a": "dia:19814P6",
+   "b": "alcampo:216880",
+   "a_name": "Leche entera Lauki pack 6 x 1 L",
+   "b_name": "AUCHAN Leche mini entera 6 x 200 ml Producto Alcampo",
+   "label": "equivalent"
+  },
+  {
+   "id": 105,
+   "a": "mercadona:22313",
+   "b": "dia:13963",
+   "a_name": "Yogur natural Hacendado",
+   "b_name": "Yogur natural Danone 4 x 120 g",
+   "label": "equivalent"
+  },
+  {
+   "id": 106,
+   "a": "mercadona:10712",
+   "b": "alcampo:824176",
+   "a_name": "Leche semidesnatada Asturiana",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche desnatada botella 6 x 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 107,
+   "a": "dia:49694",
+   "b": "alcampo:713473",
+   "a_name": "Cocido madrileño Dia Al Punto 440 g",
+   "b_name": "ANETO Caldo natural de cocido Madrileño 1 l",
+   "label": "distinct"
+  },
+  {
+   "id": 108,
+   "a": "dia:304350",
+   "b": "alcampo:942179",
+   "a_name": "Caldo de pollo Aneto 500 ml",
+   "b_name": "GALLINA BLANCA Gourmet Caldo de pollo con jamón brick 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 109,
+   "a": "alcampo:55727",
+   "b": "mercadona:68037",
+   "a_name": "Lombarda",
+   "b_name": "Hierbabuena",
+   "label": "distinct"
+  },
+  {
+   "id": 110,
+   "a": "dia:189013",
+   "b": "alcampo:25219",
+   "a_name": "Vasos de arroz redondo Brillante 2 x 200 g",
+   "b_name": "CALASPARRA Arroz redondo 1 kg",
+   "label": "generic"
+  },
+  {
+   "id": 111,
+   "a": "mercadona:10683",
+   "b": "alcampo:53081",
+   "a_name": "Leche semidesnatada calcio Hacendado",
+   "b_name": "PULEVA Eco Leche desnatada pack de 6 uds x 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 112,
+   "a": "mercadona:10532",
+   "b": "alcampo:258948",
+   "a_name": "Leche desnatada Asturiana",
+   "b_name": "PASCUAL Leche de vaca desnatada, de bienestar animal garantizado 1.5 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 113,
+   "a": "dia:73676",
+   "b": "alcampo:681343",
+   "a_name": "Leche entera Pascual pack 6 x 1 L",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche entera de vaca, 100% natural 6 x 200 ml",
+   "label": "equivalent"
+  },
+  {
+   "id": 114,
+   "a": "dia:184583",
+   "b": "alcampo:25603",
+   "a_name": "Arroz bomba La fallera 1 Kg",
+   "b_name": "LA FALLERA Arroz redondo especial para paella con D.O. Valencia 1 kg",
+   "label": "generic"
+  },
+  {
+   "id": 115,
+   "a": "dia:5873",
+   "b": "alcampo:800205",
+   "a_name": "Arroz largo Dia Arrozona 1 Kg",
+   "b_name": "BRILLANTE Arroz al curry verde en tarrina 2 X 125 g",
+   "label": "generic"
+  },
+  {
+   "id": 116,
+   "a": "mercadona:51197",
+   "b": "alcampo:203672",
+   "a_name": "Queso feta mezcla Hacendado en dados",
+   "b_name": "DODONI Queso feta con Denominación de Origen Protegida (DOP) 2 x 75 g",
+   "label": "equivalent"
+  },
+  {
+   "id": 117,
+   "a": "mercadona:10531",
+   "b": "alcampo:53542",
+   "a_name": "Leche semidesnatada Asturiana",
+   "b_name": "AUCHAN Leche desnatada de vaca 1 l. Producto Alcampo",
+   "label": "generic"
+  },
+  {
+   "id": 118,
+   "a": "mercadona:10540",
+   "b": "alcampo:54497",
+   "a_name": "Leche entera Hacendado",
+   "b_name": "PASCUAL Leche entera procedente de animales con bienestar garantizado 6x 1l",
+   "label": "equivalent"
+  },
+  {
+   "id": 119,
+   "a": "mercadona:10812",
+   "b": "dia:313032",
+   "a_name": "Leche semidesnatada de cabra Hacendado",
+   "b_name": "Leche semidesnatada botella Asturiana 1 L",
+   "label": "generic"
+  },
+  {
+   "id": 120,
+   "a": "mercadona:10505",
+   "b": "alcampo:474213",
+   "a_name": "Leche semidesnatada Asturiana",
+   "b_name": "ALCAMPO CULTIVAMOS LO BUENO Leche de vaca semidesnatada, de origen española 6x1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 121,
+   "a": "dia:184889",
+   "b": "alcampo:95921",
+   "a_name": "Leche entera Asturiana botella 2.2 L",
+   "b_name": "PRÉSIDENT Leche desnatada de vaca de origen 100% española 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 122,
+   "a": "dia:20298",
+   "b": "alcampo:234091",
+   "a_name": "Patatas de guarnición 1 Kg",
+   "b_name": "PRODUCTO ALCAMPO Aperitivo de patata 125 g",
+   "label": "distinct"
+  },
+  {
+   "id": 123,
+   "a": "alcampo:32729",
+   "b": "mercadona:18128",
+   "a_name": "LOURIÑO Magro de cerdo ibérico cocido en su jugo lata de 200 g",
+   "b_name": "Hamburguesa de cerdo ibérico El Pozo con secreto ibérico",
+   "label": "distinct"
+  },
+  {
+   "id": 124,
+   "a": "mercadona:18086",
+   "b": "dia:116670",
+   "a_name": "Atún en aceite de girasol Hacendado",
+   "b_name": "Atún en aceite girasol Isabel 3 x 52 g",
+   "label": "equivalent"
+  },
+  {
+   "id": 125,
+   "a": "dia:17548",
+   "b": "alcampo:51119",
+   "a_name": "Leche semidesnatada Asturiana 1 L",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche semidesnatada de vaca, de origen española 2.2 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 126,
+   "a": "dia:73677",
+   "b": "alcampo:51327",
+   "a_name": "Leche semidesnatada Pascual pack 6 x 1 L",
+   "b_name": "TIERRA DE SABOR Leche semidesnatada de vaca 6 x 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 127,
+   "a": "mercadona:17647",
+   "b": "alcampo:437236",
+   "a_name": "Tomate para untar Hacendado con aceite de oliva",
+   "b_name": "HELIOS Tomate para untar 2 uds. 140 g",
+   "label": "equivalent"
+  },
+  {
+   "id": 128,
+   "a": "dia:304082",
+   "b": "mercadona:50968",
+   "a_name": "Queso mezcla Descarado Dia El Cencerro 200 g",
+   "b_name": "Queso curado mezcla Hacendado",
+   "label": "equivalent"
+  },
+  {
+   "id": 129,
+   "a": "dia:285530",
+   "b": "mercadona:18037",
+   "a_name": "Salsa boloñesa Dia Salseo 300 g",
+   "b_name": "Atún en salsa de tomate Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 130,
+   "a": "dia:73678P6",
+   "b": "alcampo:52243",
+   "a_name": "Leche desnatada Pascual pack 6 x 1 L",
+   "b_name": "LA COLMENAREÑA Leche semidesnatada 6 x 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 131,
+   "a": "mercadona:7031",
+   "b": "dia:303856",
+   "a_name": "Caldo de pollo Hacendado bajo en sal",
+   "b_name": "Caldo de pollo bajo en sal Dia Al Punto 1 L",
+   "label": "equivalent"
+  },
+  {
+   "id": 132,
+   "a": "mercadona:18086",
+   "b": "dia:309003",
+   "a_name": "Atún en aceite de girasol Hacendado",
+   "b_name": "Solomillo de atún marinado Selección de Dia 250 g aprox.",
+   "label": "distinct"
+  },
+  {
+   "id": 133,
+   "a": "dia:17548P6",
+   "b": "alcampo:50822",
+   "a_name": "Leche semidesnatada Asturiana pack 6 x 1 L",
+   "b_name": "LAUKI Leche semidesnatada de vaca, de origen 100% español 1l",
+   "label": "equivalent"
+  },
+  {
+   "id": 134,
+   "a": "mercadona:10541",
+   "b": "dia:17548",
+   "a_name": "Leche semidesnatada Hacendado",
+   "b_name": "Leche semidesnatada Asturiana 1 L",
+   "label": "equivalent"
+  },
+  {
+   "id": 135,
+   "a": "mercadona:18086",
+   "b": "dia:262435",
+   "a_name": "Atún en aceite de girasol Hacendado",
+   "b_name": "Atún claro en aceite de oliva bajo en sal Dia Mari Marinera 3 x 60 g",
+   "label": "generic"
+  },
+  {
+   "id": 136,
+   "a": "mercadona:10161",
+   "b": "dia:56937",
+   "a_name": "Nata ligera para cocinar Hacendado",
+   "b_name": "Nata para cocinar Asturiana 500 ml",
+   "label": "equivalent"
+  },
+  {
+   "id": 137,
+   "a": "mercadona:10540",
+   "b": "dia:73676",
+   "a_name": "Leche entera Hacendado",
+   "b_name": "Leche entera Pascual pack 6 x 1 L",
+   "label": "equivalent"
+  },
+  {
+   "id": 138,
+   "a": "dia:312578",
+   "b": "alcampo:61454",
+   "a_name": "Pesto basílico y pistacho Barilla 190 g",
+   "b_name": "ECOCELERA Arroz blanco redondo, 100% ecológico 500 g",
+   "label": "distinct"
+  },
+  {
+   "id": 139,
+   "a": "dia:274011",
+   "b": "alcampo:99261",
+   "a_name": "Huevos medianos/grandes M/L de gallinas criadas en el suelo Dia 12 unidades",
+   "b_name": "LOS FRESQUITOS Huevos de gallinas en jaulas acondicionadas de categoría A y clase M 10 uds",
+   "label": "equivalent"
+  },
+  {
+   "id": 140,
+   "a": "dia:304292",
+   "b": "alcampo:942623",
+   "a_name": "Lentejas Dia Vegecampo 500 g",
+   "b_name": "SANTA TERESA Crema de lentejas con arroz 400 g",
+   "label": "distinct"
+  },
+  {
+   "id": 141,
+   "a": "dia:17548",
+   "b": "alcampo:216834",
+   "a_name": "Leche semidesnatada Asturiana 1 L",
+   "b_name": "AUCHAN Leche mini semidesnatada 6 x 200 ml Producto Alcampo",
+   "label": "equivalent"
+  },
+  {
+   "id": 142,
+   "a": "mercadona:16812",
+   "b": "dia:188440",
+   "a_name": "Migas de bonito del norte en aceite de oliva Hacendado",
+   "b_name": "Bonito del norte en aceite de oliva Albo 67 g",
+   "label": "generic"
+  },
+  {
+   "id": 143,
+   "a": "mercadona:3456",
+   "b": "dia:275700",
+   "a_name": "Pinchos de pollo sin varilla adobados",
+   "b_name": "Longaniza de pollo Selección de Dia 400 g",
+   "label": "distinct"
+  },
+  {
+   "id": 144,
+   "a": "alcampo:29624",
+   "b": "dia:282560",
+   "a_name": "LA MASÍA Aceite de oliva suave garrafa 5 l",
+   "b_name": "Atún claro en aceite de oliva Calvo 6 x 52 g",
+   "label": "distinct"
+  },
+  {
+   "id": 145,
+   "a": "mercadona:31310",
+   "b": "dia:230337",
+   "a_name": "Huevos de gallinas camperas",
+   "b_name": "Claras de huevo pasteurizadas Ovonatur botella 500 ml",
+   "label": "distinct"
+  },
+  {
+   "id": 146,
+   "a": "mercadona:10533",
+   "b": "alcampo:219652",
+   "a_name": "Leche entera Hacendado",
+   "b_name": "PRÉSIDENT Leche semidesnatada de vaca de origen 100% español Selección 1.5 l",
+   "label": "generic"
+  },
+  {
+   "id": 147,
+   "a": "dia:150915",
+   "b": "alcampo:96269",
+   "a_name": "Caldo de pollo bajo en sal Gallina Blanca 1 L",
+   "b_name": "GALLINA BLANCA Caldo de pollo bajo en sal brik de 1 l",
+   "label": "identical"
+  },
+  {
+   "id": 148,
+   "a": "mercadona:10384",
+   "b": "alcampo:89950",
+   "a_name": "Leche desnatada Hacendado",
+   "b_name": "PRIÉGOLA Leche semidesnatada fresca sin lactosa 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 149,
+   "a": "mercadona:10544",
+   "b": "dia:608",
+   "a_name": "Leche desnatada Hacendado",
+   "b_name": "Leche entera Dia Láctea 1 L",
+   "label": "generic"
+  },
+  {
+   "id": 150,
+   "a": "mercadona:3682",
+   "b": "dia:17936",
+   "a_name": "Pechugas enteras familiar de pollo",
+   "b_name": "Pechugas enteras de pollo Selección de Dia 700 g aprox.",
+   "label": "equivalent"
+  },
+  {
+   "id": 151,
+   "a": "mercadona:17461",
+   "b": "dia:26824",
+   "a_name": "Queso fresco crema estilo Cottage Hacendado",
+   "b_name": "Queso fresco natural Dia Láctea 2 x 250 g",
+   "label": "generic"
+  },
+  {
+   "id": 152,
+   "a": "dia:280400",
+   "b": "alcampo:19824",
+   "a_name": "Aceite de oliva virgen Coosur 1 L",
+   "b_name": "PRODUCTO ALCAMPO Aceite de oliva suave botella 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 153,
+   "a": "mercadona:18108",
+   "b": "dia:258007",
+   "a_name": "Bonito del norte en escabeche Hacendado",
+   "b_name": "Bonito del norte en aceite de oliva MSC Campos 60 g",
+   "label": "generic"
+  },
+  {
+   "id": 154,
+   "a": "dia:173903P6",
+   "b": "alcampo:95194",
+   "a_name": "Leche semidesnatada Asturiana pack 6 x 2.2 L",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche semidesnatada de vaca, de origen española 500 ml",
+   "label": "equivalent"
+  },
+  {
+   "id": 155,
+   "a": "mercadona:12893",
+   "b": "alcampo:29026",
+   "a_name": "Preparado en polvo gelatina frutos rojos Hacendado 0% azúcares",
+   "b_name": "BONDUELLE Maíz dulce sin azúcares añadidos pack 3 uds X 140 g",
+   "label": "distinct"
+  },
+  {
+   "id": 156,
+   "a": "mercadona:26029",
+   "b": "dia:166948",
+   "a_name": "Garbanzo cocido Hacendado",
+   "b_name": "Garbanzos cocidos La Asturiana 210 g",
+   "label": "equivalent"
+  },
+  {
+   "id": 157,
+   "a": "dia:504",
+   "b": "alcampo:52122",
+   "a_name": "Leche semidesnatada Dia Láctea 1 L",
+   "b_name": "LA COLMENAREÑA Leche semidesnatada 1l",
+   "label": "equivalent"
+  },
+  {
+   "id": 158,
+   "a": "dia:271329",
+   "b": "alcampo:50733",
+   "a_name": "Leche entera pasteurizada Dia Láctea 1 L",
+   "b_name": "PASCUAL Leche entera de vaca 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 159,
+   "a": "dia:290890",
+   "b": "alcampo:220241",
+   "a_name": "Caldo gourmet de pollo Gallina Blanca 1 L",
+   "b_name": "KNORR Caldo de pollo en pastillas 24 uds",
+   "label": "distinct"
+  },
+  {
+   "id": 160,
+   "a": "mercadona:10504",
+   "b": "dia:74720P6",
+   "a_name": "Leche entera Asturiana",
+   "b_name": "Leche entera Asturiana pack 6 x 1.5 L",
+   "label": "identical"
+  },
+  {
+   "id": 161,
+   "a": "mercadona:10683",
+   "b": "alcampo:54180",
+   "a_name": "Leche semidesnatada calcio Hacendado",
+   "b_name": "AUCHAN Leche semidesnatada de vaca 6 x 1l Producto Alcampo",
+   "label": "generic"
+  },
+  {
+   "id": 162,
+   "a": "dia:19814P6",
+   "b": "alcampo:216831",
+   "a_name": "Leche entera Lauki pack 6 x 1 L",
+   "b_name": "AUCHAN Leche de vaca semidesnatada 1,5 l Producto Alcampo",
+   "label": "generic"
+  },
+  {
+   "id": 163,
+   "a": "mercadona:10504",
+   "b": "alcampo:258953",
+   "a_name": "Leche entera Asturiana",
+   "b_name": "PASCUAL Leche de vaca entera, de bienestar animal garantizado 1.5 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 164,
+   "a": "mercadona:5002",
+   "b": "alcampo:786433",
+   "a_name": "Arroz basmati aromático Hacendado",
+   "b_name": "NOMEN Arroz bomba 1 kg",
+   "label": "generic"
+  },
+  {
+   "id": 165,
+   "a": "mercadona:9040",
+   "b": "dia:311361",
+   "a_name": "Preparado lácteo crecimiento Peques 3 Puleva",
+   "b_name": "Preparado vegano sabor atún Garden Gourmet 175 g",
+   "label": "distinct"
+  },
+  {
+   "id": 166,
+   "a": "mercadona:51110",
+   "b": "alcampo:95913",
+   "a_name": "Queso rallado mozzarella pizza-Roma de vaca Hacendado",
+   "b_name": "ENTREMONT Queso rallado Emmental ENTREMONT 200 g",
+   "label": "generic"
+  },
+  {
+   "id": 167,
+   "a": "alcampo:437519",
+   "b": "mercadona:18713",
+   "a_name": "HEINZ Salsa barbacoa 220 ml",
+   "b_name": "Calamar en salsa americana Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 168,
+   "a": "dia:65",
+   "b": "alcampo:75911",
+   "a_name": "Manzana roja granel 800 g aprox.",
+   "b_name": "Manzana Granny Smith al peso",
+   "label": "generic"
+  },
+  {
+   "id": 169,
+   "a": "dia:306541",
+   "b": "alcampo:32578",
+   "a_name": "Fumet natural de marisco Dia Al Punto 1 L",
+   "b_name": "GALLINA BLANCA Caldo para paella de marisco brik de 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 170,
+   "a": "dia:308784",
+   "b": "alcampo:942179",
+   "a_name": "Caldo de pollo con jamón Gallina Blanca 1 L",
+   "b_name": "GALLINA BLANCA Gourmet Caldo de pollo con jamón brick 1 l",
+   "label": "identical"
+  },
+  {
+   "id": 171,
+   "a": "alcampo:19821",
+   "b": "dia:303963",
+   "a_name": "PRODUCTO ALCAMPO Aceite de girasol garrafa de 5 l",
+   "b_name": "Atún claro en aceite de girasol Dia Mari Marinera 228 g",
+   "label": "distinct"
+  },
+  {
+   "id": 172,
+   "a": "mercadona:10382",
+   "b": "alcampo:476608",
+   "a_name": "Leche semidesnatada Hacendado",
+   "b_name": "ALCAMPO CULTIVAMOS LO BUENO Leche de vaca entera, de origen española 6x1 l",
+   "label": "generic"
+  },
+  {
+   "id": 173,
+   "a": "mercadona:10712",
+   "b": "alcampo:51983",
+   "a_name": "Leche semidesnatada Asturiana",
+   "b_name": "LA COLMENAREÑA Leche entera 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 174,
+   "a": "dia:101",
+   "b": "mercadona:4041",
+   "a_name": "Aceite refinado de girasol Diasol 1 L",
+   "b_name": "Aceite de girasol refinado 0,2º Hacendado",
+   "label": "equivalent"
+  },
+  {
+   "id": 175,
+   "a": "dia:142599",
+   "b": "alcampo:25219",
+   "a_name": "Arroz redondo Sabroz Brillante 1 Kg",
+   "b_name": "CALASPARRA Arroz redondo 1 kg",
+   "label": "equivalent"
+  },
+  {
+   "id": 176,
+   "a": "mercadona:4240",
+   "b": "dia:308392",
+   "a_name": "Aceite de oliva 0,4º Hacendado",
+   "b_name": "Atún claro en aceite de oliva con aceitunas Friscos 50 g",
+   "label": "distinct"
+  },
+  {
+   "id": 177,
+   "a": "mercadona:10933",
+   "b": "alcampo:51324",
+   "a_name": "Leche entera Hacendado",
+   "b_name": "TIERRA DE SABOR Leche de vaca entera 6 x 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 178,
+   "a": "mercadona:87200",
+   "b": "dia:17384",
+   "a_name": "Porciones de merluza",
+   "b_name": "Filetes de merluza Argentina sin piel Dia Mari Marinera 400 g",
+   "label": "generic"
+  },
+  {
+   "id": 179,
+   "a": "mercadona:22860",
+   "b": "alcampo:207538",
+   "a_name": "Caldo de carne Hacendado en pastillas",
+   "b_name": "ANETO Caldo de carne 100% 1 l",
+   "label": "distinct"
+  },
+  {
+   "id": 180,
+   "a": "dia:504P6",
+   "b": "alcampo:476608",
+   "a_name": "Leche semidesnatada Dia Láctea pack 6 x 1 L",
+   "b_name": "ALCAMPO CULTIVAMOS LO BUENO Leche de vaca entera, de origen española 6x1 l",
+   "label": "generic"
+  },
+  {
+   "id": 181,
+   "a": "dia:116670",
+   "b": "alcampo:769630",
+   "a_name": "Atún en aceite girasol Isabel 3 x 52 g",
+   "b_name": "CAMPOMAR NATURE Aceite de girasol ecológico 1 l",
+   "label": "distinct"
+  },
+  {
+   "id": 182,
+   "a": "mercadona:10504",
+   "b": "dia:73677",
+   "a_name": "Leche entera Asturiana",
+   "b_name": "Leche semidesnatada Pascual pack 6 x 1 L",
+   "label": "generic"
+  },
+  {
+   "id": 183,
+   "a": "dia:49018",
+   "b": "alcampo:19650",
+   "a_name": "Aceite de oliva suave La masía 1 L",
+   "b_name": "LA MASÍA Aceite de Oliva suave botella 1 l",
+   "label": "identical"
+  },
+  {
+   "id": 184,
+   "a": "dia:17548P6",
+   "b": "alcampo:684309",
+   "a_name": "Leche semidesnatada Asturiana pack 6 x 1 L",
+   "b_name": "PULEVA Leche fresca de vaca semidesnatada 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 185,
+   "a": "alcampo:431947",
+   "b": "dia:326",
+   "a_name": "DANTZA Tomate triturado extra lata de 390 g",
+   "b_name": "Tomate triturado Dia Vegecampo 400 g",
+   "label": "equivalent"
+  },
+  {
+   "id": 186,
+   "a": "mercadona:19882",
+   "b": "dia:187476",
+   "a_name": "Sopa hortelana Hacendado",
+   "b_name": "Sopa jardinera con conchitas Gallina Blanca 77 g",
+   "label": "generic"
+  },
+  {
+   "id": 187,
+   "a": "dia:11829",
+   "b": "mercadona:4241",
+   "a_name": "Melva en aceite de oliva Dia Mari Marinera 85 g",
+   "b_name": "Aceite de oliva 0,4º Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 188,
+   "a": "dia:100",
+   "b": "alcampo:23345",
+   "a_name": "Aceite de oliva suave Carbonell 1 L",
+   "b_name": "CARBONELL Aceite de oliva suave botella 1 l",
+   "label": "identical"
+  },
+  {
+   "id": 189,
+   "a": "mercadona:69166",
+   "b": "alcampo:190340",
+   "a_name": "Patatas",
+   "b_name": "FRIT RAVICH Patatas fritas de sobrasada y miel 150 g",
+   "label": "distinct"
+  },
+  {
+   "id": 190,
+   "a": "mercadona:10383",
+   "b": "alcampo:51336",
+   "a_name": "Leche desnatada Hacendado",
+   "b_name": "TIERRA DE SABOR Leche desnatada de vaca 6 x 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 191,
+   "a": "mercadona:10281",
+   "b": "alcampo:54509",
+   "a_name": "Bebida láctea Omega 3 Puleva con nueces y leche desnatada",
+   "b_name": "PASCUAL Leche desnatada 0% materia grasa 6 x 1l",
+   "label": "generic"
+  },
+  {
+   "id": 192,
+   "a": "alcampo:23408",
+   "b": "dia:12668",
+   "a_name": "CARBONELL Aceite de oliva suave garrafa de 5 l",
+   "b_name": "Aceite de orujo de oliva Dia La Almazara del Olivar 1 L",
+   "label": "distinct"
+  },
+  {
+   "id": 193,
+   "a": "mercadona:10379",
+   "b": "alcampo:54178",
+   "a_name": "Leche entera Hacendado",
+   "b_name": "AUCHAN Leche entera de vaca 6 x 1 l Producto Alcampo",
+   "label": "equivalent"
+  },
+  {
+   "id": 194,
+   "a": "mercadona:10282",
+   "b": "dia:607",
+   "a_name": "Bebida láctea Omega 3 Puleva con nueces y leche desnatada",
+   "b_name": "Leche desnatada Dia Láctea 1 L",
+   "label": "generic"
+  },
+  {
+   "id": 195,
+   "a": "mercadona:10683",
+   "b": "alcampo:684309",
+   "a_name": "Leche semidesnatada calcio Hacendado",
+   "b_name": "PULEVA Leche fresca de vaca semidesnatada 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 196,
+   "a": "alcampo:648312",
+   "b": "mercadona:18713",
+   "a_name": "HELLMANN\"S Salsa barbacoa 430 ml",
+   "b_name": "Calamar en salsa americana Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 197,
+   "a": "dia:5631",
+   "b": "alcampo:12386",
+   "a_name": "Patatas granel 1 Kg aprox.",
+   "b_name": "PRODUCTO ALCAMPO Patatas fritas cartucho 2 uds. x 150 g",
+   "label": "distinct"
+  },
+  {
+   "id": 198,
+   "a": "dia:309268",
+   "b": "alcampo:24337",
+   "a_name": "Ensalada tierna Dia Vegecampo 125 g",
+   "b_name": "CARRETILLA Ensalada de pasta con atún 240 g",
+   "label": "distinct"
+  },
+  {
+   "id": 199,
+   "a": "mercadona:60587",
+   "b": "dia:295310",
+   "a_name": "Sopa maravilla Hacendado",
+   "b_name": "Sopa de pollo con maravilla Dia Al Punto 90 g",
+   "label": "generic"
+  },
+  {
+   "id": 200,
+   "a": "dia:299617",
+   "b": "mercadona:50151",
+   "a_name": "Queso de oveja con trufa blanca Quesería del Mundo 175 g",
+   "b_name": "Queso lonchas de oveja Hacendado",
+   "label": "generic"
+  },
+  {
+   "id": 201,
+   "a": "mercadona:4240",
+   "b": "dia:11829",
+   "a_name": "Aceite de oliva 0,4º Hacendado",
+   "b_name": "Melva en aceite de oliva Dia Mari Marinera 85 g",
+   "label": "distinct"
+  },
+  {
+   "id": 202,
+   "a": "dia:608P6",
+   "b": "alcampo:50724",
+   "a_name": "Leche entera Dia Láctea pack 6 x 1 L",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche entera de vaca, de origen español 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 203,
+   "a": "mercadona:5024",
+   "b": "alcampo:25219",
+   "a_name": "Arroz redondo SOS",
+   "b_name": "CALASPARRA Arroz redondo 1 kg",
+   "label": "equivalent"
+  },
+  {
+   "id": 204,
+   "a": "dia:299854",
+   "b": "alcampo:438102",
+   "a_name": "Caldo natural de pollo y hortalizas Dia Al Punto 1 L",
+   "b_name": "PRODUCTO ALCAMPO Caldo cocido 13% receta tradicional 1L",
+   "label": "generic"
+  },
+  {
+   "id": 205,
+   "a": "mercadona:10530",
+   "b": "alcampo:52941",
+   "a_name": "Leche entera Asturiana",
+   "b_name": "PRIÉGOLA Leche entera fresca 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 206,
+   "a": "mercadona:18071",
+   "b": "alcampo:19830",
+   "a_name": "Atún claro en aceite de oliva Hacendado",
+   "b_name": "PRODUCTO ALCAMPO Aceite de oliva intenso botella de 1 l",
+   "label": "distinct"
+  },
+  {
+   "id": 207,
+   "a": "mercadona:10541",
+   "b": "alcampo:99227",
+   "a_name": "Leche semidesnatada Hacendado",
+   "b_name": "L.R. Leche desnatada 6 x 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 208,
+   "a": "mercadona:50952",
+   "b": "alcampo:432376",
+   "a_name": "Queso añejo tostado mezcla Hacendado",
+   "b_name": "SALAKIS Queso feta 150 g",
+   "label": "generic"
+  },
+  {
+   "id": 209,
+   "a": "dia:21415",
+   "b": "alcampo:20834",
+   "a_name": "Arroz redondo SOS 1 Kg",
+   "b_name": "LA FALLERA Arroz redondo paquete de 1 kg",
+   "label": "equivalent"
+  },
+  {
+   "id": 210,
+   "a": "mercadona:18002",
+   "b": "dia:308392",
+   "a_name": "Atún claro en aceite de oliva Hacendado",
+   "b_name": "Atún claro en aceite de oliva con aceitunas Friscos 50 g",
+   "label": "generic"
+  },
+  {
+   "id": 211,
+   "a": "mercadona:24383",
+   "b": "alcampo:50952",
+   "a_name": "Rodaja de tintorera sin piel Hacendado ultracongelada",
+   "b_name": "MOLDIPAN Hogaza rebanada artesana 490 gr",
+   "label": "distinct"
+  },
+  {
+   "id": 212,
+   "a": "mercadona:10542",
+   "b": "alcampo:258953",
+   "a_name": "Leche semidesnatada Hacendado",
+   "b_name": "PASCUAL Leche de vaca entera, de bienestar animal garantizado 1.5 l",
+   "label": "generic"
+  },
+  {
+   "id": 213,
+   "a": "mercadona:52672",
+   "b": "dia:311342",
+   "a_name": "Burger de cerdo",
+   "b_name": "World burger Tailandia Selección de Dia 120 g",
+   "label": "generic"
+  },
+  {
+   "id": 214,
+   "a": "mercadona:1699",
+   "b": "dia:77955",
+   "a_name": "Pan de molde blanco rebanada gruesa Hacendado",
+   "b_name": "Pan de molde blanco El Molino de Dia 820 g",
+   "label": "equivalent"
+  },
+  {
+   "id": 215,
+   "a": "dia:17548P6",
+   "b": "alcampo:474223",
+   "a_name": "Leche semidesnatada Asturiana pack 6 x 1 L",
+   "b_name": "ALCAMPO CULTIVAMOS LO BUENO Leche de vaca semidesnatada, de origen española 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 216,
+   "a": "mercadona:69155",
+   "b": "dia:45862",
+   "a_name": "Cebollas dulces",
+   "b_name": "Cebolla dulce granel 1.1 Kg aprox.",
+   "label": "equivalent"
+  },
+  {
+   "id": 217,
+   "a": "mercadona:21733",
+   "b": "alcampo:316972",
+   "a_name": "Gaseosa grande Hacendado",
+   "b_name": "GALLINA BLANCA Gourmet Crema de pollo de corral y verduras con picatostes (garantía hermanos Torres) 300 g",
+   "label": "distinct"
+  },
+  {
+   "id": 218,
+   "a": "dia:304089",
+   "b": "alcampo:23689",
+   "a_name": "Atún en aceite de girasol Dia Mari Marinera 260 g",
+   "b_name": "KOIPESOL Aceite de girasol garrafa de 5 l",
+   "label": "distinct"
+  },
+  {
+   "id": 219,
+   "a": "dia:278909",
+   "b": "mercadona:4718",
+   "a_name": "Margarina al toque de aceite de oliva Flora 225 g",
+   "b_name": "Aceite de oliva virgen extra Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 220,
+   "a": "mercadona:10543",
+   "b": "alcampo:473577",
+   "a_name": "Leche desnatada Hacendado",
+   "b_name": "ALCAMPO CULTIVAMOS LO BUENO Leche de vaca entera, de origen española 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 221,
+   "a": "mercadona:5044",
+   "b": "alcampo:43905",
+   "a_name": "Arroz redondo Hacendado",
+   "b_name": "NOMEN Arroz integral, vasitos pack 2 x 125 g",
+   "label": "generic"
+  },
+  {
+   "id": 222,
+   "a": "mercadona:18086",
+   "b": "alcampo:748625",
+   "a_name": "Atún en aceite de girasol Hacendado",
+   "b_name": "COOSOL Aceite de girasol 5L",
+   "label": "distinct"
+  },
+  {
+   "id": 223,
+   "a": "dia:263675",
+   "b": "alcampo:432376",
+   "a_name": "Queso curado cortado Dia El Cencerro 250 g",
+   "b_name": "SALAKIS Queso feta 150 g",
+   "label": "generic"
+  },
+  {
+   "id": 224,
+   "a": "dia:184583",
+   "b": "alcampo:562763",
+   "a_name": "Arroz bomba La fallera 1 Kg",
+   "b_name": "PRODUCTO ALCAMPO Arroz bomba 500 gr",
+   "label": "equivalent"
+  },
+  {
+   "id": 225,
+   "a": "dia:19814",
+   "b": "alcampo:473577",
+   "a_name": "Leche entera Lauki 1 L",
+   "b_name": "ALCAMPO CULTIVAMOS LO BUENO Leche de vaca entera, de origen española 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 226,
+   "a": "dia:310847",
+   "b": "alcampo:52419",
+   "a_name": "Yogur natural Dia Láctea 6 x 125 g",
+   "b_name": "DANONE Yogur natural azucarado, elaborado con fermentos naturales 8 x 120 g",
+   "label": "generic"
+  },
+  {
+   "id": 227,
+   "a": "mercadona:23621",
+   "b": "alcampo:52161",
+   "a_name": "Queso rallado especial fundir mezcla Hacendado",
+   "b_name": "AUCHAN Queso rallado Emmental 200 g. Producto Alcampo",
+   "label": "generic"
+  },
+  {
+   "id": 228,
+   "a": "mercadona:49619",
+   "b": "dia:309625",
+   "a_name": "Papel hogar Compacto Absorbente Bosque Verde",
+   "b_name": "Alitas asadas de pollo Bonchef 600 g aprox.",
+   "label": "distinct"
+  },
+  {
+   "id": 229,
+   "a": "dia:188440",
+   "b": "alcampo:544528",
+   "a_name": "Bonito del norte en aceite de oliva Albo 67 g",
+   "b_name": "SAETA Aceite de oliva intenso 1 l",
+   "label": "distinct"
+  },
+  {
+   "id": 230,
+   "a": "mercadona:17564",
+   "b": "dia:159230",
+   "a_name": "Taquitos de pollo",
+   "b_name": "Caldo de pollo Gallina Blanca 2 x 1 L",
+   "label": "distinct"
+  },
+  {
+   "id": 231,
+   "a": "mercadona:10820",
+   "b": "dia:111055",
+   "a_name": "Bebida láctea con cereales crecimiento y desarrollo Puleva Max",
+   "b_name": "Pisto con aceite de oliva Dia Vegecampo 350 g",
+   "label": "distinct"
+  },
+  {
+   "id": 232,
+   "a": "alcampo:95169",
+   "b": "dia:11829",
+   "a_name": "CARBONEL SABOR Aceite de oliva intenso botella 1 l",
+   "b_name": "Melva en aceite de oliva Dia Mari Marinera 85 g",
+   "label": "distinct"
+  },
+  {
+   "id": 233,
+   "a": "mercadona:69756",
+   "b": "alcampo:53063",
+   "a_name": "Ensalada de la casa",
+   "b_name": "AUCHAN Queso para ensalada fresco en tacos 200 g. Producto Alcampo",
+   "label": "distinct"
+  },
+  {
+   "id": 234,
+   "a": "mercadona:18030",
+   "b": "alcampo:22872",
+   "a_name": "Atún en aceite de oliva Hacendado",
+   "b_name": "GALLINA BLANCA Sopinstant Crema de pollo con picatostes y aceite de oliva 3 x 21 g",
+   "label": "distinct"
+  },
+  {
+   "id": 235,
+   "a": "mercadona:29017",
+   "b": "dia:311361",
+   "a_name": "Preparado para repostería con impulsor incorporado Hacendado",
+   "b_name": "Preparado vegano sabor atún Garden Gourmet 175 g",
+   "label": "distinct"
+  },
+  {
+   "id": 236,
+   "a": "mercadona:61405",
+   "b": "dia:250786",
+   "a_name": "Patatas prefritas corte grueso Hacendado ultracongeladas",
+   "b_name": "Patatas gajo rústicas McCain 750 g",
+   "label": "generic"
+  },
+  {
+   "id": 237,
+   "a": "mercadona:10712",
+   "b": "alcampo:53549",
+   "a_name": "Leche semidesnatada Asturiana",
+   "b_name": "AUCHAN Leche semidesnatada de vaca 1 l. Producto Alcampo",
+   "label": "equivalent"
+  },
+  {
+   "id": 238,
+   "a": "dia:265079",
+   "b": "mercadona:69580",
+   "a_name": "Brócoli, coliflor y zanahoria Dia Vegecampo 1 Kg",
+   "b_name": "Brócoli",
+   "label": "distinct"
+  },
+  {
+   "id": 239,
+   "a": "mercadona:7014",
+   "b": "dia:159230",
+   "a_name": "Caldo de pollo Avecrem en pastillas",
+   "b_name": "Caldo de pollo Gallina Blanca 2 x 1 L",
+   "label": "distinct"
+  },
+  {
+   "id": 240,
+   "a": "dia:303311",
+   "b": "alcampo:800214",
+   "a_name": "Arroz de marisco Dia Al Punto 330 g",
+   "b_name": "BRILLANTE Arroz salvaje con arroz basmati en tarrina 2 X 125 gr",
+   "label": "generic"
+  },
+  {
+   "id": 241,
+   "a": "alcampo:544798",
+   "b": "dia:303436",
+   "a_name": "SAETA Aceite de oliva suave 1 l",
+   "b_name": "Bonito del Norte MSC en aceite de oliva Dia Mari Marinera 140 g",
+   "label": "distinct"
+  },
+  {
+   "id": 242,
+   "a": "mercadona:10540",
+   "b": "alcampo:52320",
+   "a_name": "Leche entera Hacendado",
+   "b_name": "RAM Leche semidesnatada de vaca 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 243,
+   "a": "mercadona:35781",
+   "b": "dia:263820",
+   "a_name": "Espinaca picada en porciones Hacendado ultracongelada",
+   "b_name": "Espinacas cortadas Dia Vegecampo 450 g",
+   "label": "equivalent"
+  },
+  {
+   "id": 244,
+   "a": "alcampo:29916",
+   "b": "dia:297835",
+   "a_name": "LA ESPAÑOLA Aceite de oliva intenso botella 1 l",
+   "b_name": "Atún en aceite de oliva Ribeira 650 g",
+   "label": "distinct"
+  },
+  {
+   "id": 245,
+   "a": "mercadona:10801",
+   "b": "alcampo:536526",
+   "a_name": "Leche desnatada Asturiana",
+   "b_name": "RAM Leche desnatada de vaca 6x1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 246,
+   "a": "mercadona:10884",
+   "b": "alcampo:53081",
+   "a_name": "Bebida láctea Omega 3 Puleva con leche desnatada",
+   "b_name": "PULEVA Eco Leche desnatada pack de 6 uds x 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 247,
+   "a": "mercadona:10282",
+   "b": "alcampo:52355",
+   "a_name": "Bebida láctea Omega 3 Puleva con nueces y leche desnatada",
+   "b_name": "LA COLMENAREÑA Leche desnatada 6 x 1l",
+   "label": "generic"
+  },
+  {
+   "id": 248,
+   "a": "mercadona:9860",
+   "b": "dia:102923",
+   "a_name": "Masa gruesa para empanadas Buitoni estilo Argentino",
+   "b_name": "Tomate frito estilo casero Solís 350 g",
+   "label": "distinct"
+  },
+  {
+   "id": 249,
+   "a": "mercadona:7331",
+   "b": "alcampo:63941",
+   "a_name": "Doble caldo sabor clásico carne Knorr en pastillas",
+   "b_name": "ANETO Caldo puchero con las mejores carnes y las verduras más frescas brik de 1 L",
+   "label": "distinct"
+  },
+  {
+   "id": 250,
+   "a": "mercadona:10382",
+   "b": "alcampo:824181",
+   "a_name": "Leche semidesnatada Hacendado",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche semidesnatada botella 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 251,
+   "a": "dia:49018",
+   "b": "alcampo:10111",
+   "a_name": "Aceite de oliva suave La masía 1 L",
+   "b_name": "LA ESPAÑOLA Aceite de oliva suave lata de 5 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 252,
+   "a": "mercadona:10933",
+   "b": "alcampo:258966",
+   "a_name": "Leche entera Hacendado",
+   "b_name": "PASCUAL Leche de vaca entera, de bienestar animal garantizado 6 x 1.5 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 253,
+   "a": "dia:299854",
+   "b": "alcampo:25866",
+   "a_name": "Caldo natural de pollo y hortalizas Dia Al Punto 1 L",
+   "b_name": "ANETO Caldo de pollo de corral con verduras natural brik de 1,5 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 254,
+   "a": "dia:304350",
+   "b": "alcampo:886921",
+   "a_name": "Caldo de pollo Aneto 500 ml",
+   "b_name": "KNORR Cacitos de caldo de pollo, sin glutamato 4 uds. 28 g",
+   "label": "distinct"
+  },
+  {
+   "id": 255,
+   "a": "mercadona:26033",
+   "b": "dia:268896",
+   "a_name": "Garbanzo cocido Pedrosillano Hacendado",
+   "b_name": "Garbanzos cocidos pedrosillanos Dia Vegecampo 400 g",
+   "label": "equivalent"
+  },
+  {
+   "id": 256,
+   "a": "dia:198607",
+   "b": "alcampo:27216",
+   "a_name": "Aceite de girasol especial para freír Koipe 1 L",
+   "b_name": "PRODUCTO ALCAMPO Atún claro en escabeche en aceite de girasol 3 latas 52 g",
+   "label": "distinct"
+  },
+  {
+   "id": 257,
+   "a": "mercadona:10783",
+   "b": "alcampo:52980",
+   "a_name": "Leche entera Hacendado",
+   "b_name": "LA COLMENAREÑA Leche de vaca, semidesnatada, fresca y pasteurizada 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 258,
+   "a": "mercadona:10678",
+   "b": "alcampo:54509",
+   "a_name": "Leche desnatada +Proteínas & calcio",
+   "b_name": "PASCUAL Leche desnatada 0% materia grasa 6 x 1l",
+   "label": "generic"
+  },
+  {
+   "id": 259,
+   "a": "mercadona:26029",
+   "b": "dia:101720",
+   "a_name": "Garbanzo cocido Hacendado",
+   "b_name": "Garbanzos cocidos Luengo 400 g",
+   "label": "equivalent"
+  },
+  {
+   "id": 260,
+   "a": "mercadona:29373",
+   "b": "dia:304291",
+   "a_name": "Harina de garbanzo Hacendado",
+   "b_name": "Garbanzos Dia Vegecampo 500 g",
+   "label": "distinct"
+  },
+  {
+   "id": 261,
+   "a": "mercadona:29019",
+   "b": "dia:5873",
+   "a_name": "Harina de fuerza Hacendado",
+   "b_name": "Arroz largo Dia Arrozona 1 Kg",
+   "label": "distinct"
+  },
+  {
+   "id": 262,
+   "a": "mercadona:10384",
+   "b": "alcampo:59955",
+   "a_name": "Leche desnatada Hacendado",
+   "b_name": "LAUKI Leche desnatada (0% materia grasa) de vaca de origen 100% español 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 263,
+   "a": "mercadona:4740",
+   "b": "alcampo:544798",
+   "a_name": "Aceite de oliva virgen extra Hacendado",
+   "b_name": "SAETA Aceite de oliva suave 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 264,
+   "a": "mercadona:18054",
+   "b": "dia:262430",
+   "a_name": "Atún claro en aceite de oliva Hacendado",
+   "b_name": "Atún en aceite de girasol Dia Mari Marinera 6 x 52 g",
+   "label": "generic"
+  },
+  {
+   "id": 265,
+   "a": "dia:220180",
+   "b": "alcampo:197359",
+   "a_name": "Pan de sandwich con cereales y semillas El Molino de Dia 310 g",
+   "b_name": "PRODUCTO ALCAMPO Pan de molde 100% centeno 450 g",
+   "label": "generic"
+  },
+  {
+   "id": 266,
+   "a": "mercadona:10712",
+   "b": "alcampo:89826",
+   "a_name": "Leche semidesnatada Asturiana",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche de vaca semidesnatada de origen español 6 x 500 ml",
+   "label": "equivalent"
+  },
+  {
+   "id": 267,
+   "a": "mercadona:61089",
+   "b": "dia:310676",
+   "a_name": "Mix frutos rojos Hacendado ultracongeladas",
+   "b_name": "Plumas N.º 3 Gallo 400 g",
+   "label": "distinct"
+  },
+  {
+   "id": 268,
+   "a": "mercadona:10884",
+   "b": "alcampo:51292",
+   "a_name": "Bebida láctea Omega 3 Puleva con leche desnatada",
+   "b_name": "TIERRA DE SABOR Leche desnatada de vaca 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 269,
+   "a": "dia:73678",
+   "b": "alcampo:50034",
+   "a_name": "Leche desnatada Pascual 1 L",
+   "b_name": "RAM Leche de vaca desnatada 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 270,
+   "a": "mercadona:10281",
+   "b": "dia:16066",
+   "a_name": "Bebida láctea Omega 3 Puleva con nueces y leche desnatada",
+   "b_name": "Leche desnatada Asturiana pack 6 x 1 L",
+   "label": "generic"
+  },
+  {
+   "id": 271,
+   "a": "dia:264698",
+   "b": "alcampo:510870",
+   "a_name": "Judías verdes redondas Dia Vegecampo 1 Kg",
+   "b_name": "GUTARRA Judías verdes trozos 340 gr",
+   "label": "generic"
+  },
+  {
+   "id": 272,
+   "a": "mercadona:16043",
+   "b": "dia:326",
+   "a_name": "Tomate triturado Hacendado",
+   "b_name": "Tomate triturado Dia Vegecampo 400 g",
+   "label": "equivalent"
+  },
+  {
+   "id": 273,
+   "a": "dia:295273",
+   "b": "mercadona:15592",
+   "a_name": "Pastillas de caldo de verduras Dia Al Punto 12 unidades",
+   "b_name": "Caldo de verduras Hacendado en pastillas",
+   "label": "equivalent"
+  },
+  {
+   "id": 274,
+   "a": "mercadona:22280",
+   "b": "dia:184588",
+   "a_name": "Arroz cocido basmati Sabroz",
+   "b_name": "Arroz risotto Riso scotti 500 g",
+   "label": "generic"
+  },
+  {
+   "id": 275,
+   "a": "mercadona:68037",
+   "b": "alcampo:55727",
+   "a_name": "Hierbabuena",
+   "b_name": "Lombarda",
+   "label": "distinct"
+  },
+  {
+   "id": 276,
+   "a": "mercadona:10146",
+   "b": "alcampo:89950",
+   "a_name": "Bebida láctea Omega 3 Puleva con leche desnatada",
+   "b_name": "PRIÉGOLA Leche semidesnatada fresca sin lactosa 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 277,
+   "a": "mercadona:10542",
+   "b": "alcampo:54505",
+   "a_name": "Leche semidesnatada Hacendado",
+   "b_name": "PASCUAL Leche semidesnatada procedente de animales con bienestar garantizado 6 x 1l",
+   "label": "equivalent"
+  },
+  {
+   "id": 278,
+   "a": "mercadona:14943",
+   "b": "dia:134262",
+   "a_name": "Taquitos de cerdo",
+   "b_name": "Costillas de cerdo Selección de Dia 1.1 Kg aprox.",
+   "label": "distinct"
+  },
+  {
+   "id": 279,
+   "a": "alcampo:59935",
+   "b": "mercadona:69586",
+   "a_name": "HELIOS Guisantes extrafinos y zanahorias frasco de 230 g",
+   "b_name": "Zanahorias",
+   "label": "distinct"
+  },
+  {
+   "id": 280,
+   "a": "dia:290596",
+   "b": "alcampo:721821",
+   "a_name": "Caldo de pollo Gallo 1 L",
+   "b_name": "GALLINA BLANCA Caldo básico de pollo y jamón 1L",
+   "label": "equivalent"
+  },
+  {
+   "id": 281,
+   "a": "dia:97",
+   "b": "alcampo:59564",
+   "a_name": "Manzana Golden granel 500 g aprox.",
+   "b_name": "CALIDAD EXTRA Manzanas Golden al peso",
+   "label": "equivalent"
+  },
+  {
+   "id": 282,
+   "a": "alcampo:17888",
+   "b": "mercadona:18030",
+   "a_name": "MARISA Patatas fritas en aceite de oliva 190 g",
+   "b_name": "Atún en aceite de oliva Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 283,
+   "a": "dia:142599",
+   "b": "alcampo:430575",
+   "a_name": "Arroz redondo Sabroz Brillante 1 Kg",
+   "b_name": "SABROZ BRILLANTE Arroz redondo paquete de 1 kg",
+   "label": "identical"
+  },
+  {
+   "id": 284,
+   "a": "mercadona:10806",
+   "b": "alcampo:53549",
+   "a_name": "Leche semidesnatada de cabra Hacendado",
+   "b_name": "AUCHAN Leche semidesnatada de vaca 1 l. Producto Alcampo",
+   "label": "generic"
+  },
+  {
+   "id": 285,
+   "a": "mercadona:35711",
+   "b": "dia:77955",
+   "a_name": "Pan de molde sin gluten blanco Hacendado",
+   "b_name": "Pan de molde blanco El Molino de Dia 820 g",
+   "label": "generic"
+  },
+  {
+   "id": 286,
+   "a": "mercadona:52768",
+   "b": "dia:308783",
+   "a_name": "Caldo de cocido Hacendado",
+   "b_name": "Caldo gourmet de cocido Gallina Blanca 1 L",
+   "label": "equivalent"
+  },
+  {
+   "id": 287,
+   "a": "dia:280363",
+   "b": "alcampo:748625",
+   "a_name": "Aceite de girasol Coosol 5 L",
+   "b_name": "COOSOL Aceite de girasol 5L",
+   "label": "identical"
+  },
+  {
+   "id": 288,
+   "a": "mercadona:10731",
+   "b": "alcampo:90610",
+   "a_name": "Leche desnatada sin lactosa Hacendado",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche desnatada (0,0% materia grasa) de vaca, de origen español 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 289,
+   "a": "alcampo:11082",
+   "b": "dia:303963",
+   "a_name": "COOSOL Aceite de girasol botella de 1 l",
+   "b_name": "Atún claro en aceite de girasol Dia Mari Marinera 228 g",
+   "label": "distinct"
+  },
+  {
+   "id": 290,
+   "a": "mercadona:10531",
+   "b": "dia:17548P6",
+   "a_name": "Leche semidesnatada Asturiana",
+   "b_name": "Leche semidesnatada Asturiana pack 6 x 1 L",
+   "label": "identical"
+  },
+  {
+   "id": 291,
+   "a": "dia:308119P6",
+   "b": "alcampo:53004",
+   "a_name": "Leche entera Celta pack 6 x 1 L",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche de vaca entera de origen español 6 x 1l",
+   "label": "equivalent"
+  },
+  {
+   "id": 292,
+   "a": "dia:308119P6",
+   "b": "alcampo:219656",
+   "a_name": "Leche entera Celta pack 6 x 1 L",
+   "b_name": "PRÉSIDENT Leche entera de vaca de origen 100% español 6 x 1.5 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 293,
+   "a": "mercadona:4155",
+   "b": "dia:244790",
+   "a_name": "Burger de vacuno y cerdo con jamón y cebolla caramelizada",
+   "b_name": "Burger de vacuno 6 unidades Selección de Dia 540 g",
+   "label": "generic"
+  },
+  {
+   "id": 294,
+   "a": "dia:308120P6",
+   "b": "alcampo:474213",
+   "a_name": "Leche semidesnatada Celta pack 6 x 1 L",
+   "b_name": "ALCAMPO CULTIVAMOS LO BUENO Leche de vaca semidesnatada, de origen española 6x1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 295,
+   "a": "dia:303436",
+   "b": "mercadona:4641",
+   "a_name": "Bonito del Norte MSC en aceite de oliva Dia Mari Marinera 140 g",
+   "b_name": "Aceite de oliva 1º Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 296,
+   "a": "mercadona:84429",
+   "b": "dia:302298",
+   "a_name": "Mini pan de burger Hacendado",
+   "b_name": "Burger de vacuno ecólogico baja en grasa Selección de Dia 150 g",
+   "label": "distinct"
+  },
+  {
+   "id": 297,
+   "a": "dia:312953",
+   "b": "alcampo:219656",
+   "a_name": "Leche entera Gremlins Dia Láctea 3 x 200 ml",
+   "b_name": "PRÉSIDENT Leche entera de vaca de origen 100% español 6 x 1.5 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 298,
+   "a": "mercadona:4711",
+   "b": "dia:282560",
+   "a_name": "Aceite de oliva virgen Hacendado",
+   "b_name": "Atún claro en aceite de oliva Calvo 6 x 52 g",
+   "label": "distinct"
+  },
+  {
+   "id": 299,
+   "a": "mercadona:10801",
+   "b": "dia:73678P6",
+   "a_name": "Leche desnatada Asturiana",
+   "b_name": "Leche desnatada Pascual pack 6 x 1 L",
+   "label": "equivalent"
+  },
+  {
+   "id": 300,
+   "a": "alcampo:209122",
+   "b": "dia:11461",
+   "a_name": "BONDUELLE Maíz en grano Un Toque de pack 3 uds. x 65 g",
+   "b_name": "Cogollos 3 unidades",
+   "label": "distinct"
+  },
+  {
+   "id": 301,
+   "a": "mercadona:18011",
+   "b": "dia:288045",
+   "a_name": "Ventresca de atún claro en aceite de oliva Hacendado",
+   "b_name": "Atún en aceite de oliva Dia Mari Marinera 3 x 52 g",
+   "label": "generic"
+  },
+  {
+   "id": 302,
+   "a": "alcampo:26000",
+   "b": "dia:241206",
+   "a_name": "HIDA Tomate concentrado lata de 170 g",
+   "b_name": "Tomate doble concentrado Hida 170 g",
+   "label": "identical"
+  },
+  {
+   "id": 303,
+   "a": "mercadona:83560",
+   "b": "dia:210477",
+   "a_name": "Barra de pan tradicional",
+   "b_name": "Hogaza con pipas de calabaza El Molino de Dia 500 g",
+   "label": "generic"
+  },
+  {
+   "id": 304,
+   "a": "alcampo:99774",
+   "b": "dia:277674",
+   "a_name": "Pan mediterránea cristal 4 uds x 70 gr",
+   "b_name": "Chapata de cristal 2 unidades Cristallino 190 g",
+   "label": "generic"
+  },
+  {
+   "id": 305,
+   "a": "mercadona:10922",
+   "b": "alcampo:52320",
+   "a_name": "Leche semidesnatada Hacendado",
+   "b_name": "RAM Leche semidesnatada de vaca 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 306,
+   "a": "mercadona:10533",
+   "b": "alcampo:52320",
+   "a_name": "Leche entera Hacendado",
+   "b_name": "RAM Leche semidesnatada de vaca 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 307,
+   "a": "alcampo:549279",
+   "b": "mercadona:18713",
+   "a_name": "PRODUCTO ALCAMPO Salsa barbacoa 340 g",
+   "b_name": "Calamar en salsa americana Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 308,
+   "a": "alcampo:29916",
+   "b": "dia:288045",
+   "a_name": "LA ESPAÑOLA Aceite de oliva intenso botella 1 l",
+   "b_name": "Atún en aceite de oliva Dia Mari Marinera 3 x 52 g",
+   "label": "distinct"
+  },
+  {
+   "id": 309,
+   "a": "mercadona:40475",
+   "b": "alcampo:62594",
+   "a_name": "Picada de ajo y perejil",
+   "b_name": "CARRETILLA Tumaca con ajo 2 uds. 370 g",
+   "label": "distinct"
+  },
+  {
+   "id": 310,
+   "a": "dia:150915",
+   "b": "alcampo:28172",
+   "a_name": "Caldo de pollo bajo en sal Gallina Blanca 1 L",
+   "b_name": "ANETO Caldo de pollo de corral con verduras brik de 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 311,
+   "a": "mercadona:23308",
+   "b": "dia:164337",
+   "a_name": "Fiambre de magro de cerdo adobado",
+   "b_name": "Lomo de cerdo adobado Selección de Dia 300 g",
+   "label": "distinct"
+  },
+  {
+   "id": 312,
+   "a": "mercadona:4717",
+   "b": "dia:227221",
+   "a_name": "Aceite de oliva virgen extra Hacendado",
+   "b_name": "Aceite de oliva virgen extra Jaencoop 250 ml",
+   "label": "equivalent"
+  },
+  {
+   "id": 313,
+   "a": "mercadona:10383",
+   "b": "alcampo:566225",
+   "a_name": "Leche desnatada Hacendado",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche semidesnatada sin lactosa 3 x 200 ml",
+   "label": "generic"
+  },
+  {
+   "id": 314,
+   "a": "mercadona:18092",
+   "b": "dia:262430",
+   "a_name": "Atún claro en aceite de girasol Hacendado",
+   "b_name": "Atún en aceite de girasol Dia Mari Marinera 6 x 52 g",
+   "label": "equivalent"
+  },
+  {
+   "id": 315,
+   "a": "dia:308981",
+   "b": "alcampo:792897",
+   "a_name": "Queso rallado pecorino D.O.P Selección de Dia 60 g",
+   "b_name": "ORO DE HOLANDA Queso rallado 3 quesos",
+   "label": "generic"
+  },
+  {
+   "id": 316,
+   "a": "mercadona:51151",
+   "b": "dia:283127",
+   "a_name": "Queso en polvo especial pasta mezcla Hacendado",
+   "b_name": "Mezcla de pimientos Dia Vegecampo 400 g",
+   "label": "distinct"
+  },
+  {
+   "id": 317,
+   "a": "mercadona:7867",
+   "b": "dia:159230",
+   "a_name": "Caldo de pollo Hacendado en pastillas",
+   "b_name": "Caldo de pollo Gallina Blanca 2 x 1 L",
+   "label": "distinct"
+  },
+  {
+   "id": 318,
+   "a": "mercadona:82328",
+   "b": "dia:230230",
+   "a_name": "Pan de molde 100% integral Hacendado",
+   "b_name": "Pan de molde con masa madre The rustik bakery 400 g",
+   "label": "generic"
+  },
+  {
+   "id": 319,
+   "a": "mercadona:7024",
+   "b": "dia:304350",
+   "a_name": "Caldo de pollo casero Gallina Blanca",
+   "b_name": "Caldo de pollo Aneto 500 ml",
+   "label": "equivalent"
+  },
+  {
+   "id": 320,
+   "a": "dia:263635",
+   "b": "mercadona:51146",
+   "a_name": "Queso en polvo Dia Láctea 150 g",
+   "b_name": "Queso en polvo grana padano Hacendado",
+   "label": "generic"
+  },
+  {
+   "id": 321,
+   "a": "dia:188440",
+   "b": "alcampo:22717",
+   "a_name": "Bonito del norte en aceite de oliva Albo 67 g",
+   "b_name": "YBARRA Aceite de Oliva Intenso botella 1 l",
+   "label": "distinct"
+  },
+  {
+   "id": 322,
+   "a": "mercadona:10502",
+   "b": "alcampo:205638",
+   "a_name": "Leche semidesnatada Asturiana",
+   "b_name": "MADRIZ Leche de vaca desnatada de origen 100% madrileña 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 323,
+   "a": "mercadona:68233",
+   "b": "dia:28809",
+   "a_name": "Escarola rizada",
+   "b_name": "Arroz vaporizado Dia Arrozona 1 Kg",
+   "label": "distinct"
+  },
+  {
+   "id": 324,
+   "a": "alcampo:22832",
+   "b": "dia:263266",
+   "a_name": "GVTARRA Guisantes muy finos de calidad extra sin sal añadida frasco de 360 g",
+   "b_name": "Guisantes finos Dia Vegecampo 1 Kg",
+   "label": "generic"
+  },
+  {
+   "id": 325,
+   "a": "mercadona:16012",
+   "b": "dia:133503",
+   "a_name": "Tomate tamizado sin piel Hacendado",
+   "b_name": "Sofrito de tomate y verduras Gallina Blanca 325 g",
+   "label": "distinct"
+  },
+  {
+   "id": 326,
+   "a": "dia:308119",
+   "b": "alcampo:219656",
+   "a_name": "Leche entera Celta pack 6 x 1 L",
+   "b_name": "PRÉSIDENT Leche entera de vaca de origen 100% español 6 x 1.5 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 327,
+   "a": "dia:184524",
+   "b": "mercadona:4711",
+   "a_name": "Atún en aceite de oliva Calvo 3 x 52 g",
+   "b_name": "Aceite de oliva virgen Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 328,
+   "a": "alcampo:17888",
+   "b": "mercadona:18002",
+   "a_name": "MARISA Patatas fritas en aceite de oliva 190 g",
+   "b_name": "Atún claro en aceite de oliva Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 329,
+   "a": "mercadona:69173",
+   "b": "dia:278651",
+   "a_name": "Yuca",
+   "b_name": "Pera Ercolina bandeja 500 g",
+   "label": "distinct"
+  },
+  {
+   "id": 330,
+   "a": "dia:310499",
+   "b": "alcampo:18165",
+   "a_name": "Vasos de arroz integral con semillas Dia Al Punto 2 x 150 g",
+   "b_name": "PRODUCTO ALCAMPO Arroz redondo extra paquete de 1 kg",
+   "label": "generic"
+  },
+  {
+   "id": 331,
+   "a": "mercadona:21988",
+   "b": "dia:167481",
+   "a_name": "Pappardelle Hacendado",
+   "b_name": "Plumas sin gluten Gallo 450 g",
+   "label": "generic"
+  },
+  {
+   "id": 332,
+   "a": "mercadona:18092",
+   "b": "dia:116670",
+   "a_name": "Atún claro en aceite de girasol Hacendado",
+   "b_name": "Atún en aceite girasol Isabel 3 x 52 g",
+   "label": "equivalent"
+  },
+  {
+   "id": 333,
+   "a": "dia:308120P6",
+   "b": "alcampo:205158",
+   "a_name": "Leche semidesnatada Celta pack 6 x 1 L",
+   "b_name": "MADRIZ Leche de vaca desnatada de origen 100% madrileña 6x1 l",
+   "label": "generic"
+  },
+  {
+   "id": 334,
+   "a": "mercadona:10414",
+   "b": "alcampo:51292",
+   "a_name": "Leche en polvo desnatada Hacendado",
+   "b_name": "TIERRA DE SABOR Leche desnatada de vaca 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 335,
+   "a": "mercadona:5024",
+   "b": "dia:21415",
+   "a_name": "Arroz redondo SOS",
+   "b_name": "Arroz redondo SOS 1 Kg",
+   "label": "identical"
+  },
+  {
+   "id": 336,
+   "a": "alcampo:13604",
+   "b": "dia:263820",
+   "a_name": "LA BOULANGÈRE Pan baguetes vienesas cortadas pack de 4 uds. 340 g",
+   "b_name": "Espinacas cortadas Dia Vegecampo 450 g",
+   "label": "distinct"
+  },
+  {
+   "id": 337,
+   "a": "mercadona:60988",
+   "b": "dia:267137",
+   "a_name": "Bechamel Hacendado",
+   "b_name": "Pisto de verduras con tomate Dia Al Punto 450 g",
+   "label": "distinct"
+  },
+  {
+   "id": 338,
+   "a": "mercadona:22860",
+   "b": "alcampo:63941",
+   "a_name": "Caldo de carne Hacendado en pastillas",
+   "b_name": "ANETO Caldo puchero con las mejores carnes y las verduras más frescas brik de 1 L",
+   "label": "distinct"
+  },
+  {
+   "id": 339,
+   "a": "mercadona:10806",
+   "b": "dia:173903P6",
+   "a_name": "Leche semidesnatada de cabra Hacendado",
+   "b_name": "Leche semidesnatada Asturiana pack 6 x 2.2 L",
+   "label": "generic"
+  },
+  {
+   "id": 340,
+   "a": "mercadona:2851",
+   "b": "dia:134262",
+   "a_name": "Manos de cerdo",
+   "b_name": "Costillas de cerdo Selección de Dia 1.1 Kg aprox.",
+   "label": "distinct"
+  },
+  {
+   "id": 341,
+   "a": "mercadona:22280",
+   "b": "alcampo:25029",
+   "a_name": "Arroz cocido basmati Sabroz",
+   "b_name": "LA CIGALA Arroz basmati paquete de 500 g",
+   "label": "generic"
+  },
+  {
+   "id": 342,
+   "a": "mercadona:51071",
+   "b": "dia:73062",
+   "a_name": "Queso fresco batido desnatado 0% MG Hacendado",
+   "b_name": "Queso fresco de Burgos 0% M.G. Dia Láctea 4 x 62.5 g",
+   "label": "generic"
+  },
+  {
+   "id": 343,
+   "a": "dia:16144",
+   "b": "alcampo:19599",
+   "a_name": "Aceite de oliva intenso La masía 1 L",
+   "b_name": "LA MASÍA Aceite de Oliva intenso botella 1 l",
+   "label": "identical"
+  },
+  {
+   "id": 344,
+   "a": "mercadona:60595",
+   "b": "dia:186682",
+   "a_name": "Sopa de cebolla Hacendado",
+   "b_name": "Sopa de cocido con fideos Gallina Blanca 72 g",
+   "label": "generic"
+  },
+  {
+   "id": 345,
+   "a": "mercadona:4718",
+   "b": "dia:280370",
+   "a_name": "Aceite de oliva virgen extra Hacendado",
+   "b_name": "Aceite de oliva virgen extra ecológico Oro de Génave 500 ml",
+   "label": "generic"
+  },
+  {
+   "id": 346,
+   "a": "mercadona:2778",
+   "b": "dia:159230",
+   "a_name": "Jamoncitos de pollo",
+   "b_name": "Caldo de pollo Gallina Blanca 2 x 1 L",
+   "label": "distinct"
+  },
+  {
+   "id": 347,
+   "a": "mercadona:10712",
+   "b": "dia:17548",
+   "a_name": "Leche semidesnatada Asturiana",
+   "b_name": "Leche semidesnatada Asturiana 1 L",
+   "label": "identical"
+  },
+  {
+   "id": 348,
+   "a": "mercadona:7024",
+   "b": "alcampo:721821",
+   "a_name": "Caldo de pollo casero Gallina Blanca",
+   "b_name": "GALLINA BLANCA Caldo básico de pollo y jamón 1L",
+   "label": "equivalent"
+  },
+  {
+   "id": 349,
+   "a": "mercadona:4900",
+   "b": "dia:260861",
+   "a_name": "Chuletas aguja de cerdo",
+   "b_name": "Chuleta de aguja de cerdo Selección de Dia 700 g aprox.",
+   "label": "equivalent"
+  },
+  {
+   "id": 350,
+   "a": "dia:271329",
+   "b": "alcampo:51281",
+   "a_name": "Leche entera pasteurizada Dia Láctea 1 L",
+   "b_name": "TIERRA DE SABOR Leche entera de vaca 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 351,
+   "a": "mercadona:10117",
+   "b": "dia:56937",
+   "a_name": "Nata fresca para cocinar Hacendado",
+   "b_name": "Nata para cocinar Asturiana 500 ml",
+   "label": "equivalent"
+  },
+  {
+   "id": 352,
+   "a": "mercadona:69098",
+   "b": "alcampo:62537",
+   "a_name": "Patatas rojas",
+   "b_name": "LAY'S Campesinas Patatas fritas lisas de bolsa 242 g",
+   "label": "distinct"
+  },
+  {
+   "id": 353,
+   "a": "mercadona:10617",
+   "b": "dia:313032",
+   "a_name": "Leche entera Asturiana",
+   "b_name": "Leche semidesnatada botella Asturiana 1 L",
+   "label": "generic"
+  },
+  {
+   "id": 354,
+   "a": "dia:20298",
+   "b": "alcampo:430027",
+   "a_name": "Patatas de guarnición 1 Kg",
+   "b_name": "PRINGLES Patatas sabor nachos con queso 150gr",
+   "label": "distinct"
+  },
+  {
+   "id": 355,
+   "a": "mercadona:51110",
+   "b": "dia:20423",
+   "a_name": "Queso rallado mozzarella pizza-Roma de vaca Hacendado",
+   "b_name": "Queso rallado para gratinar Dia Láctea 200 g",
+   "label": "generic"
+  },
+  {
+   "id": 356,
+   "a": "dia:73678P6",
+   "b": "alcampo:89338",
+   "a_name": "Leche desnatada Pascual pack 6 x 1 L",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche de vaca desnatada de origen español 6 x 1.5 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 357,
+   "a": "mercadona:20584",
+   "b": "dia:128591",
+   "a_name": "Yogur natural con azúcar de caña Hacendado",
+   "b_name": "Yogur natural desnatado Dia Láctea 6 x 125 g",
+   "label": "generic"
+  },
+  {
+   "id": 358,
+   "a": "mercadona:2849",
+   "b": "dia:162621",
+   "a_name": "Filetes lomo de cerdo extra tiernos",
+   "b_name": "Lomo de cerdo al ajillo Selección de Dia 300 g",
+   "label": "generic"
+  },
+  {
+   "id": 359,
+   "a": "alcampo:19605",
+   "b": "dia:189186",
+   "a_name": "LA MASÍA Aceite de oliva intenso garrafa de 5 l",
+   "b_name": "Atún claro en aceite de oliva Albo 67 g",
+   "label": "distinct"
+  },
+  {
+   "id": 360,
+   "a": "dia:304738",
+   "b": "alcampo:258953",
+   "a_name": "Leche entera Dia Láctea pack 6 x 1.5 L",
+   "b_name": "PASCUAL Leche de vaca entera, de bienestar animal garantizado 1.5 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 361,
+   "a": "dia:309605",
+   "b": "mercadona:3839",
+   "a_name": "Panecillos 8 unidades El Molino de Dia 360 g",
+   "b_name": "Kiwis amarillos",
+   "label": "distinct"
+  },
+  {
+   "id": 362,
+   "a": "dia:61996",
+   "b": "alcampo:31838",
+   "a_name": "Arroz integral Dia Arrozona 1 Kg",
+   "b_name": "MARGABIO Arroz integral ecológico 1 kg",
+   "label": "generic"
+  },
+  {
+   "id": 363,
+   "a": "mercadona:10685",
+   "b": "alcampo:219656",
+   "a_name": "Leche semidesnatada calcio Hacendado",
+   "b_name": "PRÉSIDENT Leche entera de vaca de origen 100% español 6 x 1.5 l",
+   "label": "generic"
+  },
+  {
+   "id": 364,
+   "a": "mercadona:49173",
+   "b": "dia:222334",
+   "a_name": "Papel Multiusos Resistente Bosque Verde",
+   "b_name": "Alcachofas baby Dia Vegecampo 300 g",
+   "label": "distinct"
+  },
+  {
+   "id": 365,
+   "a": "dia:254973",
+   "b": "alcampo:525580",
+   "a_name": "Caldo casero de puchero Gallina Blanca 1 L",
+   "b_name": "GALLINA BLANCA 100% Caldo casero de carne 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 366,
+   "a": "mercadona:69973",
+   "b": "dia:279682",
+   "a_name": "Tomate ensalada",
+   "b_name": "Tomate azul bandeja 400 g",
+   "label": "generic"
+  },
+  {
+   "id": 367,
+   "a": "dia:13096",
+   "b": "alcampo:52934",
+   "a_name": "Queso mozzarella rallado Dia Láctea 200 g",
+   "b_name": "PRÉSIDENT Queso rallado mozzarella y Emmental PRÉSIDENT 150 g",
+   "label": "generic"
+  },
+  {
+   "id": 368,
+   "a": "mercadona:16012",
+   "b": "dia:241206",
+   "a_name": "Tomate tamizado sin piel Hacendado",
+   "b_name": "Tomate doble concentrado Hida 170 g",
+   "label": "distinct"
+  },
+  {
+   "id": 369,
+   "a": "mercadona:10712",
+   "b": "dia:34578",
+   "a_name": "Leche semidesnatada Asturiana",
+   "b_name": "Leche semidesnatada Lauki pack 6 x 1 L",
+   "label": "equivalent"
+  },
+  {
+   "id": 370,
+   "a": "mercadona:18071",
+   "b": "alcampo:510875",
+   "a_name": "Atún claro en aceite de oliva Hacendado",
+   "b_name": "RIBEIRA Atún claro en escabeche 3 uds x 52 g",
+   "label": "generic"
+  },
+  {
+   "id": 371,
+   "a": "dia:121436",
+   "b": "alcampo:10056",
+   "a_name": "Atún claro en aceite de oliva Albo 3 x 48 g",
+   "b_name": "LA ESPAÑOLA Aceite de oliva suave botella 1 l",
+   "label": "distinct"
+  },
+  {
+   "id": 372,
+   "a": "mercadona:23990",
+   "b": "dia:115669",
+   "a_name": "Foie gras de pato fresco",
+   "b_name": "Queso fresco de Burgos Dia Láctea 4 x 62.5 g",
+   "label": "distinct"
+  },
+  {
+   "id": 373,
+   "a": "dia:262430",
+   "b": "alcampo:617078",
+   "a_name": "Atún en aceite de girasol Dia Mari Marinera 6 x 52 g",
+   "b_name": "CALVO Atún en salsa de tomate 3 uds x 52 g",
+   "label": "generic"
+  },
+  {
+   "id": 374,
+   "a": "mercadona:4041",
+   "b": "alcampo:19821",
+   "a_name": "Aceite de girasol refinado 0,2º Hacendado",
+   "b_name": "PRODUCTO ALCAMPO Aceite de girasol garrafa de 5 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 375,
+   "a": "mercadona:69117",
+   "b": "alcampo:456110",
+   "a_name": "Rabanitos",
+   "b_name": "HELIOS Cebolla caramelizada 230gr",
+   "label": "distinct"
+  },
+  {
+   "id": 376,
+   "a": "dia:310496",
+   "b": "alcampo:42789",
+   "a_name": "Arroz redondo J.Sendra Dia Arrozona 1 Kg",
+   "b_name": "BRILLANTE Arroz largo en tarrina paquete 2 uds x 200 g",
+   "label": "generic"
+  },
+  {
+   "id": 377,
+   "a": "dia:280366",
+   "b": "alcampo:19599",
+   "a_name": "Aceite de oliva virgen extra de trufa La Española 250 ml",
+   "b_name": "LA MASÍA Aceite de Oliva intenso botella 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 378,
+   "a": "mercadona:10683",
+   "b": "alcampo:536526",
+   "a_name": "Leche semidesnatada calcio Hacendado",
+   "b_name": "RAM Leche desnatada de vaca 6x1 l",
+   "label": "generic"
+  },
+  {
+   "id": 379,
+   "a": "dia:104",
+   "b": "alcampo:225754",
+   "a_name": "Aceite de oliva suave Dia La Almazara del Olivar 1 L",
+   "b_name": "CARBONELL Extra suave Aceite de oliva 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 380,
+   "a": "mercadona:10542",
+   "b": "dia:307404",
+   "a_name": "Leche semidesnatada Hacendado",
+   "b_name": "Leche entera Madriz 1 L",
+   "label": "generic"
+  },
+  {
+   "id": 381,
+   "a": "dia:1334",
+   "b": "mercadona:4641",
+   "a_name": "Melva en aceite de oliva Ubago 85 g",
+   "b_name": "Aceite de oliva 1º Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 382,
+   "a": "dia:54127",
+   "b": "alcampo:530627",
+   "a_name": "Caldo de pollo Dia Al Punto 1 L",
+   "b_name": "DON SIMON Caldo de pollo con verduras 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 383,
+   "a": "dia:212745",
+   "b": "alcampo:14331",
+   "a_name": "Rúcula Dia Vegecampo 50 g",
+   "b_name": "CALVO Ensalada Mediterránea de atún 150 g",
+   "label": "distinct"
+  },
+  {
+   "id": 384,
+   "a": "dia:19814P6",
+   "b": "alcampo:52122",
+   "a_name": "Leche entera Lauki pack 6 x 1 L",
+   "b_name": "LA COLMENAREÑA Leche semidesnatada 1l",
+   "label": "generic"
+  },
+  {
+   "id": 385,
+   "a": "mercadona:29130",
+   "b": "alcampo:183020",
+   "a_name": "Harina de arroz Hacendado",
+   "b_name": "BRILLANTE Arroz integral con chia en tarrina 2 x 125 gr",
+   "label": "distinct"
+  },
+  {
+   "id": 386,
+   "a": "mercadona:10617",
+   "b": "dia:19814",
+   "a_name": "Leche entera Asturiana",
+   "b_name": "Leche entera Lauki 1 L",
+   "label": "equivalent"
+  },
+  {
+   "id": 387,
+   "a": "mercadona:10686",
+   "b": "alcampo:258966",
+   "a_name": "Leche desnatada calcio Hacendado",
+   "b_name": "PASCUAL Leche de vaca entera, de bienestar animal garantizado 6 x 1.5 l",
+   "label": "generic"
+  },
+  {
+   "id": 388,
+   "a": "dia:302622",
+   "b": "alcampo:721816",
+   "a_name": "Arroz risotto Dia Selección Mundial 500 g",
+   "b_name": "YATEKOMO Arroz precocido thai Gallina Blanca 83g",
+   "label": "generic"
+  },
+  {
+   "id": 389,
+   "a": "mercadona:90933",
+   "b": "dia:53766",
+   "a_name": "Mantequilla light Hacendado",
+   "b_name": "Mantequilla Asturiana 250 g",
+   "label": "generic"
+  },
+  {
+   "id": 390,
+   "a": "mercadona:86503",
+   "b": "dia:275561",
+   "a_name": "Margarina Flora Original",
+   "b_name": "Margarina Tulipán 400 g",
+   "label": "equivalent"
+  },
+  {
+   "id": 391,
+   "a": "alcampo:570461",
+   "b": "dia:262685",
+   "a_name": "ANIZVI Patatas fritas bolsa de 150 g",
+   "b_name": "Patatas gajo Dia Patatas Unidas 750 g",
+   "label": "distinct"
+  },
+  {
+   "id": 392,
+   "a": "dia:73678",
+   "b": "alcampo:50873",
+   "a_name": "Leche desnatada Pascual 1 L",
+   "b_name": "PASCUAL Leche desnatada 1 l",
+   "label": "identical"
+  },
+  {
+   "id": 393,
+   "a": "dia:306541",
+   "b": "alcampo:529981",
+   "a_name": "Fumet natural de marisco Dia Al Punto 1 L",
+   "b_name": "ANETO Caldo natural de pollo con jamón brick 1l",
+   "label": "generic"
+  },
+  {
+   "id": 394,
+   "a": "dia:134262",
+   "b": "mercadona:2815",
+   "a_name": "Costillas de cerdo Selección de Dia 1.1 Kg aprox.",
+   "b_name": "Panceta de cerdo",
+   "label": "distinct"
+  },
+  {
+   "id": 395,
+   "a": "mercadona:5548",
+   "b": "alcampo:432376",
+   "a_name": "Queso añejo ibérico mezcla Hacendado cortado en cuñitas",
+   "b_name": "SALAKIS Queso feta 150 g",
+   "label": "generic"
+  },
+  {
+   "id": 396,
+   "a": "mercadona:27735",
+   "b": "dia:307884",
+   "a_name": "Gaseosa grande La Casera",
+   "b_name": "Huevos grandes L Dia 18 unidades",
+   "label": "distinct"
+  },
+  {
+   "id": 397,
+   "a": "mercadona:2830",
+   "b": "dia:313351",
+   "a_name": "Solomillos de pollo certificado alimentado con un 50% de maíz",
+   "b_name": "Solomillos de pollo empanado Gremlins Selección de Dia 550 g aprox.",
+   "label": "distinct"
+  },
+  {
+   "id": 398,
+   "a": "alcampo:23591",
+   "b": "mercadona:7867",
+   "a_name": "PRODUCTO ALCAMPO Pastillas de caldo de pollo 24 uds. 240 g",
+   "b_name": "Caldo de pollo Hacendado en pastillas",
+   "label": "equivalent"
+  },
+  {
+   "id": 399,
+   "a": "mercadona:10801",
+   "b": "alcampo:53175",
+   "a_name": "Leche desnatada Asturiana",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche de vaca desnatada de origen español 6 x 1l",
+   "label": "equivalent"
+  },
+  {
+   "id": 400,
+   "a": "mercadona:10380",
+   "b": "alcampo:95939",
+   "a_name": "Leche entera Hacendado",
+   "b_name": "PRÉSIDENT Leche semidesnatada de vaca de origen 100% español 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 401,
+   "a": "mercadona:10282",
+   "b": "dia:308120",
+   "a_name": "Bebida láctea Omega 3 Puleva con nueces y leche desnatada",
+   "b_name": "Leche semidesnatada Celta pack 6 x 1 L",
+   "label": "generic"
+  },
+  {
+   "id": 402,
+   "a": "mercadona:10801",
+   "b": "alcampo:788437",
+   "a_name": "Leche desnatada Asturiana",
+   "b_name": "SANTA GADEA Leche semidesnatada de cabra ecológica 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 403,
+   "a": "mercadona:29007",
+   "b": "dia:222366",
+   "a_name": "Bicarbonato de sódio Hacendado",
+   "b_name": "Bonito del norte en escabeche Dia Mari Marinera 140 g",
+   "label": "distinct"
+  },
+  {
+   "id": 404,
+   "a": "dia:28809",
+   "b": "alcampo:204978",
+   "a_name": "Arroz vaporizado Dia Arrozona 1 Kg",
+   "b_name": "PRODUCTO ECONÓMICO ALCAMPO Arroz redondo de categoria primera 1 kg",
+   "label": "generic"
+  },
+  {
+   "id": 405,
+   "a": "mercadona:10544",
+   "b": "alcampo:824176",
+   "a_name": "Leche desnatada Hacendado",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche desnatada botella 6 x 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 406,
+   "a": "mercadona:12911",
+   "b": "alcampo:62528",
+   "a_name": "Atún listado al natural Hacendado",
+   "b_name": "SÁLVORA Atún con tomate 52 g. pack 3 uds",
+   "label": "generic"
+  },
+  {
+   "id": 407,
+   "a": "mercadona:52768",
+   "b": "alcampo:529981",
+   "a_name": "Caldo de cocido Hacendado",
+   "b_name": "ANETO Caldo natural de pollo con jamón brick 1l",
+   "label": "generic"
+  },
+  {
+   "id": 408,
+   "a": "mercadona:10384",
+   "b": "alcampo:476580",
+   "a_name": "Leche desnatada Hacendado",
+   "b_name": "ALCAMPO CULTIVAMOS LO BUENO Leche de vaca desnatada, de origen española 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 409,
+   "a": "alcampo:97341",
+   "b": "mercadona:17463",
+   "a_name": "ATHOS Queso para ensalada fresco ATHOS 200 g",
+   "b_name": "Queso fresco de vaca QuesPro Hacendado",
+   "label": "generic"
+  },
+  {
+   "id": 410,
+   "a": "mercadona:52408",
+   "b": "dia:274204",
+   "a_name": "Queso fresco Burgos natural Hacendado",
+   "b_name": "Queso fresco batido rico en proteínas Granja Rinya 400 g",
+   "label": "generic"
+  },
+  {
+   "id": 411,
+   "a": "mercadona:87197",
+   "b": "dia:262430",
+   "a_name": "Rodajas de atún de aleta amarilla descongelada",
+   "b_name": "Atún en aceite de girasol Dia Mari Marinera 6 x 52 g",
+   "label": "distinct"
+  },
+  {
+   "id": 412,
+   "a": "mercadona:10544",
+   "b": "alcampo:99238",
+   "a_name": "Leche desnatada Hacendado",
+   "b_name": "L.R. Leche de vaca desnatada 1l",
+   "label": "equivalent"
+  },
+  {
+   "id": 413,
+   "a": "mercadona:5044",
+   "b": "alcampo:204978",
+   "a_name": "Arroz redondo Hacendado",
+   "b_name": "PRODUCTO ECONÓMICO ALCAMPO Arroz redondo de categoria primera 1 kg",
+   "label": "equivalent"
+  },
+  {
+   "id": 414,
+   "a": "mercadona:24203",
+   "b": "dia:297835",
+   "a_name": "Tubo de pota Argentina limpio Hacendado congelado",
+   "b_name": "Atún en aceite de oliva Ribeira 650 g",
+   "label": "distinct"
+  },
+  {
+   "id": 415,
+   "a": "dia:302600",
+   "b": "mercadona:18086",
+   "a_name": "Aceite de girasol en spray para air fryer Diasol 200 ml",
+   "b_name": "Atún en aceite de girasol Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 416,
+   "a": "dia:173903",
+   "b": "alcampo:89815",
+   "a_name": "Leche semidesnatada Asturiana pack 6 x 2.2 L",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche de vaca entera de origen español 6 x 500 ml",
+   "label": "generic"
+  },
+  {
+   "id": 417,
+   "a": "dia:187268",
+   "b": "mercadona:4711",
+   "a_name": "Bonito del norte en aceite de oliva Consorcio 82 g",
+   "b_name": "Aceite de oliva virgen Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 418,
+   "a": "alcampo:10111",
+   "b": "dia:224663",
+   "a_name": "LA ESPAÑOLA Aceite de oliva suave lata de 5 l",
+   "b_name": "Atún claro en aceite de oliva ligero Calvo 3 x 56 g",
+   "label": "distinct"
+  },
+  {
+   "id": 419,
+   "a": "mercadona:51071",
+   "b": "dia:115196",
+   "a_name": "Queso fresco batido desnatado 0% MG Hacendado",
+   "b_name": "Queso fresco de vaca Dia El Cencerro 250 g",
+   "label": "generic"
+  },
+  {
+   "id": 420,
+   "a": "dia:307944",
+   "b": "alcampo:27214",
+   "a_name": "Arroz redondo D.O.P. Calasparra 1 Kg",
+   "b_name": "BRAZAL Arroz redondo paquete de 1 kilogramo",
+   "label": "equivalent"
+  },
+  {
+   "id": 421,
+   "a": "alcampo:23604",
+   "b": "dia:371",
+   "a_name": "KOIPESOL Aceite de girasol botella de 1 l",
+   "b_name": "Atún claro en aceite de girasol Calvo 3 x 52 g",
+   "label": "distinct"
+  },
+  {
+   "id": 422,
+   "a": "mercadona:10806",
+   "b": "dia:608",
+   "a_name": "Leche semidesnatada de cabra Hacendado",
+   "b_name": "Leche entera Dia Láctea 1 L",
+   "label": "generic"
+  },
+  {
+   "id": 423,
+   "a": "dia:34578",
+   "b": "alcampo:50733",
+   "a_name": "Leche semidesnatada Lauki pack 6 x 1 L",
+   "b_name": "PASCUAL Leche entera de vaca 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 424,
+   "a": "alcampo:12660",
+   "b": "mercadona:18054",
+   "a_name": "CARBONELL Aceite de oliva suave garrafa de 5 l",
+   "b_name": "Atún claro en aceite de oliva Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 425,
+   "a": "mercadona:10783",
+   "b": "dia:307404",
+   "a_name": "Leche entera Hacendado",
+   "b_name": "Leche entera Madriz 1 L",
+   "label": "equivalent"
+  },
+  {
+   "id": 426,
+   "a": "dia:312953",
+   "b": "alcampo:52207",
+   "a_name": "Leche entera Gremlins Dia Láctea 3 x 200 ml",
+   "b_name": "LA COLMENAREÑA Leche entera 6 x 1l",
+   "label": "equivalent"
+  },
+  {
+   "id": 427,
+   "a": "mercadona:18092",
+   "b": "dia:189186",
+   "a_name": "Atún claro en aceite de girasol Hacendado",
+   "b_name": "Atún claro en aceite de oliva Albo 67 g",
+   "label": "generic"
+  },
+  {
+   "id": 428,
+   "a": "mercadona:14968",
+   "b": "dia:134262",
+   "a_name": "Manteca de cerdo Hacendado",
+   "b_name": "Costillas de cerdo Selección de Dia 1.1 Kg aprox.",
+   "label": "distinct"
+  },
+  {
+   "id": 429,
+   "a": "mercadona:10376",
+   "b": "alcampo:942622",
+   "a_name": "Crema de soja Hacendado",
+   "b_name": "SANTA TERESA Crema de garbanzos con puerro y setas 400 ml",
+   "label": "distinct"
+  },
+  {
+   "id": 430,
+   "a": "mercadona:35884",
+   "b": "dia:313133",
+   "a_name": "Hamburguesa de lomo de vacuno",
+   "b_name": "Burger de pollo con queso sabor trufa Selección de Dia 250 g",
+   "label": "generic"
+  },
+  {
+   "id": 431,
+   "a": "dia:310294",
+   "b": "mercadona:18713",
+   "a_name": "Salsa amatriciana Dia Salseo 350 g",
+   "b_name": "Calamar en salsa americana Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 432,
+   "a": "dia:217167",
+   "b": "alcampo:194137",
+   "a_name": "Caldo de cocido Gallina Blanca 2 L",
+   "b_name": "GALLO Caldo natural de cocido, elaborado con ingredientes frescos 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 433,
+   "a": "mercadona:10380",
+   "b": "alcampo:89950",
+   "a_name": "Leche entera Hacendado",
+   "b_name": "PRIÉGOLA Leche semidesnatada fresca sin lactosa 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 434,
+   "a": "mercadona:7325",
+   "b": "dia:27865",
+   "a_name": "Caldo de pescado Hacendado",
+   "b_name": "Caldo de pescado Dia Al Punto 1 L",
+   "label": "equivalent"
+  },
+  {
+   "id": 435,
+   "a": "mercadona:52790",
+   "b": "alcampo:18165",
+   "a_name": "Arroz Albufera Hacendado",
+   "b_name": "PRODUCTO ALCAMPO Arroz redondo extra paquete de 1 kg",
+   "label": "equivalent"
+  },
+  {
+   "id": 436,
+   "a": "alcampo:17888",
+   "b": "mercadona:4711",
+   "a_name": "MARISA Patatas fritas en aceite de oliva 190 g",
+   "b_name": "Aceite de oliva virgen Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 437,
+   "a": "alcampo:23689",
+   "b": "mercadona:18212",
+   "a_name": "KOIPESOL Aceite de girasol garrafa de 5 l",
+   "b_name": "Sardinillas picantes en aceite de girasol Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 438,
+   "a": "alcampo:23408",
+   "b": "mercadona:18011",
+   "a_name": "CARBONELL Aceite de oliva suave garrafa de 5 l",
+   "b_name": "Ventresca de atún claro en aceite de oliva Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 439,
+   "a": "dia:198607",
+   "b": "mercadona:18212",
+   "a_name": "Aceite de girasol especial para freír Koipe 1 L",
+   "b_name": "Sardinillas picantes en aceite de girasol Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 440,
+   "a": "mercadona:18210",
+   "b": "alcampo:29916",
+   "a_name": "Sardinillas en aceite de oliva Hacendado",
+   "b_name": "LA ESPAÑOLA Aceite de oliva intenso botella 1 l",
+   "label": "distinct"
+  },
+  {
+   "id": 441,
+   "a": "dia:504P6",
+   "b": "alcampo:95194",
+   "a_name": "Leche semidesnatada Dia Láctea pack 6 x 1 L",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche semidesnatada de vaca, de origen española 500 ml",
+   "label": "equivalent"
+  },
+  {
+   "id": 442,
+   "a": "mercadona:10382",
+   "b": "alcampo:50666",
+   "a_name": "Leche semidesnatada Hacendado",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche entera de vaca de origen español 1.5 l",
+   "label": "generic"
+  },
+  {
+   "id": 443,
+   "a": "mercadona:22280",
+   "b": "alcampo:25518",
+   "a_name": "Arroz cocido basmati Sabroz",
+   "b_name": "SOS Arroz integral tradicional 1 kg",
+   "label": "generic"
+  },
+  {
+   "id": 444,
+   "a": "dia:308120P6",
+   "b": "alcampo:53004",
+   "a_name": "Leche semidesnatada Celta pack 6 x 1 L",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche de vaca entera de origen español 6 x 1l",
+   "label": "generic"
+  },
+  {
+   "id": 445,
+   "a": "dia:208673",
+   "b": "alcampo:800205",
+   "a_name": "Arroz basmati Tilda 1 Kg",
+   "b_name": "BRILLANTE Arroz al curry verde en tarrina 2 X 125 g",
+   "label": "generic"
+  },
+  {
+   "id": 446,
+   "a": "dia:1243",
+   "b": "mercadona:4041",
+   "a_name": "Atún en aceite de girasol Isabel 600 g",
+   "b_name": "Aceite de girasol refinado 0,2º Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 447,
+   "a": "dia:74720P6",
+   "b": "alcampo:51983",
+   "a_name": "Leche entera Asturiana pack 6 x 1.5 L",
+   "b_name": "LA COLMENAREÑA Leche entera 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 448,
+   "a": "mercadona:10783",
+   "b": "alcampo:51973",
+   "a_name": "Leche entera Hacendado",
+   "b_name": "LA COLMENAREÑA Leche de vaca, entera, fresca y pasteurizada 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 449,
+   "a": "mercadona:69938",
+   "b": "alcampo:62592",
+   "a_name": "Tomate rallado",
+   "b_name": "CARRETILLA Tomate para untar 2 uds. 185 g",
+   "label": "equivalent"
+  },
+  {
+   "id": 450,
+   "a": "dia:184889P6",
+   "b": "alcampo:258948",
+   "a_name": "Leche entera Asturiana pack 6 x 2.2 L",
+   "b_name": "PASCUAL Leche de vaca desnatada, de bienestar animal garantizado 1.5 l",
+   "label": "generic"
+  },
+  {
+   "id": 451,
+   "a": "dia:73678",
+   "b": "alcampo:53054",
+   "a_name": "Leche desnatada Pascual 1 L",
+   "b_name": "PULEVA Eco Leche desnatada 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 452,
+   "a": "dia:17548",
+   "b": "alcampo:89334",
+   "a_name": "Leche semidesnatada Asturiana 1 L",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche de vaca entera de origen español 6 x 1.5 l",
+   "label": "generic"
+  },
+  {
+   "id": 453,
+   "a": "alcampo:52355",
+   "b": "mercadona:60345",
+   "a_name": "LA COLMENAREÑA Leche desnatada 6 x 1l",
+   "b_name": "Leche condensada Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 454,
+   "a": "mercadona:10783",
+   "b": "alcampo:50733",
+   "a_name": "Leche entera Hacendado",
+   "b_name": "PASCUAL Leche entera de vaca 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 455,
+   "a": "mercadona:10506",
+   "b": "alcampo:54608",
+   "a_name": "Leche entera Asturiana",
+   "b_name": "LAUKI Leche entera de vaca, de origen 100% español 6 x 1l",
+   "label": "equivalent"
+  },
+  {
+   "id": 456,
+   "a": "mercadona:4109",
+   "b": "dia:41736",
+   "a_name": "Filetes de pavo contramuslo",
+   "b_name": "Filetes de contramuslo de pollo Selección de Dia 600 g aprox.",
+   "label": "distinct"
+  },
+  {
+   "id": 457,
+   "a": "mercadona:10533",
+   "b": "dia:184889",
+   "a_name": "Leche entera Hacendado",
+   "b_name": "Leche entera Asturiana botella 2.2 L",
+   "label": "equivalent"
+  },
+  {
+   "id": 458,
+   "a": "mercadona:4940",
+   "b": "dia:15437",
+   "a_name": "Vinagre de vino blanco Hacendado",
+   "b_name": "Ajo blanco malla 250 g",
+   "label": "distinct"
+  },
+  {
+   "id": 459,
+   "a": "dia:119818",
+   "b": "mercadona:10516",
+   "a_name": "Fabada asturiana Dia Al Punto 865 g",
+   "b_name": "Leche desnatada Asturiana",
+   "label": "distinct"
+  },
+  {
+   "id": 460,
+   "a": "dia:48733",
+   "b": "alcampo:895014",
+   "a_name": "Arroz integral SOS 1 Kg",
+   "b_name": "NOMEN Arroz integral con quinoa, vasito para microondas 2 uds x 140 g",
+   "label": "generic"
+  },
+  {
+   "id": 461,
+   "a": "mercadona:10884",
+   "b": "dia:17548",
+   "a_name": "Bebida láctea Omega 3 Puleva con leche desnatada",
+   "b_name": "Leche semidesnatada Asturiana 1 L",
+   "label": "generic"
+  },
+  {
+   "id": 462,
+   "a": "dia:29395",
+   "b": "alcampo:19650",
+   "a_name": "Bonito del norte en aceite de oliva Dia Mari Marinera 73 g",
+   "b_name": "LA MASÍA Aceite de Oliva suave botella 1 l",
+   "label": "distinct"
+  },
+  {
+   "id": 463,
+   "a": "dia:296699",
+   "b": "alcampo:31687",
+   "a_name": "Aceite en spray para freidora de aire La Española 200 ml",
+   "b_name": "CARBONELL Aceite de oliva spray especial plancha Sabor bote de 200 ml",
+   "label": "generic"
+  },
+  {
+   "id": 464,
+   "a": "mercadona:10502",
+   "b": "alcampo:50814",
+   "a_name": "Leche semidesnatada Asturiana",
+   "b_name": "PASCUAL Leche semidesnatada 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 465,
+   "a": "alcampo:64402",
+   "b": "dia:5616",
+   "a_name": "CELORRIO Tomate entero pelado 480 g",
+   "b_name": "Tomate entero pelado Dia Vegecampo 480 g",
+   "label": "equivalent"
+  },
+  {
+   "id": 466,
+   "a": "mercadona:29134",
+   "b": "dia:266075",
+   "a_name": "Harina integral de trigo Hacendado",
+   "b_name": "Pan de molde trigo integral El Molino de Dia 820 g",
+   "label": "distinct"
+  },
+  {
+   "id": 467,
+   "a": "alcampo:864297",
+   "b": "dia:5631",
+   "a_name": "PRODUCTO ALCAMPO Collection Patatas fritas en aceite de oliva 200 g",
+   "b_name": "Patatas granel 1 Kg aprox.",
+   "label": "distinct"
+  },
+  {
+   "id": 468,
+   "a": "dia:293333",
+   "b": "alcampo:713473",
+   "a_name": "Caldo para paella Dia Al Punto 1 L",
+   "b_name": "ANETO Caldo natural de cocido Madrileño 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 469,
+   "a": "dia:307135",
+   "b": "mercadona:3858",
+   "a_name": "Trío de brotes Dia Vegecampo 70 g",
+   "b_name": "Aguacates",
+   "label": "distinct"
+  },
+  {
+   "id": 470,
+   "a": "mercadona:3824",
+   "b": "dia:142776",
+   "a_name": "Banana",
+   "b_name": "Plátano de Canarias El afortunado 850 g aprox.",
+   "label": "generic"
+  },
+  {
+   "id": 471,
+   "a": "mercadona:10922",
+   "b": "alcampo:53494",
+   "a_name": "Leche semidesnatada Hacendado",
+   "b_name": "PRIÉGOLA Leche semidesnatada fresca 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 472,
+   "a": "mercadona:13849",
+   "b": "alcampo:29026",
+   "a_name": "Bebida de avellana y arroz sin azúcares añadidos Hacendado",
+   "b_name": "BONDUELLE Maíz dulce sin azúcares añadidos pack 3 uds X 140 g",
+   "label": "distinct"
+  },
+  {
+   "id": 473,
+   "a": "mercadona:69582",
+   "b": "dia:25904",
+   "a_name": "Cogollos corazón de lechuga",
+   "b_name": "Corazones de cogollos 6 unidades",
+   "label": "equivalent"
+  },
+  {
+   "id": 474,
+   "a": "dia:121436",
+   "b": "alcampo:510875",
+   "a_name": "Atún claro en aceite de oliva Albo 3 x 48 g",
+   "b_name": "RIBEIRA Atún claro en escabeche 3 uds x 52 g",
+   "label": "generic"
+  },
+  {
+   "id": 475,
+   "a": "dia:267141",
+   "b": "alcampo:38867",
+   "a_name": "Arroz tres delicias Dia Al Punto 850 g",
+   "b_name": "ECOCESTA Arroz rojo ecológico sin colorantes ni conservantes 500 g",
+   "label": "generic"
+  },
+  {
+   "id": 476,
+   "a": "mercadona:10382",
+   "b": "alcampo:50857",
+   "a_name": "Leche semidesnatada Hacendado",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche semidesnatada de vaca, de origen española 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 477,
+   "a": "dia:295308",
+   "b": "mercadona:22860",
+   "a_name": "Pastillas de caldo de carne Dia Al Punto 24 unidades",
+   "b_name": "Caldo de carne Hacendado en pastillas",
+   "label": "equivalent"
+  },
+  {
+   "id": 478,
+   "a": "mercadona:17174",
+   "b": "alcampo:51532",
+   "a_name": "Preparado de coco Hacendado",
+   "b_name": "DANONE Yogur natural azucarado elaborado con leche fresca 4 x 120 g",
+   "label": "distinct"
+  },
+  {
+   "id": 479,
+   "a": "dia:1334",
+   "b": "alcampo:19905",
+   "a_name": "Melva en aceite de oliva Ubago 85 g",
+   "b_name": "LA ESPAÑOLA Aceite de oliva suave garrafa de 5 l",
+   "label": "distinct"
+  },
+  {
+   "id": 480,
+   "a": "mercadona:69730",
+   "b": "dia:272830",
+   "a_name": "Espinacas cortadas y lavadas",
+   "b_name": "Brotes de espinaca baby Dia Vegecampo 70 g",
+   "label": "generic"
+  },
+  {
+   "id": 481,
+   "a": "mercadona:62191",
+   "b": "dia:31437",
+   "a_name": "Filetes de panga Hacendado ultracongelados",
+   "b_name": "Filetes de panga ASC 480 g",
+   "label": "equivalent"
+  },
+  {
+   "id": 482,
+   "a": "mercadona:10699",
+   "b": "alcampo:50776",
+   "a_name": "Leche entera sin lactosa Hacendado",
+   "b_name": "LAUKI Leche entera de vaca 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 483,
+   "a": "mercadona:2782",
+   "b": "dia:306352",
+   "a_name": "Pollo certificado entero alimentado con un 50% de maíz",
+   "b_name": "Pollo entero certificado Selección de Dia 2 Kg aprox.",
+   "label": "equivalent"
+  },
+  {
+   "id": 484,
+   "a": "dia:292052",
+   "b": "alcampo:525580",
+   "a_name": "Fumet de pescado Gallina Blanca 1 L",
+   "b_name": "GALLINA BLANCA 100% Caldo casero de carne 1 l",
+   "label": "generic"
+  },
+  {
+   "id": 485,
+   "a": "dia:150917",
+   "b": "alcampo:525593",
+   "a_name": "Caldo de cocido Gallina Blanca 1 L",
+   "b_name": "GALLINA BLANCA 100% Natural Caldo casero de cocido 1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 486,
+   "a": "mercadona:31504",
+   "b": "dia:274010",
+   "a_name": "Huevos grandes L",
+   "b_name": "Huevos medianos M de gallinas criadas en suelo Dia 12 unidades",
+   "label": "generic"
+  },
+  {
+   "id": 487,
+   "a": "mercadona:18499",
+   "b": "dia:308784",
+   "a_name": "Caldo de pescado con bogavante Gourmet Gallina blanca",
+   "b_name": "Caldo de pollo con jamón Gallina Blanca 1 L",
+   "label": "generic"
+  },
+  {
+   "id": 488,
+   "a": "dia:504",
+   "b": "alcampo:474213",
+   "a_name": "Leche semidesnatada Dia Láctea 1 L",
+   "b_name": "ALCAMPO CULTIVAMOS LO BUENO Leche de vaca semidesnatada, de origen española 6x1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 489,
+   "a": "mercadona:69968",
+   "b": "dia:272686",
+   "a_name": "Tomate canario",
+   "b_name": "Tomate canario malla 750 g",
+   "label": "equivalent"
+  },
+  {
+   "id": 490,
+   "a": "mercadona:10543",
+   "b": "alcampo:495310",
+   "a_name": "Leche desnatada Hacendado",
+   "b_name": "ALCAMPO CULTIVAMOS LO BUENO Leche de vaca desnatada, de origen española 6x1 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 491,
+   "a": "mercadona:87326",
+   "b": "dia:290994",
+   "a_name": "Filete de corvina",
+   "b_name": "Filete de cinta de lomo Selección de Dia 500 g aprox.",
+   "label": "distinct"
+  },
+  {
+   "id": 492,
+   "a": "dia:308120P6",
+   "b": "alcampo:258948",
+   "a_name": "Leche semidesnatada Celta pack 6 x 1 L",
+   "b_name": "PASCUAL Leche de vaca desnatada, de bienestar animal garantizado 1.5 l",
+   "label": "generic"
+  },
+  {
+   "id": 493,
+   "a": "dia:294391",
+   "b": "mercadona:69289",
+   "a_name": "Potón cocido en rodajas Dia Mari Marinera 200 g",
+   "b_name": "Jengibre",
+   "label": "distinct"
+  },
+  {
+   "id": 494,
+   "a": "dia:282774",
+   "b": "mercadona:50151",
+   "a_name": "Queso de oveja curado con trufa Vega Sotuélamos 170 g",
+   "b_name": "Queso lonchas de oveja Hacendado",
+   "label": "generic"
+  },
+  {
+   "id": 495,
+   "a": "dia:314391",
+   "b": "mercadona:6246",
+   "a_name": "Frijoles negros guisados Goya 425 g",
+   "b_name": "Tallarines Hacendado",
+   "label": "distinct"
+  },
+  {
+   "id": 496,
+   "a": "mercadona:18116",
+   "b": "dia:188440",
+   "a_name": "Bonito del norte en aceite de oliva Hacendado",
+   "b_name": "Bonito del norte en aceite de oliva Albo 67 g",
+   "label": "equivalent"
+  },
+  {
+   "id": 497,
+   "a": "dia:282775",
+   "b": "alcampo:894815",
+   "a_name": "Vasos de arroz basmati Brillante 2 x 200 g",
+   "b_name": "NOMEN Arroz basmati vasito para microondas 2 uds x140 g",
+   "label": "equivalent"
+  },
+  {
+   "id": 498,
+   "a": "mercadona:10382",
+   "b": "alcampo:54509",
+   "a_name": "Leche semidesnatada Hacendado",
+   "b_name": "PASCUAL Leche desnatada 0% materia grasa 6 x 1l",
+   "label": "generic"
+  },
+  {
+   "id": 499,
+   "a": "dia:271329",
+   "b": "alcampo:50666",
+   "a_name": "Leche entera pasteurizada Dia Láctea 1 L",
+   "b_name": "CENTRAL LECHERA ASTURIANA Leche entera de vaca de origen español 1.5 l",
+   "label": "equivalent"
+  },
+  {
+   "id": 500,
+   "a": "mercadona:4240",
+   "b": "dia:227221",
+   "a_name": "Aceite de oliva 0,4º Hacendado",
+   "b_name": "Aceite de oliva virgen extra Jaencoop 250 ml",
+   "label": "generic"
+  }
+ ],
+ "correcciones": [
+  {
+   "id": 178,
+   "de": "equivalent",
+   "a": "generic",
+   "motivo": "Mercadona lo clasifica en Pescado fresco y Dia en congelados"
+  }
+ ]
+}

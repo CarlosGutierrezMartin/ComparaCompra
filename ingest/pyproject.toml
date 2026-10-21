@@ -1,0 +1,36 @@
+[project]
+name = "comparacompra-ingest"
+version = "0.1.0"
+description = "Ingesta de precios y emparejamiento de productos de ComparaCompra"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.70",
+    "httpx>=0.28.1",
+    "psycopg[binary]>=3.2",
+    "pydantic>=2.14.1",
+    "selectolax>=0.3",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "respx>=0.22",
+    "ruff>=0.14",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "N", "SIM", "RUF"]
+# E501: el formateador ya ajusta el código; las líneas largas que quedan son SQL.
+# RUF001: el signo × de "6 × 1 L" es intencionado en el parser de formatos.
+ignore = ["E501", "RUF001"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

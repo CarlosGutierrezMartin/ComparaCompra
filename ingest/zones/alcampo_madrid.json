@@ -1,0 +1,227 @@
+{
+ "chain": "alcampo",
+ "city": "madrid",
+ "resolved_at": "2026-10-20",
+ "postal_codes": {
+  "28001": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28002": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28003": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28004": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28005": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28006": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28007": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28008": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28009": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28010": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28011": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28012": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28013": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28014": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28015": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28016": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28017": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28018": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28019": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28020": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28021": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28022": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28023": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28024": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28025": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28026": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28027": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28028": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28029": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28030": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28031": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28032": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28033": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28034": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28035": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28036": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28037": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28038": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28039": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28040": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28041": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28042": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28043": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28044": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28045": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28046": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28047": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28048": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28049": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28050": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28051": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28052": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28053": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28054": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  },
+  "28055": {
+   "external_ref": "web",
+   "name": "Web (precio online sin código postal)"
+  }
+ }
+}

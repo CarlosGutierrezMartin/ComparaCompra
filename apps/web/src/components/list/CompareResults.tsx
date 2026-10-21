@@ -122,7 +122,7 @@ export function CompareResults({
 }: {
   result: CompareResponse;
   items: ListItemLocal[];
-  onGoToStore?: (chain: string) => void;
+  onGoToStore?: (chain: string, plan: Plan) => void;
 }) {
   const online = useOnline();
   const [selected, setSelected] = useState<string>("best");
@@ -241,7 +241,7 @@ export function CompareResults({
                   key={chain}
                   type="button"
                   className="tap rounded-lg bg-brand px-4 font-medium text-white"
-                  onClick={() => onGoToStore(chain)}
+                  onClick={() => onGoToStore(chain, plan)}
                 >
                   {t.result.goToStore(chainName(chain))}
                 </button>

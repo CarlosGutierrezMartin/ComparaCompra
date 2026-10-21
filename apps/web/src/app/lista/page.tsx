@@ -1,5 +1,6 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { CompareResults } from "@/components/list/CompareResults";
 import { ListInput } from "@/components/list/ListInput";
@@ -9,9 +10,11 @@ import { t } from "@/i18n/es";
 import { CompareError, requestCompare, type CompareResponse } from "@/lib/compare";
 import { useHousehold } from "@/lib/household";
 import { addLines, clearList, ensureActiveList, interpretList, useActiveList } from "@/lib/lists";
+import { startTrip } from "@/lib/store";
 
 export default function Lista() {
   const household = useHousehold();
+  const router = useRouter();
   const data = useActiveList();
   const [notice, setNotice] = useState<string | null>(null);
   const [result, setResult] = useState<CompareResponse | null>(null);
@@ -102,7 +105,16 @@ export default function Lista() {
             </Button>
           </div>
         ) : null}
-        {result ? <CompareResults result={result} items={items} /> : null}
+        {result ? (
+          <CompareResults
+            result={result}
+            items={items}
+            onGoToStore={(chain, plan) => {
+              if (!data?.list) return;
+              void startTrip(data.list.id, chain, plan, items).then(() => router.push("/tienda"));
+            }}
+          />
+        ) : null}
       </Page>
     </>
   );

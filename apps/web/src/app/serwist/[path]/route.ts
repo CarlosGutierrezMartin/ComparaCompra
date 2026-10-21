@@ -5,6 +5,8 @@ const APP_ROUTES = [
   "/",
   "/lista",
   "/platos",
+  "/platos/nuevo",
+  "/platos/plato",
   "/menu",
   "/tienda",
   "/perfil",

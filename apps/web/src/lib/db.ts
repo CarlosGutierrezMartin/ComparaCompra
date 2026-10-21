@@ -55,11 +55,13 @@ export interface ListItemLocal {
 }
 
 export interface RecipeIngredientLocal {
-  ingredientId: number | null;
   name: string;
   leafSlug: string | null;
-  quantity: number;
-  unit: BaseUnit;
+  variant: string | null;
+  flags: string[];
+  /** null si la receta no la da ("sal al gusto"): no se inventa. */
+  quantity: number | null;
+  unit: BaseUnit | null;
   optional: boolean;
   rawText: string | null;
 }

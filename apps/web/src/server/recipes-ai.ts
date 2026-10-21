@@ -1,5 +1,12 @@
 import "server-only";
-import { LEAF_BY_SLUG, LEAVES, parseIngredientLine, parseRecipeText } from "@comparacompra/core";
+import {
+  LEAF_BY_SLUG,
+  LEAVES,
+  parseIngredientLine,
+  parseRecipeText,
+  recipeViolations,
+  type ConstraintViolation,
+} from "@comparacompra/core";
 import { z } from "zod";
 import type { GenerateRequest, IngredientDTO, RecipeDraft } from "@/lib/recipe-types";
 import { aiAvailable, parseStructured, type UserContent } from "./ai";
@@ -129,47 +136,13 @@ export async function extractFromImage(
   return ai ? toDraft(ai, { sourceUrl: null, keepSteps: true }) : null;
 }
 
-export interface ConstraintViolation {
-  ingredient: string;
-  reason: string;
-}
-
-/**
- * Comprueba un plato contra alérgenos y dietas del perfil. Es lo que garantiza que un plato
- * generado los respete: no se confía en el modelo, se verifica cada ingrediente con la
- * taxonomía. Un ingrediente sin hoja no se puede verificar y cuenta como incumplimiento.
- */
+/** Comprueba un plato contra alérgenos y dietas del perfil (ver core/diet.ts). */
 export function checkConstraints(
   draft: RecipeDraft,
   diet: string[],
   allergens: string[],
 ): ConstraintViolation[] {
-  const out: ConstraintViolation[] = [];
-  for (const ing of draft.ingredients) {
-    const leaf = ing.leafSlug ? LEAF_BY_SLUG.get(ing.leafSlug) : undefined;
-    if (!leaf) {
-      out.push({ ingredient: ing.name, reason: "no se puede comprobar" });
-      continue;
-    }
-    const flags = new Set(ing.flags);
-    for (const a of leaf.allergens) {
-      if (!allergens.includes(a)) continue;
-      // "Pan sin gluten" no tiene gluten aunque la hoja lo tenga. "Sin lactosa" no quita el
-      // alérgeno: la proteína de la leche sigue ahí.
-      if (a === "gluten" && flags.has("sin_gluten")) continue;
-      out.push({ ingredient: ing.name, reason: `contiene ${a}` });
-    }
-    for (const d of diet) {
-      if (!leaf.notFor.includes(d)) continue;
-      if (
-        (d === "sin_gluten" && flags.has("sin_gluten")) ||
-        (d === "sin_lactosa" && flags.has("sin_lactosa"))
-      )
-        continue;
-      out.push({ ingredient: ing.name, reason: `no apto para dieta ${d}` });
-    }
-  }
-  return out;
+  return recipeViolations(draft.ingredients, diet, allergens);
 }
 
 export class GenerationError extends Error {

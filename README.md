@@ -29,3 +29,13 @@ DATABASE_URL=postgresql://postgres@127.0.0.1:54329/comparacompra_dev pnpm dev
 - **Páginas legales** (`/legal/…`) y **metodología de precios** (`/metodologia`). Los datos del titular están marcados como pendientes.
 
 Las funciones con IA (interpretación con IA, fotos, generación de platos) necesitan `ANTHROPIC_API_KEY`; sin ella, la app usa los intérpretes por reglas.
+
+## Demo en GitHub Pages
+
+Versión estática para probar la PWA sin servidor, en `https://<usuario>.github.io/<repositorio>/`: precios de la muestra real, comparación, platos, menú y modo tienda calculados en el móvil, también sin conexión. Sin IA ni cuenta. Se publica sola al cambiar `main` (`.github/workflows/pages.yml`) una vez activado Pages con origen «GitHub Actions». En local:
+
+```bash
+(cd ingest && SUPABASE_DB_URL=... uv run python cli.py export-demo --out ../apps/web/public/demo/catalogo.json)
+NEXT_PUBLIC_BASE_PATH=/ComparaCompra pnpm --filter web build:demo
+pnpm --filter web exec playwright test -c playwright.demo.config.ts   # la sirve en http://localhost:4100/ComparaCompra/
+```

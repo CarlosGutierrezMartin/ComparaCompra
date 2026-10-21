@@ -1,0 +1,85 @@
+name: Demo en GitHub Pages
+
+# Demo estática de la PWA (sin servidor): catálogo de la muestra real empaquetado y
+# comparación, costes y menú calculados en el móvil. Se publica al cambiar main; en las PR
+# solo se compila y se prueba.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Compilar y probar la demo
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: pgvector/pgvector:pg17
+        env:
+          # Base desechable del runner, solo accesible desde el propio job: sin contraseña.
+          POSTGRES_HOST_AUTH_METHOD: trust
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U postgres" --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      DATABASE_URL: postgresql://postgres@localhost:5432/postgres
+      SUPABASE_DB_URL: postgresql://postgres@localhost:5432/postgres
+      # https://<usuario>.github.io/<repositorio>/
+      NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - uses: astral-sh/setup-uv@v6
+      - run: pnpm install --frozen-lockfile
+      - name: Base de datos con la muestra real emparejada
+        run: |
+          sudo apt-get install -y -qq postgresql-client
+          psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -q -f scripts/supabase_stub.sql
+          for f in supabase/migrations/*.sql supabase/seeds/*.sql; do psql "$DATABASE_URL" -v ON_ERROR_STOP=1 -q -f "$f"; done
+          cd ingest && uv sync --locked && uv run python cli.py load-sample && uv run python cli.py match
+      - name: Catálogo estático de la demo
+        working-directory: ingest
+        run: uv run python cli.py export-demo --out ../apps/web/public/demo/catalogo.json
+      - name: El catálogo de la demo da lo mismo que el servidor
+        run: pnpm --filter web exec vitest run --config scripts/vitest.export.config.ts scripts/demo-parity.export.ts
+      - run: pnpm --filter web build:demo
+      - run: pnpm exec playwright install --with-deps chromium
+        working-directory: apps/web
+      - name: Pruebas de la demo en móvil emulado (instalación, sin conexión, menú)
+        run: pnpm --filter web exec playwright test -c playwright.demo.config.ts
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-demo-report
+          path: apps/web/test-results
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
+        with:
+          path: apps/web/out
+
+  deploy:
+    name: Publicar
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

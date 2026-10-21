@@ -1,5 +1,5 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
-import { db, type HouseholdLocal, type SyncOp } from "./db";
+import { db, type HouseholdLocal, type RecipeIngredientLocal, type SyncOp } from "./db";
 import type { Remote } from "./sync";
 
 /**
@@ -176,19 +176,23 @@ export class SupabaseRemote implements Remote {
       updated_at: p.updatedAt,
     });
     if (error) throw new Error(error.message);
-    const ingredients = (p.ingredients as Array<Record<string, unknown>>) ?? [];
+    const ingredients = (p.ingredients as RecipeIngredientLocal[] | undefined) ?? [];
     const { error: de } = await this.sb.from("recipe_ingredient").delete().eq("recipe_id", id);
     if (de) throw new Error(de.message);
-    const rows = ingredients
-      .filter((i) => typeof i.ingredientId === "number")
-      .map((i) => ({
+    const rows = await Promise.all(
+      ingredients.map(async (i, position) => ({
         recipe_id: id,
-        ingredient_id: i.ingredientId,
+        ingredient_id: await this.ingredientId(i.leafSlug),
+        position,
+        name: i.name,
+        variant: i.variant,
+        flags: i.flags,
         quantity: i.quantity,
-        unit: i.unit,
-        optional: Boolean(i.optional),
-        raw_text: i.rawText ?? null,
-      }));
+        unit: i.quantity === null ? null : i.unit,
+        optional: i.optional,
+        raw_text: i.rawText,
+      })),
+    );
     if (rows.length) {
       const { error: ie } = await this.sb.from("recipe_ingredient").insert(rows);
       if (ie) throw new Error(ie.message);

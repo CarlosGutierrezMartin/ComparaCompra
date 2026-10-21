@@ -142,3 +142,61 @@ export async function offersForLine(
       identicalCanonicalId: r.identical_canonical_id,
     }));
 }
+
+/**
+ * Peso de una pieza de una hoja ("Patata" 230 g, "Pimiento rojo unidad 350 g aprox.") según
+ * los productos que las cadenas venden por pieza. Mediana de esos productos; null si no hay.
+ */
+export async function unitWeightsForLeaves(
+  leaves: string[],
+): Promise<Map<string, { grams: number; chains: string[] }>> {
+  const sql = sqlOrThrow();
+  if (!leaves.length) return new Map();
+  const rows = await sql<{ leaf: string; grams: string; chains: string[] }[]>`
+    select cat.slug as leaf,
+           percentile_cont(0.5) within group (order by p.quantity) as grams,
+           array_agg(distinct ch.slug) as chains
+    from public.product_canonical cn
+    join public.category cat on cat.id = cn.category_id
+    join public.equivalence e on e.product_canonical_id = cn.id and e.level = 'generic'
+    join public.product_chain p on p.id = e.product_chain_id and p.active
+    join public.chain ch on ch.id = p.chain_id
+    where cn.level = 'generic' and cat.slug = any(${leaves})
+      -- Solo fruta y verdura se venden por pieza.
+      and cat.aisle in ('Fruta', 'Verdura')
+      and p.unit = 'g' and p.units_per_pack = 1 and p.quantity > 0 and p.quantity < 600
+      and (
+        p.name ~* '\\m(unidad|pieza)\\M'
+        -- Mercadona nombra en singular y sin formato lo que vende por pieza ("Patata", "Limón").
+        or (ch.slug = 'mercadona' and p.name !~ '\\d' and p.name !~* 's$'
+            and array_length(regexp_split_to_array(p.name, '\\s+'), 1) <= 3)
+      )
+    group by cat.slug`;
+  return new Map(rows.map((r) => [r.leaf, { grams: Number(r.grams), chains: r.chains }]));
+}
+
+/** Hojas con promociones esta semana en la zona del código postal (para generar platos baratos). */
+export async function leavesOnPromotion(postalCode: string, limit = 40): Promise<string[]> {
+  const sql = sqlOrThrow();
+  const rows = await sql<{ slug: string }[]>`
+    select cat.slug
+    from public.price pr
+    join public.postal_code_zone pcz on pcz.price_zone_id = pr.price_zone_id and pcz.postal_code = ${postalCode}
+    join public.equivalence e on e.product_chain_id = pr.product_chain_id and e.level = 'generic'
+    join public.product_canonical cn on cn.id = e.product_canonical_id
+    join public.category cat on cat.id = cn.category_id
+    where pr.valid_to is null and pr.promo is not null
+    group by cat.slug
+    order by count(*) desc
+    limit ${limit}`;
+  return rows.map((r) => r.slug);
+}
+
+/** EAN de los productos de cadena que lo tengan. */
+export async function eansForProducts(ids: number[]): Promise<Map<number, string>> {
+  const sql = sqlOrThrow();
+  if (!ids.length) return new Map();
+  const rows = await sql<{ id: number; ean: string }[]>`
+    select id, ean from public.product_chain where id = any(${ids}) and ean is not null`;
+  return new Map(rows.map((r) => [Number(r.id), r.ean]));
+}
